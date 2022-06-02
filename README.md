@@ -60,11 +60,11 @@ In Xcode select File > Add Packages... and enter this URL
 https://github.globant.com/BeHealthy-Program/BeHealthy-iOS-Framework
 ```
 
-<img width="1086" alt="Screen Shot 2022-04-26 at 7 23 14 PM" src="https://github.globant.com/storage/user/3245/files/e67c0bfd-87e7-40da-a874-fb37f95f77c0">
+<img width="1086" alt="e67c0bfd-87e7-40da-a874-fb37f95f77c0" src="https://user-images.githubusercontent.com/105304517/171743779-3f0916df-b3b9-49c6-bf5b-1368f08e7713.png">
 
 After add package you should see it in your project navigator as a new dependency
 
-<img width="480" alt="Screen Shot 2022-03-11 at 3 56 12 PM" src="https://github.globant.com/storage/user/3245/files/632f85c5-2576-499e-9961-94a433c2c0b0">
+<img width="480" alt="632f85c5-2576-499e-9961-94a433c2c0b0" src="https://user-images.githubusercontent.com/105304517/171743809-905ccdca-5bfc-48ae-9b3c-f8b9ae33e4ad.png">
 
 
 ### Install BeHealthy through Cocoapods
@@ -99,7 +99,7 @@ Remote notifications
 * HealthKit with Background Delivery enabled
 * Push Notifications
 
-<img width="970" alt="Screen Shot 2022-03-16 at 5 28 17 PM" src="https://github.globant.com/storage/user/3245/files/4ef5aae2-7180-4256-a8b3-1fcf9c96ada0">
+<img width="970" alt="4ef5aae2-7180-4256-a8b3-1fcf9c96ada0" src="https://user-images.githubusercontent.com/105304517/171743895-499b8020-6de9-49bb-aafb-5342d79cb38f.png">
 
 
 ### Info.plist
@@ -117,7 +117,8 @@ Add next properties to Info.plist:
 }
 ```
 
-<img width="651" alt="Screen Shot 2022-03-18 at 9 27 29 AM" src="https://github.globant.com/storage/user/3245/files/b1d1018e-9af3-4443-9501-2b2f2958e874">
+<img width="651" alt="b1d1018e-9af3-4443-9501-2b2f2958e874" src="https://user-images.githubusercontent.com/105304517/171743918-e73fbdeb-e259-437e-955a-d24360b97e9f.png">
+
 
 Also add next properties:
 
@@ -393,7 +394,8 @@ func presentBeHealthy() {
 }
 ```
 
-<img width="259" alt="Screen Shot 2022-04-06 at 4 38 49 PM" src="https://github.globant.com/storage/user/3245/files/75764854-40b7-433f-9517-431b4807fbba">
+<img width="259" alt="75764854-40b7-433f-9517-431b4807fbba" src="https://user-images.githubusercontent.com/105304517/171743946-8f226e20-5677-44aa-949f-066943324829.png">
+
 
 ### Push notifications
 
@@ -419,7 +421,8 @@ Framework supports these languages:
 
 To add a specific language add localizable file to your project.
 
-<img width="287" alt="Screen Shot 2022-03-11 at 4 24 15 PM" src="https://github.globant.com/storage/user/3245/files/1b2f5d64-083e-41f3-9a5e-eec942d33028">
+<img width="287" alt="1b2f5d64-083e-41f3-9a5e-eec942d33028" src="https://user-images.githubusercontent.com/105304517/171743997-c765584c-99b6-4bf7-ab58-bd2cca191035.png">
+
 
 ### Troubleshooting
 
