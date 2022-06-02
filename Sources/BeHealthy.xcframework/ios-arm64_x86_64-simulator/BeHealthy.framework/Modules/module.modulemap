@@ -1,0 +1,4 @@
+framework module BeHealthy {
+  header "BeHealthy-Swift.h"
+  requires objc
+}
