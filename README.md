@@ -5,6 +5,7 @@
 | Version | Release date |
 | - | - |
 | 4.2.0 | May 9th, 2022 |
+| 4.3.1 | Aug 29th,2022 |
 
 ## Requirements
 
