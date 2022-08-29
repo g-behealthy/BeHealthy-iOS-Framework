@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BeHealthy"
-  spec.version      = "4.2.0"
+  spec.version      = "4.3.1"
   spec.summary      = "iOS framework to track information and goals related to physical activity"
   spec.homepage     = "https://github.com/g-behealthy/BeHealthy-iOS-Framework.git"
   spec.license     = { :type => "MIT", :text => <<-LICENSE
