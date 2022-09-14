@@ -67,6 +67,13 @@ After add package you should see it in your project navigator as a new dependenc
 
 <img width="480" alt="632f85c5-2576-499e-9961-94a433c2c0b0" src="https://user-images.githubusercontent.com/105304517/171743809-905ccdca-5bfc-48ae-9b3c-f8b9ae33e4ad.png">
 
+## Certificate configuration
+
+In Apple Developer portal, when you create or edit your identifier you have to enable next capabilities:
+
+- Associated Domains
+- HealthKit
+- Push Notifications
 
 ### Install BeHealthy through Cocoapods
 
