@@ -67,6 +67,15 @@ After add package you should see it in your project navigator as a new dependenc
 
 <img width="480" alt="632f85c5-2576-499e-9961-94a433c2c0b0" src="https://user-images.githubusercontent.com/105304517/171743809-905ccdca-5bfc-48ae-9b3c-f8b9ae33e4ad.png">
 
+### Install BeHealthy through Cocoapods
+
+Add this line in Podfile, and execute a pod install through Terminal:
+
+```
+pod 'BeHealthy', :source => "https://github.globant.com/BeHealthy-Program/BeHealthy-iOS-Framework-Specs.git"
+```
+
+
 ## Certificate configuration
 
 In Apple Developer portal, when you create or edit your identifier you have to enable next capabilities:
@@ -75,13 +84,6 @@ In Apple Developer portal, when you create or edit your identifier you have to e
 - HealthKit
 - Push Notifications
 
-### Install BeHealthy through Cocoapods
-
-Add this line in Podfile, and execute a pod install through Terminal:
-
-```
-pod 'BeHealthy', :source => "https://github.globant.com/BeHealthy-Program/BeHealthy-iOS-Framework-Specs.git"
-```
 
 
 ## Integrate framework in source code
