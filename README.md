@@ -58,7 +58,7 @@ This command installs Firebase dependencies.
 In Xcode select File > Add Packages... and enter this URL 
 
 ```
-https://github.globant.com/BeHealthy-Program/BeHealthy-iOS-Framework
+https://github.com/g-behealthy/BeHealthy-iOS-Framework
 ```
 
 <img width="1086" alt="e67c0bfd-87e7-40da-a874-fb37f95f77c0" src="https://user-images.githubusercontent.com/105304517/171743779-3f0916df-b3b9-49c6-bf5b-1368f08e7713.png">
@@ -72,7 +72,7 @@ After add package you should see it in your project navigator as a new dependenc
 Add this line in Podfile, and execute a pod install through Terminal:
 
 ```
-pod 'BeHealthy', :source => "https://github.globant.com/BeHealthy-Program/BeHealthy-iOS-Framework-Specs.git"
+pod 'BeHealthy', :source => "https://github.com/g-behealthy/BeHealthy-iOS-Framework-Specs.git"
 ```
 
 
