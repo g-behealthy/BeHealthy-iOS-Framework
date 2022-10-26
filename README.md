@@ -21,7 +21,7 @@ As a first step install Firebase framework in your project through Cocoapods, in
 ```
 # Google Analytics
 pod 'Firebase/Analytics'
-# Crahslytics
+# Crashlytics
 pod 'Firebase/Crashlytics'
 # Remote config
 pod 'Firebase/RemoteConfig'
@@ -38,7 +38,7 @@ This command creates a file named **Podfile**, open it and add this text
 ```
 # Google Analytics
 pod 'Firebase/Analytics'
-# Crahslytics
+# Crashlytics
 pod 'Firebase/Crashlytics'
 # Remote config
 pod 'Firebase/RemoteConfig'
@@ -146,6 +146,8 @@ Also add next properties:
 
 In app delegate class create an instance of BeHealthyAppDelegate
 
+#### Swift
+
 ```
 import BeHealthy
 
@@ -157,7 +159,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ...
 ```
 
+#### Objective C
+
+```
+#import <BeHealthy/BeHealthy-Swift.h>
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) BeHealthyAppDelegate *beHealthyAppDelegate;
+
+@end
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.beHealthyAppDelegate = [BeHealthyAppDelegate instance];
+    return YES;
+}
+```
+
 didFinishLaunchingWithOptions method
+
+#### Swift
 
 ```
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -171,7 +192,24 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
+#### Objective C
+
+```
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.beHealthyAppDelegate = [BeHealthyAppDelegate instance];
+    [self.beHealthyAppDelegate application:application didFinishLaunchingWithOptions:launchOptions];
+    
+    /*
+    additional code if required
+    */
+
+    return YES;
+}
+```
+
 applicationWillEnterForeground method
+
+#### Swift
 
 ```
 func applicationWillEnterForeground(_ application: UIApplication) {
@@ -183,7 +221,21 @@ func applicationWillEnterForeground(_ application: UIApplication) {
 }
 ```
 
+#### Objective C
+
+```
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    [self.beHealthyAppDelegate applicationWillEnterForeground:application];
+    
+    /*
+    additional code if required
+    */
+}
+```
+
 applicationDidEnterBackground method
+
+#### Swift
 
 ```
 func applicationDidEnterBackground(_ application: UIApplication) {
@@ -195,7 +247,21 @@ func applicationDidEnterBackground(_ application: UIApplication) {
 }
 ```
 
+#### Objective C
+
+```
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    [self.beHealthyAppDelegate applicationDidEnterBackground:application];
+    
+    /*
+    additional code if required
+    */
+}
+```
+
 applicationDidBecomeActive method
+
+#### Swift
 
 ```
 func applicationDidBecomeActive(_ application: UIApplication) {
@@ -207,7 +273,21 @@ func applicationDidBecomeActive(_ application: UIApplication) {
 }
 ```
 
+#### Objective C
+
+```
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    [self.beHealthyAppDelegate applicationDidBecomeActive:application];
+    
+    /*
+    additional code if required
+    */
+}
+```
+
 applicationWillTerminate method
+
+#### Swift
 
 ```
 func applicationWillTerminate(_ application: UIApplication) {
@@ -219,7 +299,21 @@ func applicationWillTerminate(_ application: UIApplication) {
 }
 ```
 
+#### Objective C
+
+```
+- (void)applicationWillTerminate:(UIApplication *)application {
+    [self.beHealthyAppDelegate applicationWillTerminate:application];
+    
+    /*
+    additional code if required
+    */
+}
+```
+
 URL handling related methods
+
+#### Swift
 
 ```
 func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
@@ -230,8 +324,22 @@ func application(_ app: UIApplication, open url: URL, options: [UIApplication.Op
     return appDelegate.application(app, open: url, options: options)
 }
 ```
+
+#### Objective C
+
+```
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    /*
+    additional code if required
+    */
+    
+    return [self.beHealthyAppDelegate application:app open:url options:options];
+}
+```
    
 Remote notifications related methods
+
+#### Swift
 
 ```
 func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
@@ -258,8 +366,38 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
     appDelegate.application(application, didReceiveRemoteNotification: userInfo, fetchCompletionHandler: completionHandler)
 }
 ```
+
+#### Objective C
+
+```
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    /*
+    additional code if required
+    */
+    
+    [self.beHealthyAppDelegate application:application didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
+}
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
+    /*
+    additional code if required
+    */
+    
+    [self.beHealthyAppDelegate application:application didFailToRegisterForRemoteNotificationsWithError:error];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+    /*
+    additional code if required
+    */
+    
+    [self.beHealthyAppDelegate application:application didReceiveRemoteNotification:userInfo fetchCompletionHandler:completionHandler];
+}
+```
     
 Background processing related methods
+
+#### Swift
 
 ```
 func application(_ application: UIApplication, handleEventsForBackgroundURLSession identifier: String, completionHandler: @escaping () -> Void) {
@@ -271,9 +409,23 @@ func application(_ application: UIApplication, handleEventsForBackgroundURLSessi
 }
 ```
 
+#### Objective C
+
+```
+- (void)application:(UIApplication *)application handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)(void))completionHandler {
+    /*  
+    additional code if required
+    */
+    
+    [self.beHealthyAppDelegate application:application handleEventsForBackgroundURLSession:identifier completionHandler:completionHandler];
+}
+```
+
 ### Scene delegate
 
 In scene delegate class create an instance of BeHealthySceneDelegate
+
+#### Swift
 
 ```
 import BeHealthy
@@ -287,7 +439,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 ```
 
+#### Objective C
+
+```
+#import <BeHealthy/BeHealthy-Swift.h>
+
+@interface SceneDelegate ()
+
+@property (nonatomic, strong) BeHealthySceneDelegate *beHealthySceneDelegate;
+
+@end
+
+- (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
+    self.beHealthySceneDelegate = [BeHealthySceneDelegate instance];
+}
+```
+
 sceneWillEnterForeground method
+
+#### Swift
 
 ```
 func sceneWillEnterForeground(_ scene: UIScene) {
@@ -299,7 +469,21 @@ func sceneWillEnterForeground(_ scene: UIScene) {
 }
 ```
 
+#### Objective C
+
+```
+- (void)sceneWillEnterForeground:(UIScene *)scene {
+    /*  
+    additional code if required
+    */
+    
+    [self.beHealthySceneDelegate sceneWillEnterForeground:scene];
+}
+```
+
 sceneDidEnterBackground method
+
+#### Swift
 
 ```
 func sceneDidEnterBackground(_ scene: UIScene) {
@@ -311,9 +495,23 @@ func sceneDidEnterBackground(_ scene: UIScene) {
 }
 ```
 
+#### Objective C
+
+```
+- (void)sceneDidEnterBackground:(UIScene *)scene {
+    /*  
+    additional code if required
+    */
+    
+    [self.beHealthySceneDelegate sceneDidEnterBackground:scene];
+}
+```
+
 ### Enrollment
 
 To enroll a new user to BeHealthy 
+
+#### Swift
 
 ```
 import BeHealthy
@@ -336,9 +534,35 @@ func enrollUser() {
 }
 ```
 
+#### Objective C
+
+```
+#import <BeHealthy/BeHealthy-Swift.h>
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) BeHealthyConfig *beHealthyConfig;
+
+@end
+.
+.
+.
+- (void)enrollUser {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig removeCredentials];
+    [self.beHealthyConfig setEmail:@"add user email here"];
+    [self.beHealthyConfig setToken:@"add token here" completion:^{
+        UIViewController *viewController = [self.beHealthyConfig enrollmentViewController];
+        [self.window.rootViewController presentViewController:viewController animated:true completion:nil];
+    }];
+}
+```
+
 ### Full access
 
 To embed full content (login + progress + achievements) of BeHealthy framework
+
+#### Swift
 
 ```
 import BeHealthy
@@ -356,9 +580,32 @@ func presentBeHealthy() {
 }
 ```
 
+#### Objective C
+
+```
+#import <BeHealthy/BeHealthy-Swift.h>
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) BeHealthyConfig *beHealthyConfig;
+
+@end
+.
+.
+.
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig removeCredentials];
+    UIViewController *viewController = [self.beHealthyConfig rootViewController];
+    [self.window.rootViewController presentViewController:viewController animated:true completion:nil];
+}
+```
+
 ### Core access
 
 To embed core content (progress + achievements) of BeHealthy framework
+
+#### Swift
 
 ```
 import BeHealthy
@@ -376,9 +623,32 @@ func presentBeHealthy() {
 }
 ```
 
+#### Objective C
+
+```
+#import <BeHealthy/BeHealthy-Swift.h>
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) BeHealthyConfig *beHealthyConfig;
+
+@end
+.
+.
+.
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig removeCredentials];
+    UIViewController *viewController = [self.beHealthyConfig progressViewController];
+    [self.window.rootViewController presentViewController:viewController animated:true completion:nil];
+}
+```
+
 ### Community configuration
 
 You can set the community (this value is granted to you by BeHealthy team) before present the view controller
+
+#### Swift
 
 ```
 func presentBeHealthy() {
@@ -389,9 +659,23 @@ func presentBeHealthy() {
 }
 ```
 
+#### Objective C
+
+```
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig removeCredentials];
+    [self.beHealthyConfig setCommunity:@"1"];
+    UIViewController *viewController = [self.beHealthyConfig rootViewController];
+    [self.window.rootViewController presentViewController:viewController animated:true completion:nil];
+}
+```
+
 ### Branding
 
 You can set primary, secondary and tertiary colors of your app's branding
+
+#### Swift
 
 ```
 func presentBeHealthy() {
@@ -404,12 +688,28 @@ func presentBeHealthy() {
 }
 ```
 
+#### Objective C
+
+```
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig removeCredentials];
+    [self.beHealthyConfig setColorsWithPrimaryColor:[UIColor redColor]
+                                     secondaryColor:[UIColor blueColor]
+                                      tertiaryColor:[UIColor greenColor]];
+    UIViewController *viewController = [self.beHealthyConfig rootViewController];
+    [self.window.rootViewController presentViewController:viewController animated:true completion:nil];
+}
+```
+
 <img width="259" alt="75764854-40b7-433f-9517-431b4807fbba" src="https://user-images.githubusercontent.com/105304517/171743946-8f226e20-5677-44aa-949f-066943324829.png">
 
 
 ### Push notifications
 
 In order to support BeHealthy push notifications you have to set device token
+
+#### Swift
 
 ```
 func presentBeHealthy() {
@@ -418,6 +718,19 @@ func presentBeHealthy() {
   .
   .
   .
+}
+```
+
+#### Objective C
+
+```
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig removeCredentials];
+    [self.beHealthyConfig setDeviceTokenWithToken:@"add here the device token"];
+    .
+    .
+    .
 }
 ```
 
