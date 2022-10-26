@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BeHealthy
 import AVFoundation
 import AuthenticationServices
@@ -108,19 +108,19 @@ final public class DefaultFontProvider : BeHealthy.AnimationFontProvider {
   final public func fontFor(family: Swift.String, size: CoreGraphics.CGFloat) -> CoreText.CTFont?
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class BeHealthyAppDelegate {
-  public static let instance: BeHealthy.BeHealthyAppDelegate
+@_hasMissingDesignatedInitializers @objc public class BeHealthyAppDelegate : ObjectiveC.NSObject {
+  @objc public static let instance: BeHealthy.BeHealthyAppDelegate
   public var window: UIKit.UIWindow?
-  public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
-  public func applicationWillEnterForeground(_ application: UIKit.UIApplication)
-  public func applicationDidEnterBackground(_ application: UIKit.UIApplication)
-  public func applicationDidBecomeActive(_ application: UIKit.UIApplication)
-  public func applicationWillTerminate(_ application: UIKit.UIApplication)
-  public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
-  public func application(_ application: UIKit.UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Foundation.Data)
-  public func application(_ application: UIKit.UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Swift.Error)
-  public func application(_ application: UIKit.UIApplication, didReceiveRemoteNotification userInfo: [Swift.AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void)
-  public func application(_ application: UIKit.UIApplication, handleEventsForBackgroundURLSession identifier: Swift.String, completionHandler: @escaping () -> Swift.Void)
+  @objc public func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  @objc public func applicationWillEnterForeground(_ application: UIKit.UIApplication)
+  @objc public func applicationDidEnterBackground(_ application: UIKit.UIApplication)
+  @objc public func applicationDidBecomeActive(_ application: UIKit.UIApplication)
+  @objc public func applicationWillTerminate(_ application: UIKit.UIApplication)
+  @objc public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
+  @objc public func application(_ application: UIKit.UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Foundation.Data)
+  @objc public func application(_ application: UIKit.UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Swift.Error)
+  @objc public func application(_ application: UIKit.UIApplication, didReceiveRemoteNotification userInfo: [Swift.AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void)
+  @objc public func application(_ application: UIKit.UIApplication, handleEventsForBackgroundURLSession identifier: Swift.String, completionHandler: @escaping () -> Swift.Void)
   @objc deinit
 }
 final public class PointValueProvider : BeHealthy.AnyValueProvider {
@@ -443,22 +443,22 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
   @_Concurrency.MainActor(unsafe) public func setValueProvider(_ valueProvider: BeHealthy.AnyValueProvider, keypath: BeHealthy.AnimationKeypath)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class BeHealthyConfig {
-  public static let instance: BeHealthy.BeHealthyConfig
+@_hasMissingDesignatedInitializers @objc public class BeHealthyConfig : ObjectiveC.NSObject {
+  @objc public static let instance: BeHealthy.BeHealthyConfig
   @objc deinit
 }
 extension BeHealthy.BeHealthyConfig {
-  public func rootViewController() -> UIKit.UIViewController
-  public func progressViewController() -> UIKit.UIViewController
-  public func enrollmentViewController() -> UIKit.UIViewController
-  public func setToken(_ token: Swift.String, completion: @escaping (() -> ()))
-  public func setEnrollToken(_ enrollToken: Swift.String, completion: @escaping (() -> ()))
-  public func setEmail(_ email: Swift.String)
-  public func login(with completion: @escaping ((Swift.String) -> ()))
-  public func removeCredentials()
-  public func setCommunity(_ community: Swift.String)
-  public func setColors(primaryColor: UIKit.UIColor, secondaryColor: UIKit.UIColor, tertiaryColor: UIKit.UIColor)
-  public func setDeviceToken(token: Swift.String)
+  @objc dynamic public func rootViewController() -> UIKit.UIViewController
+  @objc dynamic public func progressViewController() -> UIKit.UIViewController
+  @objc dynamic public func enrollmentViewController() -> UIKit.UIViewController
+  @objc dynamic public func setToken(_ token: Swift.String, completion: @escaping (() -> ()))
+  @objc dynamic public func setEnrollToken(_ enrollToken: Swift.String, completion: @escaping (() -> ()))
+  @objc dynamic public func setEmail(_ email: Swift.String)
+  @objc dynamic public func login(with completion: @escaping ((Swift.String) -> ()))
+  @objc dynamic public func removeCredentials()
+  @objc dynamic public func setCommunity(_ community: Swift.String)
+  @objc dynamic public func setColors(primaryColor: UIKit.UIColor, secondaryColor: UIKit.UIColor, tertiaryColor: UIKit.UIColor)
+  @objc dynamic public func setDeviceToken(token: Swift.String)
 }
 extension QuartzCore.CALayer {
   public func logLayerTree(withIndent: Swift.Int = 0)
@@ -514,12 +514,12 @@ final public class FloatValueProvider : BeHealthy.AnyValueProvider {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
-public class BeHealthySceneDelegate {
-  public static let instance: BeHealthy.BeHealthySceneDelegate
+@objc public class BeHealthySceneDelegate : ObjectiveC.NSObject {
+  @objc public static let instance: BeHealthy.BeHealthySceneDelegate
   public var window: UIKit.UIWindow?
-  public func scene(_ scene: UIKit.UIScene, willConnectTo session: UIKit.UISceneSession, options connectionOptions: UIKit.UIScene.ConnectionOptions)
-  public func sceneWillEnterForeground(_ scene: UIKit.UIScene)
-  public func sceneDidEnterBackground(_ scene: UIKit.UIScene)
+  @objc public func scene(_ scene: UIKit.UIScene, willConnectTo session: UIKit.UISceneSession, options connectionOptions: UIKit.UIScene.ConnectionOptions)
+  @objc public func sceneWillEnterForeground(_ scene: UIKit.UIScene)
+  @objc public func sceneDidEnterBackground(_ scene: UIKit.UIScene)
   @objc deinit
 }
 extension BeHealthy.Animation {
