@@ -735,6 +735,87 @@ func presentBeHealthy() {
 }
 ```
 
+
+### Enable / Disable Analytics
+
+Enable analytics:
+
+#### Swift
+
+```
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {    
+    let filePath: String? = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist")
+    beHealthyConfig.setFirebaseConfigurationFile(path: filePath,
+                                                 shouldTrackBeHealthyAnalytics: true)
+    appDelegate.application(application, didFinishLaunchingWithOptions: launchOptions)
+
+    /*
+    additional code if required
+    */
+
+    return true
+}
+```
+
+#### Objective C
+
+```
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSString *filePath = [[NSBundle mainBundle] pathForResource: @"GoogleService-Info" ofType: @"plist"];
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig setFirebaseConfigurationFileWithPath: filePath
+                                 shouldTrackBeHealthyAnalytics: true];
+    self.beHealthyAppDelegate = [BeHealthyAppDelegate instance];
+    [self.beHealthyAppDelegate application:application didFinishLaunchingWithOptions:launchOptions];
+    
+    /*
+    additional code if required
+    */
+
+    return YES;
+}
+```
+
+
+Disable analytics:
+
+#### Swift
+
+```
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {    
+    let filePath: String? = Bundle.main.path(forResource: "GoogleService-Info", ofType: "plist")
+    beHealthyConfig.setFirebaseConfigurationFile(path: filePath,
+                                                 shouldTrackBeHealthyAnalytics: false)
+    appDelegate.application(application, didFinishLaunchingWithOptions: launchOptions)
+
+    /*
+    additional code if required
+    */
+
+    return true
+}
+```
+
+#### Objective C
+
+```
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSString *filePath = [[NSBundle mainBundle] pathForResource: @"GoogleService-Info" ofType: @"plist"];
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig setFirebaseConfigurationFileWithPath: filePath
+                                 shouldTrackBeHealthyAnalytics: false];
+    self.beHealthyAppDelegate = [BeHealthyAppDelegate instance];
+    [self.beHealthyAppDelegate application:application didFinishLaunchingWithOptions:launchOptions];
+    
+    /*
+    additional code if required
+    */
+
+    return YES;
+}
+```
+
+
 ### Multilanguage support
 
 Framework supports these languages:
