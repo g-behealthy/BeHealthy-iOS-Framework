@@ -823,11 +823,11 @@ Framework supports these languages:
 * English
 * Spanish
 * Portuguese
+* Arabic
 
 To add a specific language add localizable file to your project.
 
-<img width="287" alt="1b2f5d64-083e-41f3-9a5e-eec942d33028" src="https://user-images.githubusercontent.com/105304517/171743997-c765584c-99b6-4bf7-ab58-bd2cca191035.png">
-
+<img width="298" alt="Screen Shot 2022-11-22 at 5 39 07 PM" src="https://user-images.githubusercontent.com/105304517/203435756-14235152-666f-4d12-bc2c-480174673986.png">
 
 ### Troubleshooting
 
