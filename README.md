@@ -508,6 +508,43 @@ func sceneDidEnterBackground(_ scene: UIScene) {
 }
 ```
 
+### Set Environment
+
+#### Swift
+
+```
+import BeHealthy
+.
+.
+.
+let beHealthyConfig = BeHealthyConfig.instance
+.
+.
+.
+func enrollUser() {
+  beHealthyConfig.setEnvironment(.stage)
+}
+```
+
+#### Objective-C
+
+```
+#import <BeHealthy/BeHealthy-Swift.h>
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) BeHealthyConfig *beHealthyConfig;
+
+@end
+.
+.
+.
+- (void)enrollUser {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig setEnvironment: BeHealthyEnvironmentStage];
+}
+```
+
 ### Enrollment
 
 To enroll a new user to BeHealthy 
