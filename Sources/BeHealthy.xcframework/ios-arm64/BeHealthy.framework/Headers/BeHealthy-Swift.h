@@ -320,6 +320,7 @@ SWIFT_CLASS("_TtC9BeHealthy13AnimationView")
 @end
 
 
+
 @class UIApplication;
 @class NSURL;
 @class NSData;
@@ -354,8 +355,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BeHealthyCon
 
 @class UIViewController;
 @class UIColor;
+enum BeHealthyEnvironment : NSInteger;
 
 @interface BeHealthyConfig (SWIFT_EXTENSION(BeHealthy))
+- (void)setFirebaseConfigurationFileWithPath:(NSString * _Nullable)path shouldTrackBeHealthyAnalytics:(BOOL)shouldTrackBeHealthyAnalytics;
 - (UIViewController * _Nonnull)rootViewController SWIFT_WARN_UNUSED_RESULT;
 - (UIViewController * _Nonnull)progressViewController SWIFT_WARN_UNUSED_RESULT;
 - (UIViewController * _Nonnull)enrollmentViewController SWIFT_WARN_UNUSED_RESULT;
@@ -367,7 +370,13 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BeHealthyCon
 - (void)setCommunity:(NSString * _Nonnull)community;
 - (void)setColorsWithPrimaryColor:(UIColor * _Nonnull)primaryColor secondaryColor:(UIColor * _Nonnull)secondaryColor tertiaryColor:(UIColor * _Nonnull)tertiaryColor;
 - (void)setDeviceTokenWithToken:(NSString * _Nonnull)token;
+- (void)setEnvironment:(enum BeHealthyEnvironment)environment;
 @end
+
+typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
+  BeHealthyEnvironmentStage = 0,
+  BeHealthyEnvironmentProduction = 1,
+};
 
 @class UIScene;
 @class UISceneSession;
@@ -544,9 +553,6 @@ SWIFT_CLASS_NAMED("TodayTargetsEntity")
 
 
 
-
-
-
 SWIFT_CLASS_NAMED("UserEntity")
 @interface UserEntity : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
@@ -567,21 +573,17 @@ SWIFT_CLASS_NAMED("UserEntity")
 @property (nonatomic) int32_t awardedInstallments;
 @property (nonatomic, copy) NSDate * _Nullable birthday;
 @property (nonatomic, copy) NSString * _Nullable email;
-@property (nonatomic, copy) NSString * _Nullable firstName;
 @property (nonatomic, copy) NSString * _Nullable gender;
 @property (nonatomic) double height;
 @property (nonatomic) int32_t installments;
-@property (nonatomic, copy) NSString * _Nullable lastName;
 @property (nonatomic) int32_t lastProgressDaysSynch;
 @property (nonatomic, copy) NSDate * _Nullable lastProgressSaved;
 @property (nonatomic, copy) NSString * _Nullable phone;
-@property (nonatomic, copy) NSString * _Nullable pictureId;
 @property (nonatomic, copy) NSString * _Nullable plan;
 @property (nonatomic, copy) NSDate * _Nullable programStartDate;
 @property (nonatomic, copy) NSString * _Nullable timeZone;
 @property (nonatomic, copy) NSDate * _Nullable userCreationDate;
 @property (nonatomic, copy) NSString * _Nullable userId;
-@property (nonatomic, copy) NSString * _Nullable versionId;
 @property (nonatomic) double weight;
 @property (nonatomic, strong) NSSet * _Nullable achievements;
 @property (nonatomic, strong) TodayTargetsEntity * _Nullable todayTargets;
