@@ -373,6 +373,8 @@ enum BeHealthyEnvironment : NSInteger;
 - (void)setColorsWithPrimaryColor:(UIColor * _Nonnull)primaryColor secondaryColor:(UIColor * _Nonnull)secondaryColor tertiaryColor:(UIColor * _Nonnull)tertiaryColor;
 - (void)setDeviceTokenWithToken:(NSString * _Nonnull)token;
 - (void)setEnvironment:(enum BeHealthyEnvironment)environment;
+- (void)setBuyWatchURL:(NSString * _Nonnull)url;
+- (void)setProgramName:(NSString * _Nonnull)name;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
@@ -991,6 +993,8 @@ enum BeHealthyEnvironment : NSInteger;
 - (void)setColorsWithPrimaryColor:(UIColor * _Nonnull)primaryColor secondaryColor:(UIColor * _Nonnull)secondaryColor tertiaryColor:(UIColor * _Nonnull)tertiaryColor;
 - (void)setDeviceTokenWithToken:(NSString * _Nonnull)token;
 - (void)setEnvironment:(enum BeHealthyEnvironment)environment;
+- (void)setBuyWatchURL:(NSString * _Nonnull)url;
+- (void)setProgramName:(NSString * _Nonnull)name;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
