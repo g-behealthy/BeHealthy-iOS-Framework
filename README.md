@@ -8,6 +8,7 @@
 | 4.3.1 | Aug 29th,2022 |
 | 4.3.3 | Oct 26th,2022 |
 | 4.4 | Nov 25th,2022 |
+| 4.4.1 | Dec 13rd,2022 |
 
 ## Requirements
 
@@ -850,6 +851,58 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     */
 
     return YES;
+}
+```
+
+
+### Set Program Name
+
+#### Swift
+
+```
+func presentBeHealthy() {
+  beHealthyConfig.setProgramName("BeHealthy")
+  .
+  .
+  .
+}
+```
+
+#### Objective C
+
+```
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig setProgramName:@"BeHealthy"];
+    .
+    .
+    .
+}
+```
+
+
+### Set Buy a Watch CTA
+
+#### Swift
+
+```
+func presentBeHealthy() {
+  beHealthyConfig.setBuyWatchURL("https://www.behealthy.com")
+  .
+  .
+  .
+}
+```
+
+#### Objective C
+
+```
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig setBuyWatchURL:@"https://www.behealthy.com"];
+    .
+    .
+    .
 }
 ```
 
