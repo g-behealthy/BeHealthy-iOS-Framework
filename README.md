@@ -598,6 +598,38 @@ func enrollUser() {
 }
 ```
 
+You can verify if a user is enrolled with their token:
+
+#### Swift
+
+```
+func presentBeHealthy() {
+    beHealthyConfig.isUserEnrolled { isEnrolled in
+        if isEnrolled {
+            // present core flow
+        } else {
+            // present enroll flow
+        }
+    }
+}
+```
+
+#### Objective C
+
+```
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig isUserEnrolledWith:^(BOOL isEnrolled){
+        if (isEnrolled) {
+            // present core flow
+        } else {
+            // present enroll flow
+        }
+    }];
+}
+```
+
+
 ### Full access
 
 To embed full content (login + progress + achievements) of BeHealthy framework
@@ -919,6 +951,44 @@ Framework supports these languages:
 To add a specific language add localizable file to your project.
 
 <img width="298" alt="Screen Shot 2022-11-22 at 5 39 07 PM" src="https://user-images.githubusercontent.com/105304517/203435756-14235152-666f-4d12-bc2c-480174673986.png">
+
+
+### Set Language
+
+#### Swift
+
+```
+func presentBeHealthy() {
+  beHealthyConfig.setLanguage(.english)
+  .
+  .
+  .
+}
+```
+
+#### Objective C
+
+```
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig setLanguage: BeHealthyLanguageEnglish];
+    .
+    .
+    .
+}
+```
+
+Current supported languages
+
+```
+@objc public enum BeHealthyLanguage {
+    case english
+    case spanish
+    case portuguese
+    case arabic
+}
+```
+
 
 ### Troubleshooting
 
