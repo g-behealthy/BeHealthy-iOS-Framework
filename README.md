@@ -992,7 +992,7 @@ Current supported languages
 
 ### Troubleshooting
 
-#### BeHealthy framework throws and error because my project can't recognize the framework
-
-Try clean the project and build again
+* Recommended Firebase libraries version: 10.2.0
+* BeHealthy framework throws and error because my project can't recognize the framework: Try clean the project and build again
+* "Library not loaded" error: add libraries through third party manager or manually as a dependency
 
