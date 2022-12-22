@@ -450,6 +450,17 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
     get
   }
 }
+@objc public enum BeHealthyLanguage : Swift.Int, Swift.RawRepresentable {
+  case english
+  case spanish
+  case portuguese
+  case arabic
+  public typealias RawValue = Swift.String
+  public var rawValue: BeHealthy.BeHealthyLanguage.RawValue {
+    get
+  }
+  public init?(rawValue: BeHealthy.BeHealthyLanguage.RawValue)
+}
 @_hasMissingDesignatedInitializers @objc public class BeHealthyConfig : ObjectiveC.NSObject {
   @objc public static let instance: BeHealthy.BeHealthyConfig
   @objc deinit
@@ -470,6 +481,8 @@ extension BeHealthy.BeHealthyConfig {
   @objc dynamic public func setEnvironment(_ environment: BeHealthy.BeHealthyEnvironment)
   @objc dynamic public func setBuyWatchURL(_ url: Swift.String)
   @objc dynamic public func setProgramName(_ name: Swift.String)
+  @objc dynamic public func setLanguage(_ language: BeHealthy.BeHealthyLanguage)
+  @objc dynamic public func isUserEnrolled(with completion: @escaping ((Swift.Bool) -> ()))
 }
 extension QuartzCore.CALayer {
   public func logLayerTree(withIndent: Swift.Int = 0)
@@ -925,3 +938,5 @@ extension BeHealthy.LottieBackgroundBehavior : Swift.Hashable {}
 extension BeHealthy.BeHealthyEnvironment : Swift.Equatable {}
 extension BeHealthy.BeHealthyEnvironment : Swift.Hashable {}
 extension BeHealthy.BeHealthyEnvironment : Swift.RawRepresentable {}
+extension BeHealthy.BeHealthyLanguage : Swift.Equatable {}
+extension BeHealthy.BeHealthyLanguage : Swift.Hashable {}
