@@ -9,6 +9,7 @@
 | 4.3.3 | Oct 26th,2022 |
 | 4.4 | Nov 25th,2022 |
 | 4.4.1 | Dec 13rd,2022 |
+| 4.4.2 | Dec 21st,2022 |
 
 ## Requirements
 
