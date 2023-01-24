@@ -6,9 +6,6 @@ import BackgroundTasks
 import CoreData
 import CoreGraphics
 import CoreText
-import FirebaseAnalytics
-import FirebaseCore
-import FirebaseRemoteConfig
 import Foundation
 import HealthKit
 import LocalAuthentication
