@@ -70,7 +70,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		B6+qznBv5xvO2/4mOZ9BXu360Fs=
+		tLIZbNGt7Uqgrx+oTBmRx97ja34=
 		</data>
 		<key>AverageTargetView.nib</key>
 		<data>
@@ -402,7 +402,7 @@
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dmVjNwpR9LP1R4ECVQ+2DhdwiAk=
+		gvVWqHfYks0hKcF94XV2L0MdIUw=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -414,7 +414,7 @@
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+ACZ+F8uWvZEaTRWe8nbL9roKoE=
+		UeR4KBXyCLbJVNLkVW23Y6C7Qj4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1115,7 +1115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AkO8wiq2NLwSJfX9Gg1S0Rczn3HMVO6+FQ9Lst5TKd4=
+			RGDq85Q2FCU8HfOTKufis5D5Nvmtlp9/Ej54Qoxg2O0=
 			</data>
 		</dict>
 		<key>AverageTargetView.nib</key>
@@ -1689,7 +1689,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mifP8/1zEuMnaTn8fdWhzvFi29Cb3kAC++ZvYqv2GN4=
+			EAmyPaKyfEMXie3ko+cjmddQnseZCztmyYz2yrPmPZQ=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1710,7 +1710,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s5MThfZdNhMaLI3x/4mxPkKqzjkcLuKqSQoBzEEGfms=
+			TXpvRkHm90jryeaXrRVi21Zzt7u0kFC/R6Z79sYWP7I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
