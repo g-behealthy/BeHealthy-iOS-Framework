@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BeHealthy
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AuthenticationServices
 import BackgroundTasks
 import CoreData
@@ -20,6 +21,7 @@ import UserNotifications
 import WatchConnectivity
 import WebKit
 import _Concurrency
+import _StringProcessing
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ImageAsset : BeHealthy.Asset {
   final public let name: Swift.String
   final public let directory: Swift.String
@@ -28,8 +30,8 @@ import _Concurrency
   override final public func encode(to encoder: Swift.Encoder) throws
   @objc deinit
 }
-public typealias AnimationFrameTime = CoreGraphics.CGFloat
-public typealias AnimationProgressTime = CoreGraphics.CGFloat
+public typealias AnimationFrameTime = CoreFoundation.CGFloat
+public typealias AnimationProgressTime = CoreFoundation.CGFloat
 public protocol AnimationCacheProvider {
   func animation(forKey: Swift.String) -> BeHealthy.Animation?
   func setAnimation(_ animation: BeHealthy.Animation, forKey: Swift.String)
@@ -49,7 +51,7 @@ public class BundleImageProvider : BeHealthy.AnimationImageProvider {
 final public class ColorValueProvider : BeHealthy.AnyValueProvider {
   public init(block: @escaping BeHealthy.ColorValueProvider.ColorValueBlock)
   public init(_ color: BeHealthy.Color)
-  public typealias ColorValueBlock = (CoreGraphics.CGFloat) -> BeHealthy.Color
+  public typealias ColorValueBlock = (CoreFoundation.CGFloat) -> BeHealthy.Color
   final public var color: BeHealthy.Color {
     get
     set
@@ -57,24 +59,24 @@ final public class ColorValueProvider : BeHealthy.AnyValueProvider {
   final public var valueType: Any.Type {
     get
   }
-  final public func hasUpdate(frame _: CoreGraphics.CGFloat) -> Swift.Bool
-  final public func value(frame: CoreGraphics.CGFloat) -> Any
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  final public func value(frame: CoreFoundation.CGFloat) -> Any
   @objc deinit
 }
 public typealias LottieCompletionBlock = (Swift.Bool) -> Swift.Void
 final public class SizeValueProvider : BeHealthy.AnyValueProvider {
   public init(block: @escaping BeHealthy.SizeValueProvider.SizeValueBlock)
-  public init(_ size: CoreGraphics.CGSize)
-  public typealias SizeValueBlock = (CoreGraphics.CGFloat) -> CoreGraphics.CGSize
-  final public var size: CoreGraphics.CGSize {
+  public init(_ size: CoreFoundation.CGSize)
+  public typealias SizeValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGSize
+  final public var size: CoreFoundation.CGSize {
     get
     set
   }
   final public var valueType: Any.Type {
     get
   }
-  final public func hasUpdate(frame _: CoreGraphics.CGFloat) -> Swift.Bool
-  final public func value(frame: CoreGraphics.CGFloat) -> Any
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  final public func value(frame: CoreFoundation.CGFloat) -> Any
   @objc deinit
 }
 public protocol AnimationTextProvider : AnyObject {
@@ -96,11 +98,11 @@ public protocol AnyValueProvider {
   func value(frame: BeHealthy.AnimationFrameTime) -> Any
 }
 public protocol AnimationFontProvider {
-  func fontFor(family: Swift.String, size: CoreGraphics.CGFloat) -> CoreText.CTFont?
+  func fontFor(family: Swift.String, size: CoreFoundation.CGFloat) -> CoreText.CTFont?
 }
 final public class DefaultFontProvider : BeHealthy.AnimationFontProvider {
   public init()
-  final public func fontFor(family: Swift.String, size: CoreGraphics.CGFloat) -> CoreText.CTFont?
+  final public func fontFor(family: Swift.String, size: CoreFoundation.CGFloat) -> CoreText.CTFont?
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class BeHealthyAppDelegate : ObjectiveC.NSObject {
@@ -120,17 +122,17 @@ final public class DefaultFontProvider : BeHealthy.AnimationFontProvider {
 }
 final public class PointValueProvider : BeHealthy.AnyValueProvider {
   public init(block: @escaping BeHealthy.PointValueProvider.PointValueBlock)
-  public init(_ point: CoreGraphics.CGPoint)
-  public typealias PointValueBlock = (CoreGraphics.CGFloat) -> CoreGraphics.CGPoint
-  final public var point: CoreGraphics.CGPoint {
+  public init(_ point: CoreFoundation.CGPoint)
+  public typealias PointValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGPoint
+  final public var point: CoreFoundation.CGPoint {
     get
     set
   }
   final public var valueType: Any.Type {
     get
   }
-  final public func hasUpdate(frame _: CoreGraphics.CGFloat) -> Swift.Bool
-  final public func value(frame: CoreGraphics.CGFloat) -> Any
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  final public func value(frame: CoreFoundation.CGFloat) -> Any
   @objc deinit
 }
 public enum ColorFormatDenominator {
@@ -159,10 +161,10 @@ extension BeHealthy.Vector3D : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
 }
 extension BeHealthy.Vector3D {
-  public var pointValue: CoreGraphics.CGPoint {
+  public var pointValue: CoreFoundation.CGPoint {
     get
   }
-  public var sizeValue: CoreGraphics.CGSize {
+  public var sizeValue: CoreFoundation.CGSize {
     get
   }
 }
@@ -221,7 +223,7 @@ public enum BlendMode : Swift.Int, Swift.Codable {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AnimatedSwitch : BeHealthy.AnimatedControl {
   @_Concurrency.MainActor(unsafe) override public init(animation: BeHealthy.Animation)
-  @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   public enum CancelBehavior {
     case reverse
@@ -284,7 +286,7 @@ public class Asset : Swift.Codable {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AnimatedButton : BeHealthy.AnimatedControl {
   @_Concurrency.MainActor(unsafe) override public init(animation: BeHealthy.Animation)
-  @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) public func setPlayRange(fromProgress: BeHealthy.AnimationProgressTime, toProgress: BeHealthy.AnimationProgressTime, event: UIKit.UIControl.Event)
   @_Concurrency.MainActor(unsafe) public func setPlayRange(fromMarker fromName: Swift.String, toMarker toName: Swift.String, event: UIKit.UIControl.Event)
@@ -315,8 +317,8 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
 }
 @objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) final public class AnimationView : BeHealthy.LottieView {
   @_Concurrency.MainActor(unsafe) public init(animation: BeHealthy.Animation?, imageProvider: BeHealthy.AnimationImageProvider? = nil, textProvider: BeHealthy.AnimationTextProvider = DefaultTextProvider(), fontProvider: BeHealthy.AnimationFontProvider = DefaultFontProvider())
-  @objc dynamic public init()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame _: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame _: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) final public var backgroundBehavior: BeHealthy.LottieBackgroundBehavior
   @_Concurrency.MainActor(unsafe) final public var animation: BeHealthy.Animation? {
@@ -367,7 +369,7 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
   @_Concurrency.MainActor(unsafe) final public var realtimeAnimationProgress: BeHealthy.AnimationProgressTime {
     get
   }
-  @_Concurrency.MainActor(unsafe) final public var animationSpeed: CoreGraphics.CGFloat {
+  @_Concurrency.MainActor(unsafe) final public var animationSpeed: CoreFoundation.CGFloat {
     get
     set
   }
@@ -375,12 +377,12 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var viewportFrame: CoreGraphics.CGRect? {
+  @_Concurrency.MainActor(unsafe) final public var viewportFrame: CoreFoundation.CGRect? {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) @objc override final public var intrinsicContentSize: CoreGraphics.CGSize {
-    @_Concurrency.MainActor(unsafe) @objc get
+  @_Concurrency.MainActor(unsafe) @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) final public func play(completion: BeHealthy.LottieCompletionBlock? = nil)
   @_Concurrency.MainActor(unsafe) final public func play(fromProgress: BeHealthy.AnimationProgressTime? = nil, toProgress: BeHealthy.AnimationProgressTime, loopMode: BeHealthy.LottieLoopMode? = nil, completion: BeHealthy.LottieCompletionBlock? = nil)
@@ -394,8 +396,8 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
   @_Concurrency.MainActor(unsafe) final public func getValue(for keypath: BeHealthy.AnimationKeypath, atFrame: BeHealthy.AnimationFrameTime?) -> Any?
   @_Concurrency.MainActor(unsafe) final public func logHierarchyKeypaths()
   @_Concurrency.MainActor(unsafe) final public func addSubview(_ subview: BeHealthy.AnimationSubview, forLayerAt keypath: BeHealthy.AnimationKeypath)
-  @_Concurrency.MainActor(unsafe) final public func convert(_ rect: CoreGraphics.CGRect, toLayerAt keypath: BeHealthy.AnimationKeypath?) -> CoreGraphics.CGRect?
-  @_Concurrency.MainActor(unsafe) final public func convert(_ point: CoreGraphics.CGPoint, toLayerAt keypath: BeHealthy.AnimationKeypath?) -> CoreGraphics.CGPoint?
+  @_Concurrency.MainActor(unsafe) final public func convert(_ rect: CoreFoundation.CGRect, toLayerAt keypath: BeHealthy.AnimationKeypath?) -> CoreFoundation.CGRect?
+  @_Concurrency.MainActor(unsafe) final public func convert(_ point: CoreFoundation.CGPoint, toLayerAt keypath: BeHealthy.AnimationKeypath?) -> CoreFoundation.CGPoint?
   @_Concurrency.MainActor(unsafe) final public func setNodeIsEnabled(isEnabled: Swift.Bool, keypath: BeHealthy.AnimationKeypath)
   @_Concurrency.MainActor(unsafe) final public func progressTime(forMarker named: Swift.String) -> BeHealthy.AnimationProgressTime?
   @_Concurrency.MainActor(unsafe) final public func frameTime(forMarker named: Swift.String) -> BeHealthy.AnimationFrameTime?
@@ -403,22 +405,22 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
 }
 @objc @_Concurrency.MainActor(unsafe) open class AnimatedControl : UIKit.UIControl {
   @_Concurrency.MainActor(unsafe) public init(animation: BeHealthy.Animation)
-  @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var isEnabled: Swift.Bool {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreGraphics.CGSize {
-    @_Concurrency.MainActor(unsafe) @objc get
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func beginTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func continueTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
@@ -430,7 +432,7 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) public var animationSpeed: CoreGraphics.CGFloat {
+  @_Concurrency.MainActor(unsafe) public var animationSpeed: CoreFoundation.CGFloat {
     get
     set
   }
@@ -487,8 +489,8 @@ extension QuartzCore.CALayer {
 final public class GradientValueProvider : BeHealthy.AnyValueProvider {
   public init(block: @escaping BeHealthy.GradientValueProvider.ColorsValueBlock, locations: BeHealthy.GradientValueProvider.ColorLocationsBlock? = nil)
   public init(_ colors: [BeHealthy.Color], locations: [Swift.Double] = [])
-  public typealias ColorsValueBlock = (CoreGraphics.CGFloat) -> [BeHealthy.Color]
-  public typealias ColorLocationsBlock = (CoreGraphics.CGFloat) -> [Swift.Double]
+  public typealias ColorsValueBlock = (CoreFoundation.CGFloat) -> [BeHealthy.Color]
+  public typealias ColorLocationsBlock = (CoreFoundation.CGFloat) -> [Swift.Double]
   final public var colors: [BeHealthy.Color] {
     get
     set
@@ -500,12 +502,12 @@ final public class GradientValueProvider : BeHealthy.AnyValueProvider {
   final public var valueType: Any.Type {
     get
   }
-  final public func hasUpdate(frame _: CoreGraphics.CGFloat) -> Swift.Bool
-  final public func value(frame: CoreGraphics.CGFloat) -> Any
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  final public func value(frame: CoreFoundation.CGFloat) -> Any
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class AnimationSubview : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
@@ -521,17 +523,17 @@ public struct Vector3D {
 }
 final public class FloatValueProvider : BeHealthy.AnyValueProvider {
   public init(block: @escaping BeHealthy.FloatValueProvider.CGFloatValueBlock)
-  public init(_ float: CoreGraphics.CGFloat)
-  public typealias CGFloatValueBlock = (CoreGraphics.CGFloat) -> CoreGraphics.CGFloat
-  final public var float: CoreGraphics.CGFloat {
+  public init(_ float: CoreFoundation.CGFloat)
+  public typealias CGFloatValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+  final public var float: CoreFoundation.CGFloat {
     get
     set
   }
   final public var valueType: Any.Type {
     get
   }
-  final public func hasUpdate(frame _: CoreGraphics.CGFloat) -> Swift.Bool
-  final public func value(frame: CoreGraphics.CGFloat) -> Any
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  final public func value(frame: CoreFoundation.CGFloat) -> Any
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
@@ -548,10 +550,10 @@ extension BeHealthy.Animation {
   final public var duration: Foundation.TimeInterval {
     get
   }
-  final public var bounds: CoreGraphics.CGRect {
+  final public var bounds: CoreFoundation.CGRect {
     get
   }
-  final public var size: CoreGraphics.CGSize {
+  final public var size: CoreFoundation.CGSize {
     get
   }
   public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, animationCache: BeHealthy.AnimationCacheProvider? = nil) -> BeHealthy.Animation?
@@ -566,12 +568,12 @@ extension BeHealthy.Animation {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class LottieView : UIKit.UIView {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var contentMode: UIKit.UIView.ContentMode {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToWindow()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
@@ -596,24 +598,24 @@ public class LRUAnimationCache : BeHealthy.AnimationCacheProvider {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) final public class CompatibleAnimationView : UIKit.UIView {
   @objc @_Concurrency.MainActor(unsafe) public init(compatibleAnimation: BeHealthy.CompatibleAnimation)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @objc @_Concurrency.MainActor(unsafe) final public var compatibleAnimation: BeHealthy.CompatibleAnimation? {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) final public var loopAnimationCount: CoreGraphics.CGFloat {
+  @objc @_Concurrency.MainActor(unsafe) final public var loopAnimationCount: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override final public var contentMode: UIKit.UIView.ContentMode {
-    @_Concurrency.MainActor(unsafe) @objc get
-    @_Concurrency.MainActor(unsafe) @objc set
+    @objc get
+    @objc set
   }
   @objc @_Concurrency.MainActor(unsafe) final public var shouldRasterizeWhenIdle: Swift.Bool {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) final public var currentProgress: CoreGraphics.CGFloat {
+  @objc @_Concurrency.MainActor(unsafe) final public var currentProgress: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
@@ -621,17 +623,17 @@ public class LRUAnimationCache : BeHealthy.AnimationCacheProvider {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) final public var currentFrame: CoreGraphics.CGFloat {
+  @objc @_Concurrency.MainActor(unsafe) final public var currentFrame: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) final public var realtimeAnimationFrame: CoreGraphics.CGFloat {
+  @objc @_Concurrency.MainActor(unsafe) final public var realtimeAnimationFrame: CoreFoundation.CGFloat {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) final public var realtimeAnimationProgress: CoreGraphics.CGFloat {
+  @objc @_Concurrency.MainActor(unsafe) final public var realtimeAnimationProgress: CoreFoundation.CGFloat {
     @objc get
   }
-  @objc @_Concurrency.MainActor(unsafe) final public var animationSpeed: CoreGraphics.CGFloat {
+  @objc @_Concurrency.MainActor(unsafe) final public var animationSpeed: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
@@ -644,22 +646,22 @@ public class LRUAnimationCache : BeHealthy.AnimationCacheProvider {
   }
   @objc @_Concurrency.MainActor(unsafe) final public func play()
   @objc @_Concurrency.MainActor(unsafe) final public func play(completion: ((Swift.Bool) -> Swift.Void)?)
-  @objc @_Concurrency.MainActor(unsafe) final public func play(fromProgress: CoreGraphics.CGFloat, toProgress: CoreGraphics.CGFloat, completion: ((Swift.Bool) -> Swift.Void)? = nil)
-  @objc @_Concurrency.MainActor(unsafe) final public func play(fromFrame: CoreGraphics.CGFloat, toFrame: CoreGraphics.CGFloat, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) final public func play(fromProgress: CoreFoundation.CGFloat, toProgress: CoreFoundation.CGFloat, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) final public func play(fromFrame: CoreFoundation.CGFloat, toFrame: CoreFoundation.CGFloat, completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc @_Concurrency.MainActor(unsafe) final public func play(fromMarker: Swift.String, toMarker: Swift.String, completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc @_Concurrency.MainActor(unsafe) final public func stop()
   @objc @_Concurrency.MainActor(unsafe) final public func pause()
   @objc @_Concurrency.MainActor(unsafe) final public func reloadImages()
   @objc @_Concurrency.MainActor(unsafe) final public func forceDisplayUpdate()
-  @objc @_Concurrency.MainActor(unsafe) final public func getValue(for keypath: BeHealthy.CompatibleAnimationKeypath, atFrame: CoreGraphics.CGFloat) -> Any?
+  @objc @_Concurrency.MainActor(unsafe) final public func getValue(for keypath: BeHealthy.CompatibleAnimationKeypath, atFrame: CoreFoundation.CGFloat) -> Any?
   @objc @_Concurrency.MainActor(unsafe) final public func logHierarchyKeypaths()
   @objc @_Concurrency.MainActor(unsafe) final public func setColorValue(_ color: UIKit.UIColor, forKeypath keypath: BeHealthy.CompatibleAnimationKeypath)
-  @objc @_Concurrency.MainActor(unsafe) final public func getColorValue(for keypath: BeHealthy.CompatibleAnimationKeypath, atFrame: CoreGraphics.CGFloat) -> UIKit.UIColor?
+  @objc @_Concurrency.MainActor(unsafe) final public func getColorValue(for keypath: BeHealthy.CompatibleAnimationKeypath, atFrame: CoreFoundation.CGFloat) -> UIKit.UIColor?
   @objc @_Concurrency.MainActor(unsafe) final public func addSubview(_ subview: BeHealthy.AnimationSubview, forLayerAt keypath: BeHealthy.CompatibleAnimationKeypath)
-  @objc @_Concurrency.MainActor(unsafe) final public func convert(rect: CoreGraphics.CGRect, toLayerAt keypath: BeHealthy.CompatibleAnimationKeypath?) -> CoreGraphics.CGRect
-  @objc @_Concurrency.MainActor(unsafe) final public func convert(point: CoreGraphics.CGPoint, toLayerAt keypath: BeHealthy.CompatibleAnimationKeypath?) -> CoreGraphics.CGPoint
-  @objc @_Concurrency.MainActor(unsafe) final public func progressTime(forMarker named: Swift.String) -> CoreGraphics.CGFloat
-  @objc @_Concurrency.MainActor(unsafe) final public func frameTime(forMarker named: Swift.String) -> CoreGraphics.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) final public func convert(rect: CoreFoundation.CGRect, toLayerAt keypath: BeHealthy.CompatibleAnimationKeypath?) -> CoreFoundation.CGRect
+  @objc @_Concurrency.MainActor(unsafe) final public func convert(point: CoreFoundation.CGPoint, toLayerAt keypath: BeHealthy.CompatibleAnimationKeypath?) -> CoreFoundation.CGPoint
+  @objc @_Concurrency.MainActor(unsafe) final public func progressTime(forMarker named: Swift.String) -> CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) final public func frameTime(forMarker named: Swift.String) -> CoreFoundation.CGFloat
   @objc deinit
 }
 @objc final public class CompatibleAnimationKeypath : ObjectiveC.NSObject {
