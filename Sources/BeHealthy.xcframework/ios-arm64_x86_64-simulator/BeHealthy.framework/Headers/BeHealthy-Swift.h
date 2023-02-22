@@ -235,6 +235,7 @@ using UInt = size_t;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
+@import UserNotifications;
 #endif
 
 #endif
@@ -362,6 +363,8 @@ SWIFT_CLASS("_TtC9BeHealthy13AnimationView")
 @class UIApplication;
 @class NSURL;
 @class NSData;
+@class UNUserNotificationCenter;
+@class UNNotification;
 
 SWIFT_CLASS("_TtC9BeHealthy20BeHealthyAppDelegate")
 @interface BeHealthyAppDelegate : NSObject
@@ -376,6 +379,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BeHealthyApp
 - (void)application:(UIApplication * _Nonnull)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData * _Nonnull)deviceToken;
 - (void)application:(UIApplication * _Nonnull)application didFailToRegisterForRemoteNotificationsWithError:(NSError * _Nonnull)error;
 - (void)application:(UIApplication * _Nonnull)application didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo fetchCompletionHandler:(void (^ _Nonnull)(UIBackgroundFetchResult))completionHandler;
+- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 - (void)application:(UIApplication * _Nonnull)application handleEventsForBackgroundURLSession:(NSString * _Nonnull)identifier completionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -904,6 +908,7 @@ using UInt = size_t;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
+@import UserNotifications;
 #endif
 
 #endif
@@ -1031,6 +1036,8 @@ SWIFT_CLASS("_TtC9BeHealthy13AnimationView")
 @class UIApplication;
 @class NSURL;
 @class NSData;
+@class UNUserNotificationCenter;
+@class UNNotification;
 
 SWIFT_CLASS("_TtC9BeHealthy20BeHealthyAppDelegate")
 @interface BeHealthyAppDelegate : NSObject
@@ -1045,6 +1052,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BeHealthyApp
 - (void)application:(UIApplication * _Nonnull)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData * _Nonnull)deviceToken;
 - (void)application:(UIApplication * _Nonnull)application didFailToRegisterForRemoteNotificationsWithError:(NSError * _Nonnull)error;
 - (void)application:(UIApplication * _Nonnull)application didReceiveRemoteNotification:(NSDictionary * _Nonnull)userInfo fetchCompletionHandler:(void (^ _Nonnull)(UIBackgroundFetchResult))completionHandler;
+- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresent:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
 - (void)application:(UIApplication * _Nonnull)application handleEventsForBackgroundURLSession:(NSString * _Nonnull)identifier completionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
