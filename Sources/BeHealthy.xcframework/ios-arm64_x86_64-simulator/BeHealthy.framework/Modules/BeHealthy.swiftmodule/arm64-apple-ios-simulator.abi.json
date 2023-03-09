@@ -17473,6 +17473,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -41313,16 +41323,23 @@
       "value": "\"deleteAccountRequestSent\""
     },
     {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Common\/ImageName.swift",
+      "kind": "StringLiteral",
+      "offset": 17301,
+      "length": 20,
+      "value": "\"swipeDownIndicator\""
+    },
+    {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/BaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2360,
+      "offset": 2562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/BaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4958,
+      "offset": 5160,
       "length": 4,
       "value": "\"OK\""
     },
@@ -45875,6 +45892,27 @@
       "offset": 6097,
       "length": 2,
       "value": "25"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Common\/Util\/Swipe Down\/SwipeDownBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 368,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Common\/Util\/Swipe Down\/SwipeDownBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 411,
+      "length": 3,
+      "value": "135"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Common\/Util\/Swipe Down\/SwipeDownBarView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 2,
+      "value": "12"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Landing Screen\/LandingViewModel.swift",
