@@ -16811,7 +16811,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.String?) -> ()",
+                "printedName": "() -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -16820,24 +16820,15 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "Void",
+                    "printedName": "()"
                   }
                 ]
               }
             ],
             "declKind": "Func",
             "usr": "c:@CM@BeHealthy@objc(cs)BeHealthyConfig(im)setToken:completion:",
-            "mangledName": "$s9BeHealthy0aB6ConfigC8setToken_10completionySS_ySSSgctF",
+            "mangledName": "$s9BeHealthy0aB6ConfigC8setToken_10completionySS_yyctF",
             "moduleName": "BeHealthy",
             "declAttributes": [
               "Dynamic",
@@ -17217,7 +17208,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Bool, Swift.String) -> ()",
+                "printedName": "(Swift.Bool) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -17226,29 +17217,16 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.Bool, Swift.String)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   }
                 ]
               }
             ],
             "declKind": "Func",
             "usr": "c:@CM@BeHealthy@objc(cs)BeHealthyConfig(im)isUserEnrolledWith:",
-            "mangledName": "$s9BeHealthy0aB6ConfigC14isUserEnrolled4withyySb_SStc_tF",
+            "mangledName": "$s9BeHealthy0aB6ConfigC14isUserEnrolled4withyySbc_tF",
             "moduleName": "BeHealthy",
             "objc_name": "isUserEnrolledWith:",
             "declAttributes": [
@@ -45407,21 +45385,21 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2418,
+      "offset": 2403,
       "length": 16,
       "value": "\"AppleLanguages\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2304,
+      "offset": 2289,
       "length": 15,
       "value": "\"BeHealthy.BeHealthyConfig\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 4449,
+      "offset": 4418,
       "length": 4,
       "value": "true"
     },

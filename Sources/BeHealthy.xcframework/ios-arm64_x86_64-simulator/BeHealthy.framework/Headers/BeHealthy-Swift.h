@@ -405,7 +405,7 @@ enum BeHealthyLanguage : NSInteger;
 - (UIViewController * _Nonnull)rootViewController SWIFT_WARN_UNUSED_RESULT;
 - (UIViewController * _Nonnull)progressViewController SWIFT_WARN_UNUSED_RESULT;
 - (UIViewController * _Nonnull)enrollmentViewController SWIFT_WARN_UNUSED_RESULT;
-- (void)setToken:(NSString * _Nonnull)token completion:(void (^ _Nonnull)(NSString * _Nullable))completion;
+- (void)setToken:(NSString * _Nonnull)token completion:(void (^ _Nonnull)(void))completion;
 - (void)setEnrollToken:(NSString * _Nonnull)enrollToken completion:(void (^ _Nonnull)(void))completion;
 - (void)setEmail:(NSString * _Nonnull)email;
 - (void)loginWith:(void (^ _Nonnull)(NSString * _Nonnull))completion;
@@ -417,7 +417,7 @@ enum BeHealthyLanguage : NSInteger;
 - (void)setBuyWatchURL:(NSString * _Nonnull)url;
 - (void)setProgramName:(NSString * _Nonnull)name;
 - (void)setLanguage:(enum BeHealthyLanguage)language;
-- (void)isUserEnrolledWith:(void (^ _Nonnull)(BOOL, NSString * _Nonnull))completion;
+- (void)isUserEnrolledWith:(void (^ _Nonnull)(BOOL))completion;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
@@ -1078,7 +1078,7 @@ enum BeHealthyLanguage : NSInteger;
 - (UIViewController * _Nonnull)rootViewController SWIFT_WARN_UNUSED_RESULT;
 - (UIViewController * _Nonnull)progressViewController SWIFT_WARN_UNUSED_RESULT;
 - (UIViewController * _Nonnull)enrollmentViewController SWIFT_WARN_UNUSED_RESULT;
-- (void)setToken:(NSString * _Nonnull)token completion:(void (^ _Nonnull)(NSString * _Nullable))completion;
+- (void)setToken:(NSString * _Nonnull)token completion:(void (^ _Nonnull)(void))completion;
 - (void)setEnrollToken:(NSString * _Nonnull)enrollToken completion:(void (^ _Nonnull)(void))completion;
 - (void)setEmail:(NSString * _Nonnull)email;
 - (void)loginWith:(void (^ _Nonnull)(NSString * _Nonnull))completion;
@@ -1090,7 +1090,7 @@ enum BeHealthyLanguage : NSInteger;
 - (void)setBuyWatchURL:(NSString * _Nonnull)url;
 - (void)setProgramName:(NSString * _Nonnull)name;
 - (void)setLanguage:(enum BeHealthyLanguage)language;
-- (void)isUserEnrolledWith:(void (^ _Nonnull)(BOOL, NSString * _Nonnull))completion;
+- (void)isUserEnrolledWith:(void (^ _Nonnull)(BOOL))completion;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
