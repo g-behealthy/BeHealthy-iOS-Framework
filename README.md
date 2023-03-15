@@ -10,6 +10,7 @@
 | 4.4 | Nov 25th,2022 |
 | 4.4.1 | Dec 13rd,2022 |
 | 4.4.2 | Dec 21st,2022 |
+| 4.4.20 | Mar 13th, 2023 |
 
 ## Requirements
 
@@ -137,12 +138,9 @@ Add next properties to Info.plist:
 Also add next properties:
 
 ```
-"NSCameraUsageDescription" = "Grant access to take a photo and upload it to the profile.";
-"NSPhotoLibraryUsageDescription" = "Grant access to choose a profile picture from your Photos.";
 "NSHealthShareUsageDescription" = "This information will be used by the application to recognize your physical activity and to track your progress toward program goals and rewards.";
 "NSHealthUpdateUsageDescription" = "This information will be used by the application to recognize your physical activity and to track your progress toward program goals and rewards.";
 "NSFaceIDUsageDescription" = "This app can use Face ID to confirm your identity. It is fast, easy and secure.";
-"NSLocationWhenInUseUsageDescription" = "Grant access to get user current location";
 ```
 
 
@@ -396,6 +394,48 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
     */
     
     [self.beHealthyAppDelegate application:application didReceiveRemoteNotification:userInfo fetchCompletionHandler:completionHandler];
+}
+```
+
+Remote notifications in foreground
+
+#### Swift
+
+```
+class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
+...
+
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+      ...
+      UNUserNotificationCenter.current().delegate = self
+      return true
+  }
+}
+
+func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+    appDelegate.userNotificationCenter(center, willPresent: notification, withCompletionHandler: completionHandler)
+}
+```
+
+#### Objective C
+
+```
+#import <UserNotifications/UserNotifications.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate, UNUserNotificationCenterDelegate>
+...
+@end
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.beHealthyAppDelegate = [BeHealthyAppDelegate instance];
+    [[UNUserNotificationCenter currentNotificationCenter] setDelegate:self];
+    [self.beHealthyAppDelegate application:application didFinishLaunchingWithOptions:launchOptions];
+    ...
+    return YES;
+}
+
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler {
+    [self.beHealthyAppDelegate userNotificationCenter:center willPresent:notification withCompletionHandler:completionHandler];
 }
 ```
     
@@ -717,6 +757,24 @@ func presentBeHealthy() {
 }
 ```
 
+### Remove credentials
+
+#### Swift
+
+```
+func removeCredentials() {
+    beHealthyConfig.removeCredentials()
+}
+```
+
+#### Objective C
+
+```
+- (void)removeCredentials {
+    [self.beHealthyConfig removeCredentials];
+}
+```
+
 ### Community configuration
 
 You can set the community (this value is granted to you by BeHealthy team) before present the view controller
@@ -940,6 +998,31 @@ func presentBeHealthy() {
 ```
 
 
+### Set Member ID
+
+#### Swift
+
+```
+func presentBeHealthy() {
+  beHealthyConfig.setMember("member id here")
+  .
+  .
+  .
+}
+```
+
+#### Objective C
+
+```
+- (void)presentBeHealthy {
+    [self.beHealthyConfig setMemberId:@"member id here"];
+    .
+    .
+    .
+}
+```
+
+
 ### Multilanguage support
 
 Framework supports these languages:
@@ -996,4 +1079,3 @@ Current supported languages
 * Recommended Firebase libraries version: 10.2.0
 * BeHealthy framework throws and error because my project can't recognize the framework: Try clean the project and build again
 * "Library not loaded" error: add libraries through third party manager or manually as a dependency
-
