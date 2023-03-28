@@ -482,7 +482,8 @@ extension BeHealthy.BeHealthyConfig {
   @objc dynamic public func setBuyWatchURL(_ url: Swift.String)
   @objc dynamic public func setProgramName(_ name: Swift.String)
   @objc dynamic public func setLanguage(_ language: BeHealthy.BeHealthyLanguage)
-  @objc dynamic public func isUserEnrolled(with completion: @escaping ((Swift.Bool) -> ()))
+  @objc dynamic public func isUserEnrolled(with completion: @escaping ((Swift.Bool, Swift.String?) -> ()))
+  @objc dynamic public func deactivateAccount(with token: Swift.String, completion: @escaping ((Swift.String?) -> ()))
 }
 extension QuartzCore.CALayer {
   public func logLayerTree(withIndent: Swift.Int = 0)

@@ -417,7 +417,8 @@ enum BeHealthyLanguage : NSInteger;
 - (void)setBuyWatchURL:(NSString * _Nonnull)url;
 - (void)setProgramName:(NSString * _Nonnull)name;
 - (void)setLanguage:(enum BeHealthyLanguage)language;
-- (void)isUserEnrolledWith:(void (^ _Nonnull)(BOOL))completion;
+- (void)isUserEnrolledWith:(void (^ _Nonnull)(BOOL, NSString * _Nullable))completion;
+- (void)deactivateAccountWith:(NSString * _Nonnull)token completion:(void (^ _Nonnull)(NSString * _Nullable))completion;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
