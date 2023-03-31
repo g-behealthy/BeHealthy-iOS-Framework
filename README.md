@@ -946,6 +946,48 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 ```
 
 
+### Account deactivation
+
+#### Swift
+
+```
+func presentBeHealthy() {
+  beHealthyConfig.deactivateAccount(with: "token") { message in
+    guard let message = message else {
+      return
+    }
+    
+    if message.isEmpty {
+      // account deactivation success
+    } else {
+      // account deactivation failed
+    }
+  }
+  .
+  .
+  .
+}
+```
+
+#### Objective C
+
+```
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig deactivateAccountWith:@"token" completion: ^(NSString *message){
+        if ([message length] == 0) {
+            // account deactivation success
+        } else {
+            // account deactivation failed
+        }
+    }];
+    .
+    .
+    .
+}
+```
+
+
 ### Set Program Name
 
 #### Swift
