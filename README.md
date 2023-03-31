@@ -645,7 +645,7 @@ You can verify if a user is enrolled with their token:
 
 ```
 func presentBeHealthy() {
-    beHealthyConfig.isUserEnrolled { isEnrolled in
+    beHealthyConfig.isUserEnrolled { isEnrolled, error in
         if isEnrolled {
             // present core flow
         } else {
@@ -660,7 +660,7 @@ func presentBeHealthy() {
 ```
 - (void)presentBeHealthy {
     self.beHealthyConfig = [BeHealthyConfig instance];
-    [self.beHealthyConfig isUserEnrolledWith:^(BOOL isEnrolled){
+    [self.beHealthyConfig isUserEnrolledWith:^(BOOL isEnrolled, NSString *error){
         if (isEnrolled) {
             // present core flow
         } else {
