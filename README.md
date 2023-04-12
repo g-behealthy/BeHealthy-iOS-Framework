@@ -1040,6 +1040,32 @@ func presentBeHealthy() {
 ```
 
 
+### Request watch
+
+#### Swift
+
+```
+func presentBeHealthy() {
+  beHealthyConfig.shouldRequestWatch(true)
+  .
+  .
+  .
+}
+```
+
+#### Objective C
+
+```
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig shouldRequestWatch: true];
+    .
+    .
+    .
+}
+```
+
+
 ### Set Member ID
 
 #### Swift
