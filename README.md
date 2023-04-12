@@ -1142,6 +1142,60 @@ Current supported languages
 ```
 
 
+## Listeners
+
+Listeners are events which occur inside BeHealthy module and you can subscribe, current events supported for iOS version are:
+
+- oneTargetMet: Triggered when one target is met
+- twoTargetsMet: Triggered when two targets are met
+- starEarned: Triggered when daily star is earned
+- sixtyPercentMoveTarget: Triggered when move target progress reaches 60%
+- twentyMinutesExercise: Triggered when 20 minutes of exercise are reached
+- noTargetMet: Triggered when at 5pm local time none of the targets are met
+
+### Swift
+
+```
+func presentBeHealthy() {
+  beHealthyConfig.addListener(self, event: .oneTargetMet)
+  .
+  .
+  .
+}
+
+extension MyClass: BeHealthyEventListener {
+
+  func receive(event: BeHealthy.BeHealthyEvent) {
+    switch event {
+        case .oneTargetMet: 
+          // do something
+    }
+  }
+}
+```
+
+### Objective C
+
+```
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig addListener:self event:BeHealthyEventOneTargetMet];
+    .
+    .
+    .
+}
+
+@interface ViewController : UIViewController<BeHealthyEventListener>
+
+- (void)receiveWithEvent:(enum BeHealthyEvent)event {
+    switch (event) {
+    case BeHealthyEventOneTargetMet:
+        // do something
+        break;
+    }
+}
+```
+
 ### Troubleshooting
 
 * Recommended Firebase libraries version: 10.2.0
