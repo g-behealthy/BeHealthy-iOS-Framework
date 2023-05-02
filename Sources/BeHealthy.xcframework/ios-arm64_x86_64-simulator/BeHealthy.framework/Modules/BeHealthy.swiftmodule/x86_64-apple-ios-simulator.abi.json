@@ -36349,63 +36349,63 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 10975,
+      "offset": 10981,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 11037,
+      "offset": 11043,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 11086,
+      "offset": 11092,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 11104,
+      "offset": 11110,
       "length": 38,
       "value": "\"PROGRESS_MONTH_STARS_EARNED_REQUIRED\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 11282,
+      "offset": 11288,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 12075,
+      "offset": 12081,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 12190,
+      "offset": 12196,
       "length": 19,
       "value": "\"REWARD_THIS_MONTH\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 12387,
+      "offset": 12393,
       "length": 17,
       "value": "\"DAYS_LEFT_COUNT\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 12907,
+      "offset": 12913,
       "length": 1,
       "value": "1"
     },
@@ -37546,14 +37546,14 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 15793,
+      "offset": 15799,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 17549,
+      "offset": 17555,
       "length": 5,
       "value": "false"
     },
@@ -38694,28 +38694,28 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Extensions\/DateExtension.swift",
       "kind": "IntegerLiteral",
-      "offset": 11308,
+      "offset": 11340,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Extensions\/DateExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 11775,
+      "offset": 11807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Extensions\/DateExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 11967,
+      "offset": 11999,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Extensions\/DateExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 12223,
+      "offset": 12255,
       "length": 5,
       "value": "false"
     },
@@ -38764,21 +38764,21 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/CalendarActivity\/CalendarActivityPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 7214,
+      "offset": 7226,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/CalendarActivity\/CalendarActivityPresenter.swift",
       "kind": "Array",
-      "offset": 8253,
+      "offset": 8265,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/CalendarActivity\/CalendarActivityPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8966,
+      "offset": 8978,
       "length": 5,
       "value": "false"
     },
@@ -44196,7 +44196,7 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/CalendarActivityFacade.swift",
       "kind": "IntegerLiteral",
-      "offset": 1132,
+      "offset": 1138,
       "length": 3,
       "value": "396"
     },
@@ -44784,49 +44784,49 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/ProgressDetail\/ProgressDetailPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 4713,
+      "offset": 4719,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/ProgressDetail\/ProgressDetailPresenter.swift",
       "kind": "Array",
-      "offset": 15166,
+      "offset": 15172,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/ProgressDetail\/ProgressDetailPresenter.swift",
       "kind": "Array",
-      "offset": 15228,
+      "offset": 15234,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/ProgressDetail\/ProgressDetailPresenter.swift",
       "kind": "Array",
-      "offset": 17374,
+      "offset": 17380,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/ProgressDetail\/ProgressDetailPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 17514,
+      "offset": 17520,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/ProgressDetail\/ProgressDetailPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 19235,
+      "offset": 19241,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/ProgressDetail\/ProgressDetailPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 24261,
+      "offset": 24267,
       "length": 5,
       "value": "false"
     },
@@ -48354,7 +48354,7 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/MonthlySummary\/CompletedWorkoutsMonthlySummary\/CalendarMonth\/CalendarMonthViewModel.swift",
       "kind": "Array",
-      "offset": 1440,
+      "offset": 1446,
       "length": 2,
       "value": "[]"
     },
@@ -49656,7 +49656,7 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Extensions\/CalendarExtension.swift",
       "kind": "BooleanLiteral",
-      "offset": 2095,
+      "offset": 2365,
       "length": 4,
       "value": "true"
     },
@@ -54619,21 +54619,21 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Common\/CalendarComponents\/CalendarMonthActivityViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3406,
+      "offset": 3412,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Common\/CalendarComponents\/CalendarMonthActivityViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 3445,
+      "offset": 3451,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Common\/CalendarComponents\/CalendarMonthActivityViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6403,
+      "offset": 6409,
       "length": 5,
       "value": "false"
     },
