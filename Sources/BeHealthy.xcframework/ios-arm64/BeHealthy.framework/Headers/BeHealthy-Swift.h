@@ -399,8 +399,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BeHealthyCon
 @class UIColor;
 enum BeHealthyEnvironment : NSInteger;
 enum BeHealthyLanguage : NSInteger;
-@protocol BeHealthyEventListener;
-enum BeHealthyEvent : NSInteger;
 
 @interface BeHealthyConfig (SWIFT_EXTENSION(BeHealthy))
 - (void)setFirebaseConfigurationFileWithPath:(NSString * _Nullable)path shouldTrackBeHealthyAnalytics:(BOOL)shouldTrackBeHealthyAnalytics;
@@ -418,34 +416,15 @@ enum BeHealthyEvent : NSInteger;
 - (void)setEnvironment:(enum BeHealthyEnvironment)environment;
 - (void)setBuyWatchURL:(NSString * _Nonnull)url;
 - (void)setProgramName:(NSString * _Nonnull)name;
-- (void)setMemberWithId:(NSString * _Nonnull)id;
 - (void)setLanguage:(enum BeHealthyLanguage)language;
 - (void)isUserEnrolledWith:(void (^ _Nonnull)(BOOL, NSString * _Nullable))completion;
 - (void)deactivateAccountWith:(NSString * _Nonnull)token completion:(void (^ _Nonnull)(NSString * _Nullable))completion;
-- (void)shouldRequestWatch:(BOOL)requestWatch;
-- (void)addListener:(id <BeHealthyEventListener> _Nonnull)listener event:(enum BeHealthyEvent)event;
-- (void)removeListener:(id <BeHealthyEventListener> _Nonnull)listener event:(enum BeHealthyEvent)event;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
   BeHealthyEnvironmentStage = 0,
   BeHealthyEnvironmentProduction = 1,
 };
-
-typedef SWIFT_ENUM(NSInteger, BeHealthyEvent, open) {
-  BeHealthyEventOneTargetMet = 0,
-  BeHealthyEventTwoTargetsMet = 1,
-  BeHealthyEventStarEarned = 2,
-  BeHealthyEventSixtyPercentMoveTarget = 3,
-  BeHealthyEventTwentyMinutesExercise = 4,
-  BeHealthyEventNoTargetMet = 5,
-};
-
-
-SWIFT_PROTOCOL("_TtP9BeHealthy22BeHealthyEventListener_")
-@protocol BeHealthyEventListener
-- (void)receiveWithEvent:(enum BeHealthyEvent)event;
-@end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyLanguage, open) {
   BeHealthyLanguageEnglish = 0,
