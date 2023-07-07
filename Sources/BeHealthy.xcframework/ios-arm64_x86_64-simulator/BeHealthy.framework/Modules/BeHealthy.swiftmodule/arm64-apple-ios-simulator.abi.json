@@ -36307,105 +36307,105 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 7320,
+      "offset": 7385,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 10570,
+      "offset": 10678,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 10627,
+      "offset": 10735,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 10680,
+      "offset": 10788,
       "length": 3,
       "value": "169"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 10739,
+      "offset": 10847,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 10799,
+      "offset": 10907,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 10992,
+      "offset": 11100,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 11054,
+      "offset": 11162,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 11103,
+      "offset": 11211,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 11121,
+      "offset": 11229,
       "length": 38,
       "value": "\"PROGRESS_MONTH_STARS_EARNED_REQUIRED\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 11299,
+      "offset": 11407,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 12092,
+      "offset": 12200,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 12207,
+      "offset": 12315,
       "length": 19,
       "value": "\"REWARD_THIS_MONTH\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 12404,
+      "offset": 12512,
       "length": 17,
       "value": "\"DAYS_LEFT_COUNT\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/RewardScreenViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 12924,
+      "offset": 13032,
       "length": 1,
       "value": "1"
     },
@@ -49537,70 +49537,70 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/Factory\/RewardCellsViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 18553,
+      "offset": 18469,
       "length": 15,
       "value": "\"SUMMARY_TITLE\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/Factory\/RewardCellsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 18823,
+      "offset": 18739,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/Factory\/RewardCellsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 22582,
+      "offset": 22498,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/Factory\/RewardCellsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 22616,
+      "offset": 22532,
       "length": 2,
       "value": "41"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/Factory\/RewardCellsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 22621,
+      "offset": 22537,
       "length": 2,
       "value": "75"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/Factory\/RewardCellsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 22660,
+      "offset": 22576,
       "length": 2,
       "value": "75"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/Factory\/RewardCellsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 22665,
+      "offset": 22581,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/Factory\/RewardCellsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 22717,
+      "offset": 22633,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/Factory\/RewardCellsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 22760,
+      "offset": 22676,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Reward Screen\/Factory\/RewardCellsViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 23280,
+      "offset": 23196,
       "length": 1,
       "value": "3"
     },
@@ -54332,37 +54332,30 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/Enrollment Flow\/ConnectToAppleHealth\/ConnectToAppleHealthViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 499,
+      "offset": 450,
       "length": 32,
       "value": "\"ENROLLMENT_APPLE_CONNECT_TITLE\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/Enrollment Flow\/ConnectToAppleHealth\/ConnectToAppleHealthViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 824,
+      "offset": 775,
       "length": 38,
       "value": "\"ENROLLMENT_APPLE_CONNECT_DESCRIPTION\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/Enrollment Flow\/ConnectToAppleHealth\/ConnectToAppleHealthViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1082,
+      "offset": 1033,
       "length": 38,
       "value": "\"ENROLLMENT_APPLE_CONNECT_DESCRIPTION\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/Enrollment Flow\/ConnectToAppleHealth\/ConnectToAppleHealthViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1287,
+      "offset": 1238,
       "length": 49,
       "value": "\"ENROLLMENT_APPLE_CONNECT_DESCRIPTION_ATTRIBUTED\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/Enrollment Flow\/ConnectToAppleHealth\/ConnectToAppleHealthViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1702,
-      "length": 37,
-      "value": "\"ENROLLMENT_APPLE_CONNECT_DISCLAIMER\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/Lottie\/Public\/AnimationCache\/LRUAnimationCache.swift",
