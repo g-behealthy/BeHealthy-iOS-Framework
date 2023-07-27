@@ -444,6 +444,9 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler {
     [self.beHealthyAppDelegate userNotificationCenter:center willPresent:notification withCompletionHandler:completionHandler];
 }
+
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)())completionHandler {      [self.beHealthyAppDelegate userNotificationCenter:center didReceive:response withCompletionHandler:completionHandler];
+}
 ```
     
 Background processing related methods
