@@ -418,10 +418,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
     appDelegate.userNotificationCenter(center, willPresent: notification, withCompletionHandler: completionHandler)
 }
-
-func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-    appDelegate.userNotificationCenter(center, didReceive: response, withCompletionHandler: completionHandler)
-}
 ```
 
 #### Objective C
@@ -443,9 +439,6 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler {
     [self.beHealthyAppDelegate userNotificationCenter:center willPresent:notification withCompletionHandler:completionHandler];
-}
-
-- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)())completionHandler {      [self.beHealthyAppDelegate userNotificationCenter:center didReceive:response withCompletionHandler:completionHandler];
 }
 ```
     
