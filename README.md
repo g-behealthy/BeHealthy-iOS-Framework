@@ -103,8 +103,8 @@ Add next signings and capabilities:
 * Associated domains:
 
 ```
-applinks:admin.earnwith.watch
-webcredentials:admin.earnwith.watch
+applinks:docs.earnwith.watch
+webcredentials:docs.earnwith.watch
 ```
 
 * Background modes:
@@ -131,7 +131,7 @@ Add next properties to Info.plist:
   Item 0 (Viewer) :
     Document Role : View
     {URL Schemes :
-      Item 0 : admin.earnwith.watch}
+      Item 0 : docs.earnwith.watch}
 }
 ```
 
