@@ -674,9 +674,9 @@ func presentBeHealthy() {
 ```
 
 
-### Full access
+### Full access (Email activation)
 
-To embed full content (login + progress + achievements) of BeHealthy framework
+To embed full content (login + progress + achievements) of BeHealthy framework for email activation
 
 #### Swift
 
@@ -692,6 +692,7 @@ let beHealthyConfig = BeHealthyConfig.instance
 func presentBeHealthy() {
     beHealthyConfig.removeCredentials()
     let viewController = beHealthyConfig.rootViewController()
+    beHealthyConfig.setActivationFlow(.email)
     self.present(viewController, animated: true, completion: nil)
 }
 ```
@@ -713,6 +714,52 @@ func presentBeHealthy() {
     self.beHealthyConfig = [BeHealthyConfig instance];
     [self.beHealthyConfig removeCredentials];
     UIViewController *viewController = [self.beHealthyConfig rootViewController];
+    [self.beHealthyConfig setActivationFlow: BeHealthyActivationFlowEmail];
+    [self.window.rootViewController presentViewController:viewController animated:true completion:nil];
+}
+```
+
+### Full access (SMS activation)
+
+To embed full content (login + progress + achievements) of BeHealthy framework for SMS activation
+
+#### Swift
+
+```
+import BeHealthy
+.
+.
+.
+let beHealthyConfig = BeHealthyConfig.instance
+.
+.
+.
+func presentBeHealthy() {
+    beHealthyConfig.removeCredentials()
+    let viewController = beHealthyConfig.rootViewController()
+    beHealthyConfig.setActivationFlow(.sms)
+    self.present(viewController, animated: true, completion: nil)
+}
+```
+
+#### Objective C
+
+```
+#import <BeHealthy/BeHealthy-Swift.h>
+
+@interface AppDelegate ()
+
+@property (nonatomic, strong) BeHealthyConfig *beHealthyConfig;
+
+@end
+.
+.
+.
+- (void)presentBeHealthy {
+    self.beHealthyConfig = [BeHealthyConfig instance];
+    [self.beHealthyConfig removeCredentials];
+    UIViewController *viewController = [self.beHealthyConfig rootViewController];
+    [self.beHealthyConfig setActivationFlow: BeHealthyActivationFlowSms];
     [self.window.rootViewController presentViewController:viewController animated:true completion:nil];
 }
 ```
