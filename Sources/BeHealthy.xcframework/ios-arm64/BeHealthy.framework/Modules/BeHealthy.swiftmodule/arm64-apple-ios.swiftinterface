@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BeHealthy
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AuthenticationServices
@@ -8,6 +8,7 @@ import CoreData
 import CoreGraphics
 import CoreText
 import CryptoKit
+import DeveloperToolsSupport
 import FirebaseAnalytics
 import FirebaseCore
 import FirebaseRemoteConfig
@@ -20,6 +21,7 @@ import PDFKit
 import QuartzCore
 import Security
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import UserNotifications
@@ -27,12 +29,13 @@ import WatchConnectivity
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ImageAsset : BeHealthy.Asset {
   final public let name: Swift.String
   final public let directory: Swift.String
   final public let width: Swift.Double
   final public let height: Swift.Double
-  override final public func encode(to encoder: Swift.Encoder) throws
+  override final public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 public typealias AnimationFrameTime = CoreFoundation.CGFloat
@@ -43,8 +46,8 @@ public protocol AnimationCacheProvider {
   func clearCache()
 }
 extension BeHealthy.Color : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 infix operator +| : DefaultPrecedence
 infix operator +- : DefaultPrecedence
@@ -61,7 +64,7 @@ final public class ColorValueProvider : BeHealthy.AnyValueProvider {
     get
     set
   }
-  final public var valueType: Any.Type {
+  final public var valueType: any Any.Type {
     get
   }
   final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
@@ -77,7 +80,7 @@ final public class SizeValueProvider : BeHealthy.AnyValueProvider {
     get
     set
   }
-  final public var valueType: Any.Type {
+  final public var valueType: any Any.Type {
     get
   }
   final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
@@ -98,7 +101,7 @@ final public class DefaultTextProvider : BeHealthy.AnimationTextProvider {
   @objc deinit
 }
 public protocol AnyValueProvider {
-  var valueType: Any.Type { get }
+  var valueType: any Any.Type { get }
   func hasUpdate(frame: BeHealthy.AnimationFrameTime) -> Swift.Bool
   func value(frame: BeHealthy.AnimationFrameTime) -> Any
 }
@@ -120,7 +123,7 @@ final public class DefaultFontProvider : BeHealthy.AnimationFontProvider {
   @objc public func applicationWillTerminate(_ application: UIKit.UIApplication)
   @objc public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
   @objc public func application(_ application: UIKit.UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Foundation.Data)
-  @objc public func application(_ application: UIKit.UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Swift.Error)
+  @objc public func application(_ application: UIKit.UIApplication, didFailToRegisterForRemoteNotificationsWithError error: any Swift.Error)
   @objc public func application(_ application: UIKit.UIApplication, didReceiveRemoteNotification userInfo: [Swift.AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIKit.UIBackgroundFetchResult) -> Swift.Void)
   @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   @objc public func application(_ application: UIKit.UIApplication, handleEventsForBackgroundURLSession identifier: Swift.String, completionHandler: @escaping () -> Swift.Void)
@@ -134,7 +137,7 @@ final public class PointValueProvider : BeHealthy.AnyValueProvider {
     get
     set
   }
-  final public var valueType: Any.Type {
+  final public var valueType: any Any.Type {
     get
   }
   final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
@@ -159,12 +162,12 @@ public struct Color {
   public init(r: Swift.Double, g: Swift.Double, b: Swift.Double, a: Swift.Double, denominator: BeHealthy.ColorFormatDenominator = .One)
 }
 extension BeHealthy.Vector1D : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension BeHealthy.Vector3D : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension BeHealthy.Vector3D {
   public var pointValue: CoreFoundation.CGPoint {
@@ -186,7 +189,7 @@ public enum LayerType : Swift.Int, Swift.Codable {
   case null
   case shape
   case text
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -268,7 +271,7 @@ public enum CoordinateSpace : Swift.Int, Swift.Codable {
   }
 }
 final public class Animation : Swift.Codable {
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   final public let startFrame: BeHealthy.AnimationFrameTime
   final public let endFrame: BeHealthy.AnimationFrameTime
   final public let framerate: Swift.Double
@@ -276,7 +279,7 @@ final public class Animation : Swift.Codable {
     get
   }
   @objc deinit
-  final public func encode(to encoder: Swift.Encoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc public enum BeHealthyEvent : Swift.Int {
   case oneTargetMet
@@ -292,16 +295,16 @@ final public class Animation : Swift.Codable {
   }
 }
 extension BeHealthy.AnimationView {
-  @_Concurrency.MainActor(unsafe) convenience public init(name: Swift.String, bundle: Foundation.Bundle = Bundle.main, imageProvider: BeHealthy.AnimationImageProvider? = nil, animationCache: BeHealthy.AnimationCacheProvider? = LRUAnimationCache.sharedCache)
-  @_Concurrency.MainActor(unsafe) convenience public init(filePath: Swift.String, imageProvider: BeHealthy.AnimationImageProvider? = nil, animationCache: BeHealthy.AnimationCacheProvider? = LRUAnimationCache.sharedCache)
-  @_Concurrency.MainActor(unsafe) convenience public init(url: Foundation.URL, imageProvider: BeHealthy.AnimationImageProvider? = nil, closure: @escaping BeHealthy.AnimationView.DownloadClosure, animationCache: BeHealthy.AnimationCacheProvider? = LRUAnimationCache.sharedCache)
-  public typealias DownloadClosure = (Swift.Error?) -> Swift.Void
+  @_Concurrency.MainActor(unsafe) convenience public init(name: Swift.String, bundle: Foundation.Bundle = Bundle.main, imageProvider: (any BeHealthy.AnimationImageProvider)? = nil, animationCache: (any BeHealthy.AnimationCacheProvider)? = LRUAnimationCache.sharedCache)
+  @_Concurrency.MainActor(unsafe) convenience public init(filePath: Swift.String, imageProvider: (any BeHealthy.AnimationImageProvider)? = nil, animationCache: (any BeHealthy.AnimationCacheProvider)? = LRUAnimationCache.sharedCache)
+  @_Concurrency.MainActor(unsafe) convenience public init(url: Foundation.URL, imageProvider: (any BeHealthy.AnimationImageProvider)? = nil, closure: @escaping BeHealthy.AnimationView.DownloadClosure, animationCache: (any BeHealthy.AnimationCacheProvider)? = LRUAnimationCache.sharedCache)
+  public typealias DownloadClosure = ((any Swift.Error)?) -> Swift.Void
 }
 public class Asset : Swift.Codable {
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   final public let id: Swift.String
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AnimatedButton : BeHealthy.AnimatedControl {
   @_Concurrency.MainActor(unsafe) override public init(animation: BeHealthy.Animation)
@@ -335,7 +338,7 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
   public static func == (lhs: BeHealthy.LottieLoopMode, rhs: BeHealthy.LottieLoopMode) -> Swift.Bool
 }
 @objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) final public class AnimationView : BeHealthy.LottieView {
-  @_Concurrency.MainActor(unsafe) public init(animation: BeHealthy.Animation?, imageProvider: BeHealthy.AnimationImageProvider? = nil, textProvider: BeHealthy.AnimationTextProvider = DefaultTextProvider(), fontProvider: BeHealthy.AnimationFontProvider = DefaultFontProvider())
+  @_Concurrency.MainActor(unsafe) public init(animation: BeHealthy.Animation?, imageProvider: (any BeHealthy.AnimationImageProvider)? = nil, textProvider: any BeHealthy.AnimationTextProvider = DefaultTextProvider(), fontProvider: any BeHealthy.AnimationFontProvider = DefaultFontProvider())
   @_Concurrency.MainActor(unsafe) @objc dynamic public init()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame _: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
@@ -344,15 +347,15 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var imageProvider: BeHealthy.AnimationImageProvider {
+  @_Concurrency.MainActor(unsafe) final public var imageProvider: any BeHealthy.AnimationImageProvider {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var textProvider: BeHealthy.AnimationTextProvider {
+  @_Concurrency.MainActor(unsafe) final public var textProvider: any BeHealthy.AnimationTextProvider {
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) final public var fontProvider: BeHealthy.AnimationFontProvider {
+  @_Concurrency.MainActor(unsafe) final public var fontProvider: any BeHealthy.AnimationFontProvider {
     get
     set
   }
@@ -411,7 +414,7 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
   @_Concurrency.MainActor(unsafe) final public func pause()
   @_Concurrency.MainActor(unsafe) final public func reloadImages()
   @_Concurrency.MainActor(unsafe) final public func forceDisplayUpdate()
-  @_Concurrency.MainActor(unsafe) final public func setValueProvider(_ valueProvider: BeHealthy.AnyValueProvider, keypath: BeHealthy.AnimationKeypath)
+  @_Concurrency.MainActor(unsafe) final public func setValueProvider(_ valueProvider: any BeHealthy.AnyValueProvider, keypath: BeHealthy.AnimationKeypath)
   @_Concurrency.MainActor(unsafe) final public func getValue(for keypath: BeHealthy.AnimationKeypath, atFrame: BeHealthy.AnimationFrameTime?) -> Any?
   @_Concurrency.MainActor(unsafe) final public func logHierarchyKeypaths()
   @_Concurrency.MainActor(unsafe) final public func addSubview(_ subview: BeHealthy.AnimationSubview, forLayerAt keypath: BeHealthy.AnimationKeypath)
@@ -456,7 +459,7 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
     set
   }
   @_Concurrency.MainActor(unsafe) public func setLayer(named: Swift.String, forState: UIKit.UIControl.State)
-  @_Concurrency.MainActor(unsafe) public func setValueProvider(_ valueProvider: BeHealthy.AnyValueProvider, keypath: BeHealthy.AnimationKeypath)
+  @_Concurrency.MainActor(unsafe) public func setValueProvider(_ valueProvider: any BeHealthy.AnyValueProvider, keypath: BeHealthy.AnimationKeypath)
   @objc deinit
 }
 @objc public enum BeHealthyEnvironment : Swift.Int {
@@ -504,8 +507,8 @@ extension BeHealthy.BeHealthyConfig {
   @objc dynamic public func isUserEnrolled(with completion: @escaping ((Swift.Bool, Swift.String?) -> ()))
   @objc dynamic public func deactivateAccount(with token: Swift.String, completion: @escaping ((Swift.String?) -> ()))
   @objc dynamic public func shouldRequestWatch(_ requestWatch: Swift.Bool)
-  @objc dynamic public func addListener(_ listener: BeHealthy.BeHealthyEventListener, event: BeHealthy.BeHealthyEvent)
-  @objc dynamic public func removeListener(_ listener: BeHealthy.BeHealthyEventListener, event: BeHealthy.BeHealthyEvent)
+  @objc dynamic public func addListener(_ listener: any BeHealthy.BeHealthyEventListener, event: BeHealthy.BeHealthyEvent)
+  @objc dynamic public func removeListener(_ listener: any BeHealthy.BeHealthyEventListener, event: BeHealthy.BeHealthyEvent)
 }
 extension QuartzCore.CALayer {
   public func logLayerTree(withIndent: Swift.Int = 0)
@@ -523,7 +526,7 @@ final public class GradientValueProvider : BeHealthy.AnyValueProvider {
     get
     set
   }
-  final public var valueType: Any.Type {
+  final public var valueType: any Any.Type {
     get
   }
   final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
@@ -556,7 +559,7 @@ final public class FloatValueProvider : BeHealthy.AnyValueProvider {
     get
     set
   }
-  final public var valueType: Any.Type {
+  final public var valueType: any Any.Type {
     get
   }
   final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
@@ -583,9 +586,9 @@ extension BeHealthy.Animation {
   final public var size: CoreFoundation.CGSize {
     get
   }
-  public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, animationCache: BeHealthy.AnimationCacheProvider? = nil) -> BeHealthy.Animation?
-  public static func filepath(_ filepath: Swift.String, animationCache: BeHealthy.AnimationCacheProvider? = nil) -> BeHealthy.Animation?
-  public static func loadedFrom(url: Foundation.URL, closure: @escaping BeHealthy.Animation.DownloadClosure, animationCache: BeHealthy.AnimationCacheProvider?)
+  public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, animationCache: (any BeHealthy.AnimationCacheProvider)? = nil) -> BeHealthy.Animation?
+  public static func filepath(_ filepath: Swift.String, animationCache: (any BeHealthy.AnimationCacheProvider)? = nil) -> BeHealthy.Animation?
+  public static func loadedFrom(url: Foundation.URL, closure: @escaping BeHealthy.Animation.DownloadClosure, animationCache: (any BeHealthy.AnimationCacheProvider)?)
   final public func progressTime(forMarker named: Swift.String) -> BeHealthy.AnimationProgressTime?
   final public func frameTime(forMarker named: Swift.String) -> BeHealthy.AnimationFrameTime?
   final public func progressTime(forFrame frameTime: BeHealthy.AnimationFrameTime) -> BeHealthy.AnimationProgressTime

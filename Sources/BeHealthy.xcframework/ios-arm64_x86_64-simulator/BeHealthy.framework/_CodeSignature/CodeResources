@@ -6,55 +6,55 @@
 	<dict>
 		<key>AboutDetailViewController.nib</key>
 		<data>
-		T8ObYs3XYT3ZBWMyhspXpHy+ILo=
+		b/Ju/mKIacRhM/3zi4F5ioMiHGg=
 		</data>
 		<key>AchievementCollectionFooterView.nib</key>
 		<data>
-		QgYK1T4sUgeyXsK44jT7jFY/lJk=
+		ocTb5BozIt21c2eJciU03yJ1Wvk=
 		</data>
 		<key>AchievementCollectionHeaderView.nib</key>
 		<data>
-		RV5IRzRK3nIi2Ia02pSmowd2Dwg=
+		jMu5h+s+IIoqJZJZ5f7cHiMdSsc=
 		</data>
 		<key>AchievementDetailViewController.nib</key>
 		<data>
-		YEI9FaZ3XULKFJecWgdL1d5lCTo=
+		z++vtj5TWTYuvLQLQI+yd1LdSKQ=
 		</data>
 		<key>AchievementViewCell.nib</key>
 		<data>
-		eCi4/aeOyFeMA/5sxYVWmcYdKFQ=
+		e9q9cSjdWD5uXWvjAu4BChWgAm0=
 		</data>
 		<key>AchievementsCardView.nib</key>
 		<data>
-		Jgx4uKObP7/cTFdxYNMenBDZMB4=
+		UFRDTBhPmtCx+/8JNolFdF6uNSo=
 		</data>
 		<key>AchievementsCarouselViewCell.nib</key>
 		<data>
-		peFRAtrTuvtm5wKQXT9+ywrKq6Y=
+		KXsbix1VNbBnKcfqnX90NwmYcSU=
 		</data>
 		<key>AchievementsViewController.nib</key>
 		<data>
-		Yun+twwik3BWmWUduViA8vpTpT0=
+		7Frx5LWV0hW3dBMv93+Zvji/AHk=
 		</data>
 		<key>ActivationCodeView.nib</key>
 		<data>
-		rtVPyfKAeDDgquBy8bdl5RX2YuI=
+		a//ypCpAVMJS4hMeoFxTmCIl9SU=
 		</data>
 		<key>ActivityLevelTableViewCell.nib</key>
 		<data>
-		ELFpwVdo5/BbqrV7MJFC4+J0MLc=
+		iEFZkKXNbHACXBOAbaQtLY6Y2d8=
 		</data>
 		<key>ActivitySummaryDetailViewCell.nib</key>
 		<data>
-		eYMNuTPPv5GUiqhy48hXQ7R06V4=
+		6v4RkvB9P0PM9ZZpBvgJibcTmA0=
 		</data>
 		<key>ActivitySummaryHeaderViewCell.nib</key>
 		<data>
-		Fzu+GlJrAZpwwK6R6/Q/rijoXow=
+		L+CoJ+tljE0VCmqFrpTLprDyLXQ=
 		</data>
 		<key>AlternativeTagReviewCell.nib</key>
 		<data>
-		s4AKtAC20uWfRuuhNr/AATYa6EE=
+		IMQ8Z2IBLztr/dmMWYZ2Io6E0ZI=
 		</data>
 		<key>AppConstants.plist</key>
 		<data>
@@ -62,67 +62,67 @@
 		</data>
 		<key>AppleHealthApp.momd/AppleHealthApp.mom</key>
 		<data>
-		CPQpXpLyFMhGyIMI4huun7bPrYc=
+		r+LjTNsEjc/N3tFpah2wSqMzTPg=
 		</data>
 		<key>AppleHealthApp.momd/VersionInfo.plist</key>
 		<data>
-		3OZvzKkZ8dzXbVZub6d7KqTj1V4=
+		Lakdftpe4FrBpjnkvvjl6pWh/rs=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		6TtZpm0+8EGstpFPzzkeSqrx8Xk=
+		fCIt6JB8bYNE3SFeZhD1NjJ/9uA=
 		</data>
 		<key>AverageTargetView.nib</key>
 		<data>
-		GHL/tYF5a9WH+u2XFXncrPph9XQ=
+		m23hz/eSHTCq3SyG8p6TEXEQ/yM=
 		</data>
 		<key>BarChartView.nib</key>
 		<data>
-		oOEBGkTfaijwXjniJcHPQciZCzo=
+		13vy+JJJXgUEkK+JP6bVzIEHc4g=
 		</data>
 		<key>BiometricsConfirmationViewController.nib</key>
 		<data>
-		w60LBKzZyOCI1PajeEeJtenZOx0=
+		s/mrQvtA5O813GCIumvaEtQ4Vhw=
 		</data>
 		<key>BiometricsPreferencesSwitchCell.nib</key>
 		<data>
-		/IK2Mxz5klxMYyqfUOm30TKBFi0=
+		jgzujfHiKyXFCGoUvwOaBrXjcBg=
 		</data>
 		<key>BiometricsPreferencesViewController.nib</key>
 		<data>
-		6PZNG7tyAftYiI3AQdRZp8dYGBA=
+		mMd/sEyK+pRXIgh0yJT+Bmf4taM=
 		</data>
 		<key>CalendarActivityDetailViewController.nib</key>
 		<data>
-		uVbE4BrJTuLb66ksocC0I9lnCu0=
+		eqw7HITVvmQHdtKXTtA9uMzR2rQ=
 		</data>
 		<key>CalendarActivityMonthViewCell.nib</key>
 		<data>
-		FRXeYN9RAOWCwJkXVQMQgBGT4G8=
+		bQMKlq1ZgObDQiN6P585ANmzPSE=
 		</data>
 		<key>CalendarActivityViewController.nib</key>
 		<data>
-		CH8LN8jWWWAlkS3L+W/LawaiA1g=
+		mdyseeX2l1XCr8edmaQ6i8iw9c8=
 		</data>
 		<key>CalendarCompletedWorkoutsMonthlySummaryCell.nib</key>
 		<data>
-		RGFKibwxn/qL6N3FCIDVMsJZsJI=
+		Y2cXY0/nMfo1ZJWu5qZ4AWj1AeY=
 		</data>
 		<key>CalendarDayActivityView.nib</key>
 		<data>
-		5LHqAmzncrvZJ+xDNJxxpnRwdHU=
+		sBQ6nRLHkNZ8waH7qt8BVhp+EHY=
 		</data>
 		<key>CalendarMonthActivityView.nib</key>
 		<data>
-		T0M44afdfknaByA+5u/XDr0XaBA=
+		5eUGSrBYxmlxjU4Guz1GnQvgrtI=
 		</data>
 		<key>CalendarMonthView.nib</key>
 		<data>
-		DrkSvOJErnFVdRk3+nOFIlxzvzM=
+		gXXdqp6mZRWnNaHUeFXg5qHf7ho=
 		</data>
 		<key>CarouselView.nib</key>
 		<data>
-		aeIyZYyD+hIP8M9AFMNCuRNUuDI=
+		52ADvj8rvMDFYOlpE4swwWzkJkU=
 		</data>
 		<key>Certificates.plist</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>ChangePasswordViewController.nib</key>
 		<data>
-		qwM6RKtEHP53y04s2czwLc8bQjE=
+		YxhvVlCosUc9LFDQLz2xg2VkQDc=
 		</data>
 		<key>CheckboxCustomView.nib</key>
 		<data>
-		8IE3vKBIjyjQZ/CCnJ8z7MO8L1E=
+		TRLJiFCqWIDrH2GGNG8A756CGOg=
 		</data>
 		<key>ClientIDEnvironments.plist</key>
 		<data>
@@ -142,75 +142,75 @@
 		</data>
 		<key>CompletedWorkoutsMonthlySummaryView.nib</key>
 		<data>
-		p+gwB5BucaUVrNzYtdsEGgZjcmM=
+		A+JNqm4AthOW/qipBMJhn0DWKYE=
 		</data>
 		<key>CongratulationsMonthlySummaryView.nib</key>
 		<data>
-		0xLv7gKhutgG7BNli8Rz5tdqqHM=
+		iRYgqA9UmT1E9kt/vxMK05uqGFw=
 		</data>
 		<key>ConnectToAppleHealthView.nib</key>
 		<data>
-		EAmrmV1KZ7IpUmfD6JyeadOXvd4=
+		MTZLUZMce5JDGupX9xl3bFKX44Q=
 		</data>
 		<key>ContactSupportHeaderView.nib</key>
 		<data>
-		MhpxjK5K94K9lhniQXJi+YGpZ5Q=
+		8fMdndGBNdLV3jy70mCILuNi4+4=
 		</data>
 		<key>ContactSupportTableViewCell.nib</key>
 		<data>
-		K/fqB+Nx6GulRClxujTf3GKVSYw=
+		JvyEFtAXXjOay1VO1ULIF1MHleU=
 		</data>
 		<key>ContactSupportViewController.nib</key>
 		<data>
-		+joG2luzbx2fgoqBfN75OrBlbRA=
+		qxtaA2KEu3USNWcvYvS+bfYXB9Y=
 		</data>
 		<key>CreateAccountViewController.nib</key>
 		<data>
-		rxdeHKnmO7DhCcEO7SKrmaMQkcI=
+		WD0ZzFSx2Dh4xF1JZX+P6yX6GSA=
 		</data>
 		<key>CreatePasswordView.nib</key>
 		<data>
-		LtWUf+slLhvVoxqWZw6iZ87/jE0=
+		BSGaPwqilkG7jQLSn1+IeDA0ED0=
 		</data>
 		<key>CustomPickerTextField.nib</key>
 		<data>
-		gBMUEo6eJgf+z48E8MSs/0JQLtc=
+		p1pAlIQfyT2eAIOf/C1YZkjf7fI=
 		</data>
 		<key>CustomTextField.nib</key>
 		<data>
-		qjsmSkv3eErPJNrbmVDSS25uCrg=
+		NfP6TMv48/w7+zGB/rI9SRoL0hs=
 		</data>
 		<key>DayActivityViewCell.nib</key>
 		<data>
-		ksj5E6deBzx2NPMbYePvTHBp8ak=
+		NCNi8knImtswjO0Ayq6yTd7h2i8=
 		</data>
 		<key>DayCell.nib</key>
 		<data>
-		/bjmSU0yFGWH2E/e8/sX5LrhXng=
+		sO1zrYJeIl5FtN4aOGIEXH+baoc=
 		</data>
 		<key>DaySummaryViewCell.nib</key>
 		<data>
-		DQJsjlQ6V9wbtF1W4NJqde+JFE0=
+		SJ9UMhhjcuBPNzh2b0EDLHVOnMo=
 		</data>
 		<key>DayWorkoutViewCell.nib</key>
 		<data>
-		sDYTgbZPttoxlTQ5wMkEsXXRv1k=
+		dbMeB+EtscYKTwaD9/jXLnjc2uU=
 		</data>
 		<key>DeleteAccountCompletedViewController.nib</key>
 		<data>
-		hyqna1gnzFLiE/4D5fqbGnamjWk=
+		UFQlTTn61yjQgghFMh2bmJxwDJM=
 		</data>
 		<key>DeleteAccountViewController.nib</key>
 		<data>
-		A4THTxlvNk8hb74m488YPyRwPsk=
+		PUvQ8nosgd6moY0wd36GJ8rf/r0=
 		</data>
 		<key>EmailSubscriptionsViewController.nib</key>
 		<data>
-		GEFWFAiNh2ed/Mi6hqCOPvwe4d8=
+		X9vQVoxfsmlqJGx2X8N0rcqX39s=
 		</data>
 		<key>EndFeedbackView.nib</key>
 		<data>
-		ISnjD4+h4ifLUbi4wGQLBRSHG+k=
+		3evMKPni2E5yd0kxPJD+Psf02VI=
 		</data>
 		<key>Endpoints.plist</key>
 		<data>
@@ -218,47 +218,47 @@
 		</data>
 		<key>EnrollmentActivityLevelTableViewCell.nib</key>
 		<data>
-		0yvSclg7EqxuYg++nb1AqwuFsZk=
+		6QBrKgxCehve2b8M14HVL0iaxTQ=
 		</data>
 		<key>EnrollmentActivityLevelView.nib</key>
 		<data>
-		A8LQa3XV0MbH/JZD2+ExYHGy0WE=
+		MzOcQF2e8pMv0mVb0259x0+HyFU=
 		</data>
 		<key>EnrollmentCompletedViewController.nib</key>
 		<data>
-		wFHDL6mMNSyB6vSB7GL5yI1Lk5c=
+		JQSbCLVcE5atiQs7srCGR+g71M8=
 		</data>
 		<key>EnrollmentFlowViewController.nib</key>
 		<data>
-		S/uVLFbpiIDKBm0FgjdBacDYXXk=
+		RbOxjB04M/vAFMW+HG6TUzHsZ2U=
 		</data>
 		<key>EnrollmentHomepageSliderView.nib</key>
 		<data>
-		8SZr5+pe9jqi7HM69FBjxm9c5L4=
+		dBiez1sZ+rbMzgTeRN9jXbA90g0=
 		</data>
 		<key>EnrollmentHomepageViewController.nib</key>
 		<data>
-		8hhe3IJO3C+3cArm32VNAavCeOU=
+		ppGcymXVHTWRAN6+hJlmlcixFMA=
 		</data>
 		<key>EnrollmentHowItWorksPageView.nib</key>
 		<data>
-		Vg9tKJzQPofZ5WfpzKn7sCOz5sI=
+		gnzQscA2UgHAjHn3+SYH1J8u60A=
 		</data>
 		<key>EnrollmentPersonalInformationView.nib</key>
 		<data>
-		XMDC4peM26dXAD6qpyg28gyvqvo=
+		xxOd9iJY23iAOmo+cUggYQK2EnI=
 		</data>
 		<key>EnrollmentRequirementsPageView.nib</key>
 		<data>
-		vxdbnv5qxgKD3LFi1LAsUr7o1aU=
+		aI+Zt9VUs00pQB98/2mi02Yjl+E=
 		</data>
 		<key>EnrollmentStepView.nib</key>
 		<data>
-		1YxxD1y5Jg03tBgsEaA1PbIOw0w=
+		9jBruJZCvU1lBIVjPES6r6SPa7g=
 		</data>
 		<key>EnrollmentWelcomePageView.nib</key>
 		<data>
-		8f4DYKyXd2sQh/W3sQVreaqj9Kc=
+		tWKVSJugwzGyEU9f+TMH64nazB8=
 		</data>
 		<key>Environments.plist</key>
 		<data>
@@ -266,179 +266,179 @@
 		</data>
 		<key>EnvironmentsViewController.nib</key>
 		<data>
-		Fw+2YJiS6e+jkdrAco1om/o+xE8=
+		YIVAu3txluCv/2UNWSUgpI4wRps=
 		</data>
 		<key>ExerciseRingMonthlySummaryView.nib</key>
 		<data>
-		ZmzXqdYKjo8fQtyWIqKa8yPmhCw=
+		f97dc0m3PoiPZVDRGPiblx4S6rY=
 		</data>
 		<key>FAQViewController.nib</key>
 		<data>
-		XWbifHQvZVfX3Rh1h13BF4Z5JuY=
+		FqLSfi2EuFFkKHWPWDXWmFl+j3k=
 		</data>
 		<key>FeedbackBannerViewCell.nib</key>
 		<data>
-		fSYaIfxpMZ4h5u+8dkBB/4mafQg=
+		SI5WpCMj9UGY/Zc4Uln+4+RFnps=
 		</data>
 		<key>FeedbackFlowView.nib</key>
 		<data>
-		oOEBGkTfaijwXjniJcHPQciZCzo=
+		13vy+JJJXgUEkK+JP6bVzIEHc4g=
 		</data>
 		<key>FeedbackRateView.nib</key>
 		<data>
-		OJo2mThs8LxbmT37HZnTjeJgy5Q=
+		Ebu5fH853ioUjMsnxuveXVYVdKo=
 		</data>
 		<key>FeedbackToolViewController.nib</key>
 		<data>
-		TVV4PJ1GBniuuMEiZIQIILXM+4k=
+		iLBiTi690+Hr+rvKkAq3H4a++ws=
 		</data>
 		<key>FooterTargetsPerDayMonthlySummaryCell.nib</key>
 		<data>
-		5WdahUEPZnV3XZuX/hd3Gb2t8rI=
+		oI7IqP75vC+kXJFwHIPOoQ6f9CY=
 		</data>
 		<key>ForgotPasswordEmailView.nib</key>
 		<data>
-		/h334TYYHzOk6p1nUcG+s9rsYO0=
+		SkvL6yVKsN2jIx+eDh7IXv2Y1kA=
 		</data>
 		<key>ForgotPasswordViewController.nib</key>
 		<data>
-		OyUdN3Vc3a17X7M/0voWRWnwIJc=
+		OdkekKF0XhVUMsyYGWsP1f1mZ74=
 		</data>
 		<key>GoogleService-Info-Debug.plist</key>
 		<data>
-		2HDJ1pCHIu/zPVgaO2mdOtGS9uM=
+		rYltQX8FM/5aBlGmO9gJEt9qZQo=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
-		TktgMwY+ocpJ8tpxSnKqFlGsx20=
+		75eXVnRq9ZtGfuGZYzfuNGcJKXw=
 		</data>
 		<key>GradientView.nib</key>
 		<data>
-		++fBIG3yRv82pMd6+YRzo0ZaCL0=
+		LrpjU0Ol3x8+6fORZtPmQLq3MU4=
 		</data>
 		<key>HeaderCompletedWorkoutsMonthlySummaryCell.nib</key>
 		<data>
-		8c8vXhZRPkj5y91zeGUlOEN2SKQ=
+		qGOCtolBAC0iH5KZtBJHrA5T7ww=
 		</data>
 		<key>HeaderPreviousMonthMonthlySummaryCell.nib</key>
 		<data>
-		CdXKJ3UIgi5nSKcobPghwnCELzw=
+		kJlfJ2uJwYn/FofU68aKjgJLoks=
 		</data>
 		<key>HeaderTargetsPerDayMonthlySummaryCell.nib</key>
 		<data>
-		a5bjHBnPS2abWSKTe/e5publddU=
+		WrBelDcUaIGPU+D7n5b4mONzm6A=
 		</data>
 		<key>Headers/BeHealthy-Swift.h</key>
 		<data>
-		MgNStoi6P3LLBoDaXnTovj+c01A=
+		YAaR1H2OohmmIsyUAZYoP2l2100=
 		</data>
 		<key>HeadlineView.nib</key>
 		<data>
-		1NWH8iDKXeNSefhJw2wxG/P1rt8=
+		bN0k1NHvEF0RkN5iH9zV+ESpq4Y=
 		</data>
 		<key>HealthInformationViewCell.nib</key>
 		<data>
-		RUBvJg18Nc3fCo5/3YZeYMRPlFk=
+		baAeEggUsu8qurhmYxBI+0LFqLg=
 		</data>
 		<key>HealthInformationViewController.nib</key>
 		<data>
-		4XDQ9X2csbtUH+y7lob50Icg+Gg=
+		ATUIVDt5md/32tqwB1fUa8ktWUE=
 		</data>
 		<key>HealthKitPermissionViewController.nib</key>
 		<data>
-		xPhyjm4uj9h0aCczKxvfEs4mOF4=
+		gKhKgE8ModngjOnZzRC829DmQc4=
 		</data>
 		<key>HealthKitValidationView.nib</key>
 		<data>
-		yS1onCblqpCmndrOVM3ahPPy/rg=
+		G7oU93JuQeVQkiaic2/xXgJOPOQ=
 		</data>
 		<key>HistoryViewCell.nib</key>
 		<data>
-		1NI227Jk+wPkARjNhqCgS2sXQRw=
+		HzNHgj+SrBlfpLiMkHeC2OA/kSs=
 		</data>
 		<key>HitTargetsPerDayMonthlySummaryCell.nib</key>
 		<data>
-		9H1F10SEbwRvw+1oR04xgLYSQD0=
+		ssotyUaXMBgmS/p+Q/jYazd2/TE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KnW9l0FryJ/gfxHbJuLYJ94Qww4=
+		1Y3Ce50Y+4le0k0CJXT4+e8tPaE=
 		</data>
 		<key>IntenseActivityView.nib</key>
 		<data>
-		UE2tX1hUeCvGJMiGqeefqcxb5X4=
+		dTNUeX7f7fd/+pRHkRMdu4NjGgU=
 		</data>
 		<key>LDRefundProgressViewCell.nib</key>
 		<data>
-		k6ubeT2z4aBpV/JgO63swPWJDU8=
+		m/rSwTL0DTFZp8PQSaCvrFFD1tY=
 		</data>
 		<key>LandingSlideViewCell.nib</key>
 		<data>
-		NU40z2AnH3MNmekDxY9o7Ndq2UY=
+		p5TG+pkUERmOk4vjPvlXhrXt+MI=
 		</data>
 		<key>LandingSliderView.nib</key>
 		<data>
-		2aOl88VN6ZVO7eyjyo8PgVCqvvw=
+		8F3vF80nzof3oXcFzL6tEE1bVWE=
 		</data>
 		<key>LandingViewController.nib</key>
 		<data>
-		yfEFHSBYx7qyED/JcG0fBVBmYTk=
+		GjSiZiLH6kiz3cgS/RXKRd0u1ek=
 		</data>
 		<key>LeaveCommentView.nib</key>
 		<data>
-		1+t1Rw+YKwyAtTq+T7FYx27ckZI=
+		jCBG3WTswTiolM/UElZhDNm/fbA=
 		</data>
 		<key>LoginViewController.nib</key>
 		<data>
-		W50nOu8GwwlqSyQqrkhH4ISNhwI=
+		s/Kr5D1gHnT6KhJbY0/uvmQbW5I=
 		</data>
 		<key>LogoViewCell.nib</key>
 		<data>
-		F6bsbl3Kgt2VLfDGwv9MWFI5KSM=
+		0hO35vAq6MLuvp6FnwJRUSh7dZw=
 		</data>
 		<key>ModalNotificationViewController.nib</key>
 		<data>
-		EeJgknxg11bWObO/rIOylZOcQcQ=
+		ZzkyXTuFls1+adI1VlI3rlyPiNc=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		f6Qi/3Smaxe1jBz1lT/ZP6mBrSo=
+		Bw5Q3LZHjbTq93+mJHijUuPa4wk=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+hlw0r/mloEXzrdBuSWyhBjyVzE=
+		UwGRhwbbmLI9l5uxWkYjY4VCfAg=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		o8HN+lOGlKf28c3anOMoWyZi7Ls=
+		IdzdJcfqNp07NepZFx0Hi1GvVxo=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+hlw0r/mloEXzrdBuSWyhBjyVzE=
+		UwGRhwbbmLI9l5uxWkYjY4VCfAg=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GwSKN67iGyQ6yKmYQRhFEQF2Z+M=
+		o06wc8idM9Mh6bNSBXUE5+zF81s=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		f6Qi/3Smaxe1jBz1lT/ZP6mBrSo=
+		Bw5Q3LZHjbTq93+mJHijUuPa4wk=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UKqtyw9lpkNFiwat4ZkSAZbVKDE=
+		PW1bb1Koox1VuMLhNF7ujC2eplA=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/G57vpFg49RSpDIL8xpi9UHi88Y=
+		PssYuxn8rXXNSrN40OOhs0KDrsw=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UKqtyw9lpkNFiwat4ZkSAZbVKDE=
+		PW1bb1Koox1VuMLhNF7ujC2eplA=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sND9pRaes4PA+zOxPwyIebCdYRs=
+		pBEa/203gKpr3xdr/pcbuqSdErM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -446,55 +446,55 @@
 		</data>
 		<key>MonthMonthlySummaryCell.nib</key>
 		<data>
-		Q2GBAlxuEvJdl0z2fyjVRIcZQzo=
+		JcOmePAcZo9Y3BZoVrfEnzq+Z34=
 		</data>
 		<key>MonthStarsEarnedView.nib</key>
 		<data>
-		IMw2AcKyUii+US/bN4QbIGrcXAQ=
+		g0pqOp3yhkeQkyfZbU618aa2FYc=
 		</data>
 		<key>MonthTargetCardView.nib</key>
 		<data>
-		mMvWZK4T1vSNyqDpVBh5BbV5TbM=
+		3MARgDGOeGmYrZjcvTHf+6jrnrs=
 		</data>
 		<key>MonthlyRefundStackView.nib</key>
 		<data>
-		hq04DwQBT1HIf6NqA41CrwAN/Tg=
+		dYRV6QgMcCa1oF3+RpZAyU7ROb0=
 		</data>
 		<key>MonthlySummaryCardView.nib</key>
 		<data>
-		EEeOahcQlxte0dwn4SXfMa7qj7I=
+		q8FICBm8l5vlxK10Q0QBD2EzW+g=
 		</data>
 		<key>MonthlySummaryStartView.nib</key>
 		<data>
-		rJeM/2DC3I2hpRv6WBG3LvnoCyk=
+		pUzUoTUvSXf8fgmE64kglUSgSso=
 		</data>
 		<key>MonthlySummaryViewController.nib</key>
 		<data>
-		Rbb/uXncbnkVM7s84j/MqyADr/Q=
+		111DHKcwveh6EDxwFSI61WlctOQ=
 		</data>
 		<key>MoreInfoTableViewCell.nib</key>
 		<data>
-		q83CsruSf529w9YokC/jF5bll2E=
+		ZDhkxl36YNKgN5wyVTFgpBEniYc=
 		</data>
 		<key>MoveGoalActivityCellView.nib</key>
 		<data>
-		KvQ9AF6YjHrzMvCtg/V8MKKZ45Y=
+		X8nXphH0uur/ilZk0zaRAHAt8xQ=
 		</data>
 		<key>MoveGoalUpdatesView.nib</key>
 		<data>
-		apxqqIB8iJsWcnk4UI0syDWqSo4=
+		CWQ5y1e4oc+c76ry1KXTRgC9NGU=
 		</data>
 		<key>NotificationSettingsViewCell.nib</key>
 		<data>
-		TPXr/MyQlKS6thzinDUzf4do8qE=
+		TzQVSXdx2yzjQXrJ67Lhv0ynyHI=
 		</data>
 		<key>NotificationSettingsViewController.nib</key>
 		<data>
-		GjoSIsIayQQn/58dC70AlssWCRU=
+		YnAa+3l39ZGWoDdIsnappB4ESLU=
 		</data>
 		<key>NotificationsTypeSettingsViewCell.nib</key>
 		<data>
-		ppCY8zzHxxlPlnNUuEfrvHyTOlE=
+		QFvFpAjtyaAnwsJujq3ToY3gGCs=
 		</data>
 		<key>NotoSansArabic-Black.ttf</key>
 		<data>
@@ -538,67 +538,67 @@
 		</data>
 		<key>PasswordHintView.nib</key>
 		<data>
-		4nkzLhI/tDXWpE7xlNuSfW+Vhzo=
+		QnfsHPIvUYtw9KX59CJ9O4Zsoow=
 		</data>
 		<key>PasswordRequirementsView.nib</key>
 		<data>
-		vatfgmbKQ4E1NDLV+nCwit6ZQ2M=
+		B1Sqzbwihh/rrVrMXklEIxP+RuM=
 		</data>
 		<key>PasswordSecurityViewController.nib</key>
 		<data>
-		6PZNG7tyAftYiI3AQdRZp8dYGBA=
+		mMd/sEyK+pRXIgh0yJT+Bmf4taM=
 		</data>
 		<key>PendingRewardDetailsCardView.nib</key>
 		<data>
-		1QIJEo8UoDfN1nX7B/Q3KxLk8jY=
+		CynVp61jJAHhU/up9TH7e9/gOiM=
 		</data>
 		<key>PerformanceHighlightsView.nib</key>
 		<data>
-		CNwyT6Gc3pREo7TemRaHuSXI50M=
+		u7j6vhvoE5Sp5xU/HMs3MHHTmLM=
 		</data>
 		<key>PerformanceTableViewCell.nib</key>
 		<data>
-		J45/bg8E0Wrrt0ye4lQdG0Kypa8=
+		TGA54pYDLVVVMdNnzyLHV3JXk/c=
 		</data>
 		<key>PreferencesViewCell.nib</key>
 		<data>
-		jL1AF/FfDWiippmTTsIaigEfk9c=
+		GftF5Ymm1mvGRffz99unTGNIT/g=
 		</data>
 		<key>PreferencesViewController.nib</key>
 		<data>
-		Z8hxzTEAKsOCAHcoIB5St7SF7kk=
+		3fpqUPh852dp6HWLtQYOWkb6Nlc=
 		</data>
 		<key>PreviousMonthMonthlySummaryView.nib</key>
 		<data>
-		lxIdZKcnXlHn8JmwjXXJ0luIesQ=
+		YoDyIQQYzdhSylj5nqz+tasn8aI=
 		</data>
 		<key>ProgramDetailTableViewCell.nib</key>
 		<data>
-		IbvO8v4f4DRKmVDks9UMhXkOvRg=
+		cDQqXh4FBSn3A7NCK4FRzwqax2w=
 		</data>
 		<key>ProgramInformationViewController.nib</key>
 		<data>
-		TfAAKPzoBWmwEfSQpfiECVEgTgI=
+		1a5E3rAhIz+B6eIV85ZzQ2rCFxM=
 		</data>
 		<key>ProgressActivityCardView.nib</key>
 		<data>
-		NZZwFATo/m5CLaCiFzCwv4+ysC4=
+		C43KhqVtqSufoZemTytjqTTcNEM=
 		</data>
 		<key>ProgressDetailViewController.nib</key>
 		<data>
-		r94AleQfzJOactz+6gwqSh2Qdnk=
+		eNGrQb9S1p5Q4jDtfvwDDZh+CG8=
 		</data>
 		<key>ProgressScreenViewController.nib</key>
 		<data>
-		Udk36hhNxN2EOLTshpejA0X7CMU=
+		1oQsODo/6VriCS9jkoQ5nHvFOo8=
 		</data>
 		<key>ProgressView.nib</key>
 		<data>
-		Ry+/GY1qG16LF2T3GVgxGuRgdXY=
+		6jBkPeQi6YjULAdkGhgeJ3eD7bc=
 		</data>
 		<key>ProviderSelectorViewController.nib</key>
 		<data>
-		qic6iPQC9T2NpEzBAXSC5lTvZWg=
+		PBVgf0GWbvShdTsCv3bJCVSeKtY=
 		</data>
 		<key>ProximaNova-Bold.ttf</key>
 		<data>
@@ -630,63 +630,63 @@
 		</data>
 		<key>QuestionViewCell.nib</key>
 		<data>
-		2EZ97xLe6zYz7NreG0oJUdhIjWg=
+		hfYqNztpmGBXLLN4JG/D1GRzvwI=
 		</data>
 		<key>RecentAchievementViewCell.nib</key>
 		<data>
-		J0sY/ix2tI431Mc9ZvtuWEaDEvY=
+		QjSFxLQyRSoGqwl9qTg0zRIL0hk=
 		</data>
 		<key>RefundHistoryViewController.nib</key>
 		<data>
-		RY6FNSPYNLzjU3aL7jjnQJMLacI=
+		ru6uCyd94jHjcHMr7jkBD0vXulk=
 		</data>
 		<key>RefundMonthView.nib</key>
 		<data>
-		sldxS1IkZK0r9XZhkKkWkICpyX4=
+		PFGBbYBdWYET2JAPJPFuDDj9FVY=
 		</data>
 		<key>RefundMonthlyViewCell.nib</key>
 		<data>
-		9vYm7tntCNFLxfwxlKEBXIzzMFM=
+		jcdBMyierzU36egWCAP+gos+bD0=
 		</data>
 		<key>RefundProgressCardView.nib</key>
 		<data>
-		gFCxA1YM3UQ2N1VHNm3T8LN6XN4=
+		zGFgjZTwVKjRLCVE7fGQZNnJmlY=
 		</data>
 		<key>RefundSuccessRateViewCell.nib</key>
 		<data>
-		3viLmo91vH14KniXWMzvUP2jWCk=
+		XrhMcFohUWO4HqIfOdCpwR41sWs=
 		</data>
 		<key>ReminderCellView.nib</key>
 		<data>
-		sBRhjCmapBw4Zf/u/BGhL1ezT6Q=
+		AaM7ZbV46w1Bj1tOhSq21liON28=
 		</data>
 		<key>RewardExplanationTableViewCell.nib</key>
 		<data>
-		O5smtKBgnX6Gwo31ahmFXGnYXHc=
+		fTnJqPxZrN5vYJETQjZxjO4o/Dk=
 		</data>
 		<key>RewardExplanationViewController.nib</key>
 		<data>
-		orXXnMuebgC0qS5np9tVhGXVxwE=
+		LeeCK7yKOZlr04LwjxIHiX9/x4k=
 		</data>
 		<key>RewardHeaderViewCell.nib</key>
 		<data>
-		7DbPJJNZKxoZnzDXgw1RcCl2WKE=
+		2JyIy90DRsfKWygWPmtFPMdNfHk=
 		</data>
 		<key>RewardHistoryView.nib</key>
 		<data>
-		CoCaOSLQ77OPG/SlnyUqin7eRuw=
+		fmEyHVx3y7kxjs/Q1Zg+y4H4VbQ=
 		</data>
 		<key>RewardHistoryViewCell.nib</key>
 		<data>
-		GY90KE7jA3cSlpc9Og37zGMNcMQ=
+		arZjn+HC+G0TS2sfAmaBQ3/TRkA=
 		</data>
 		<key>RewardScreenViewController.nib</key>
 		<data>
-		/AeAbTqFFYPcPYbgdhgVikgWDF0=
+		0RqmSN9Z4YXBAFiwDjCri5Gwqa4=
 		</data>
 		<key>RingChartView.nib</key>
 		<data>
-		kLd3qc4xsRx++87lqKi9bRGTM1I=
+		+X15GFbXMllOrImauwlfCHcpLsc=
 		</data>
 		<key>Roboto-Black.ttf</key>
 		<data>
@@ -710,167 +710,167 @@
 		</data>
 		<key>SecretSettingsCommunityIDCell.nib</key>
 		<data>
-		IlyN5yArvA87qt84nr0Hk+x3Y4k=
+		LJCynqTAqk6L4zan+z2OTuwxGHo=
 		</data>
 		<key>SecretSettingsEnvironmentCell.nib</key>
 		<data>
-		fRwkjylNLrhCCChmzlrFSmOgIUw=
+		HSr4WBMT1oOjOTVn83MJzD4Rlwg=
 		</data>
 		<key>SecretSettingsSSLPinningCell.nib</key>
 		<data>
-		y3QgRrB9dt+UFJD8Ywl3T6D+PRk=
+		FQh8cbW/MwzFQ6GQUgsO5I7ywFA=
 		</data>
 		<key>SecretSettingsViewController.nib</key>
 		<data>
-		6mo3lF6g5TnT6BhZdrHMZAV0ZT0=
+		LIc8LvXm5mBdIMjAeHCSNhp4+as=
 		</data>
 		<key>SelectActivityLevelView.nib</key>
 		<data>
-		T2xVw7grZoyLIeTdJM08JsFXuog=
+		GSwoOafGYJLIx1RmseZ+Km77WT4=
 		</data>
 		<key>SessionSettingsViewCell.nib</key>
 		<data>
-		3yUc8SD1/x7pFOdCPJlpcPrhMjo=
+		TTTvN3KeAQ1fr2kseZcKP/iSP+g=
 		</data>
 		<key>SignUpViewController.nib</key>
 		<data>
-		7WemuPWYNQBymEdUA2yQDmMZMCg=
+		RFLc3T4DvQ11/TLqk06YKny9P0M=
 		</data>
 		<key>StarDetailViewCell.nib</key>
 		<data>
-		pwJ2PLu3upciMsPU07qApR3a2W8=
+		df5+6JdtSyvV39uCzOaDyxkqOF8=
 		</data>
 		<key>StarView.nib</key>
 		<data>
-		fuZWnE2c2Y/E2eaWiGQOChpzY/k=
+		gD09HaoYwzsrXpGD1TIObRuZGFc=
 		</data>
 		<key>StarsForThisMonthMonthlySummaryView.nib</key>
 		<data>
-		t3WK7hHumhDw+4QqlPUBA5opo/c=
+		tnp1jVc0vAbkzhBw0qvu8M93TAs=
 		</data>
 		<key>StarsHighlightsView.nib</key>
 		<data>
-		9toXuIC+wxbzkHBi+hhXDbSTA4s=
+		18965viNfvQW/hTXICXUZrrukM4=
 		</data>
 		<key>SummaryCardView.nib</key>
 		<data>
-		3WkImXK2//tLkO0wdI2rCWxkq5o=
+		zgc4jq/D6wLalrFX20e1CpQ/Dz0=
 		</data>
 		<key>SummaryTableViewCell.nib</key>
 		<data>
-		JquFxPgttOogt+QErpk0Xz0L/ac=
+		CnQFxk/m0Ae0+rOXf8od+69C4CM=
 		</data>
 		<key>TagReviewView.nib</key>
 		<data>
-		5UBgsDto7OYnf1psBwHZX92T1wI=
+		2A9CkjUJzQRRoin97KjZCj/zPHA=
 		</data>
 		<key>TargetTableViewCell.nib</key>
 		<data>
-		nuZQRMT3rZsN4fopCkqKw/3LgQE=
+		gE8Kg7jwV7Ko6je39p+rmtuZJU4=
 		</data>
 		<key>TargetsPerDayMonthlySummaryView.nib</key>
 		<data>
-		U7kNnp0Wr+v1G6mABo1vBvwIvMA=
+		lL2+AJOw6VHczFLPE3kaOM7Ti7c=
 		</data>
 		<key>ThisMonthDailyAverageView.nib</key>
 		<data>
-		a6tU1F+cwvnLjTvZd7fZhIcSm6g=
+		KM7+yocHJ9O6x2nVLTgktRma8+g=
 		</data>
 		<key>ThisMonthStarsEarnedView.nib</key>
 		<data>
-		X4iL/NqP0GMvXBICBtx5liuwTNs=
+		28ZeA7OK33gSOL5mvfm9lSmI3PI=
 		</data>
 		<key>ThisMonthTableViewCell.nib</key>
 		<data>
-		6+heiZoc9kpLBvk1GCgyAQ9voDA=
+		MchefqPfdvuK/OtZHPQyRCG6fB4=
 		</data>
 		<key>TopWorkoutCardView.nib</key>
 		<data>
-		2qjDzucrYLN79uNMIp8HrXqqJyw=
+		uJRp+0CZtIXZJW5iJqRgD9HPWXo=
 		</data>
 		<key>TotalRefundView.nib</key>
 		<data>
-		+LYQhyTZpWZUX5J7rkqOc9XfyoI=
+		8h3MEk1i/Vzo2T/EVAUkFmzg7GA=
 		</data>
 		<key>TutorialPageViewController.nib</key>
 		<data>
-		Yqdohp2By6ODaTU+vD3K8cYS6fY=
+		9EriB1c9cRg0CD/a/9GfxJSM30o=
 		</data>
 		<key>TutorialPagesViewController.nib</key>
 		<data>
-		WauOBeglA4PPSENEIPkD0ePAi5c=
+		AVFW5LKCX0CcNs1A6Jq97VK1biA=
 		</data>
 		<key>TutorialStartViewController.nib</key>
 		<data>
-		gLDXsFV+tb3W1bA/8xL/rOFgvYI=
+		MULmQkwq9tRWUhu7bWlX3Iu8BFc=
 		</data>
 		<key>UserGeneralInfoView.nib</key>
 		<data>
-		TWHAaTwmh6jKLyAk6BTfL97oRNg=
+		5/NO0lOvzCyp+lZAInmbXzCF3kA=
 		</data>
 		<key>UserInformationTableViewCell.nib</key>
 		<data>
-		A32EGj17mc4U8MiQ8IhaNyzK25k=
+		f9DaQh21mydI0UBYfluLghaUtC4=
 		</data>
 		<key>WaitingWatchViewController.nib</key>
 		<data>
-		7agaN14iBwE3s1SACTZCNrxEOJ0=
+		EPJytm0U6I/IbABK8VcE9QR7oKk=
 		</data>
 		<key>WarmUpInformationViewController.nib</key>
 		<data>
-		gV48/0gZGTtSIZQNQB+r5JYHj4U=
+		5xFx+DcTBO7EVABUsZDDcSW9BOE=
 		</data>
 		<key>WarmUpPeriodCardView.nib</key>
 		<data>
-		a2IQaJpzN3dmifnf7IadekoWYjw=
+		jsbfbXaEb99RtHJMoFvozii9yO4=
 		</data>
 		<key>WarmUpPeriodViewCell.nib</key>
 		<data>
-		bhRIHkhTBujiQ+uhTla1vO7G9fM=
+		bWF1d6YCY8foXfAcbsYsfYgKGxM=
 		</data>
 		<key>WeekActivitySummaryView.nib</key>
 		<data>
-		2TNsZMKh6aezm+6ED7dBDOa4BCM=
+		Gun0s6Nm/UOmdsNCF6EvlN2MhVU=
 		</data>
 		<key>WeekIntensityCardView.nib</key>
 		<data>
-		WmQWuPfXdd/2jPlWEsLU+AYMahg=
+		ydG9Tb7nhjXibjirr07/sIKVhe8=
 		</data>
 		<key>WeeklyActivityCardView.nib</key>
 		<data>
-		xoyq0R1yVpchKUaOfiZUpMpFbqE=
+		p9P7WKzKuP0oKBhd7kpCxyvPb/k=
 		</data>
 		<key>WeeklyCalendarView.nib</key>
 		<data>
-		OBTh7V1F55H9Y5yVqTu3zcSqaFA=
+		w+y/G1b/X0Fa/tK7ITFbWD+CLq8=
 		</data>
 		<key>WeeklyHighlightsStartView.nib</key>
 		<data>
-		sz1ymnOrdUG+RdWBN/s2KVGbiNU=
+		nTyfljmfJw0t64D0A7/+PbL2tWE=
 		</data>
 		<key>WeeklyHighlightsViewController.nib</key>
 		<data>
-		snXB26w3WIOzkkOeItK59wQyDfc=
+		myNmE306wcAh+3cnrVxw4LaTgrk=
 		</data>
 		<key>WeeklyPendingRewardView.nib</key>
 		<data>
-		V2iERJTymvMqGVtiD1YN0ZuHryc=
+		Hzrv3IFgzbTmE71asiFPU8fFvyM=
 		</data>
 		<key>WeeklyWorkoutsCalendarView.nib</key>
 		<data>
-		g7amZxU0dxjkVAStZzJF4QiYjxo=
+		9j+iFCUkfEfxLelICzLIediWfvY=
 		</data>
 		<key>WeeklyWorkoutsView.nib</key>
 		<data>
-		b1l2Xq2BaLPxIarhFAyzg9A33eI=
+		6/4xj0ED9bRffxjIYAMeCrXQbZw=
 		</data>
 		<key>WorkoutCompletedWorkoutsMonthlySummaryCell.nib</key>
 		<data>
-		C2Lxjxqj/31H3TKiK6IHGXW1xJo=
+		U/NOQKRbXKcX0BeAlT/mFvT6VaI=
 		</data>
 		<key>YesterdayPerformanceCardView.nib</key>
 		<data>
-		w2Vfy2W5gawZRpDq2t6meY9IGrA=
+		j8QjdEVcG+IiuNlyjb8cTTgZN7k=
 		</data>
 		<key>ar.lproj/Localizable.strings</key>
 		<dict>
@@ -1027,91 +1027,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TO3D0Z0aKyI8JcNCTXvHNamA3THpnL/ig1CZs9X/JCk=
+			ZUxE9DQ4D7UB/QQRljOa/Q0clNe8SMlHtGGR1Z8PXlY=
 			</data>
 		</dict>
 		<key>AchievementCollectionFooterView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KfEpnMcylvvBoK5enQvzJCVMkqCSdu/ugNDS3ug256k=
+			HvKYTZAVyW6S3b/baRf1dRgZfJUJpGtWEFUy1ZslMas=
 			</data>
 		</dict>
 		<key>AchievementCollectionHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4azQ5A2xPs2p7itQwEIhrvxJWANh9xAgV0ru50gGCio=
+			bf6QcbYUVo7d22pqCj8bBZv7KGbMQ26TjNAyWTaUpsQ=
 			</data>
 		</dict>
 		<key>AchievementDetailViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pJ1raKEuDYrwtjsDG81e665vhOWde2gTk1MmpfQq13w=
+			ouWu0VNMDbWEpHPvRQ36byi/pJZlDrvBF7zd0mVTBHE=
 			</data>
 		</dict>
 		<key>AchievementViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4EDtBwVvjdBAFPGN2ZBeNyC+GwiSc6m5V61jk+lUBTI=
+			LGV5LvpE8OX8Y+40BwFK9tS1zVNSdnK8wBnydQx68j0=
 			</data>
 		</dict>
 		<key>AchievementsCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cnv6pMcpyJmUdSUBTANMXcHzDQqGC0GR8nJ9eq0k3vU=
+			pwFlmXbbtj+9MQB9AFKCs0xw8TJagggjjH5TBfIbRQA=
 			</data>
 		</dict>
 		<key>AchievementsCarouselViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			01JWB9115K6x/I+0ElmL3ZLymlnBffFtZgFtZZ5YYlU=
+			puKATxf+ZnApx6zCzSufCCazFILY+jHgqA0nE8MKr64=
 			</data>
 		</dict>
 		<key>AchievementsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BxXR3vDNWGBt8NZ1mjfjyMhZ03OR5wSBOkrvd/kmMpA=
+			Q+IiWuAQvJ0EnhLK/srVkP0Iz9WmsWRNwWhBwetb8wM=
 			</data>
 		</dict>
 		<key>ActivationCodeView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ou4ixbfKAAooHxakO0cTwaFFeZu9wEFi9+CgGjUfxeE=
+			BOtH3BOr0TTodU3dD7f7T1DQrcH0j2uLX/csJot7rTA=
 			</data>
 		</dict>
 		<key>ActivityLevelTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9gzNcYjOBGCw+D6HrJ/BHd1nUA1Cz1V4kms+Z/9gtk0=
+			Js4yUafT/9dkWqV5/oMLCpPr13v9Iqi1kFEEdFqZzZ0=
 			</data>
 		</dict>
 		<key>ActivitySummaryDetailViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DOJHaaAYVplhn1sBPmrLVdQPbAVStoYky2yEc4qgYuk=
+			ce7cHLWwY4ztNcLJtvxDUQtJboSQL4vkinNqVRFqcXc=
 			</data>
 		</dict>
 		<key>ActivitySummaryHeaderViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wlm4x9/i9xAymm0JQSgQs9b3rVvMzkSp0F5YlohjMjg=
+			ohXgX7yGP7N0XvHFAaA/xtR7ydQk3Qz4uWSdi3CgEv4=
 			</data>
 		</dict>
 		<key>AlternativeTagReviewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sYi6w0DZ3vx7bFvDQ9XQd/6sK7UF/rbH6zNJhtJkhZU=
+			fLJhtN9OmQmWzM14KX9uD615mb7HSxy/9VLjgsrO9Sc=
 			</data>
 		</dict>
 		<key>AppConstants.plist</key>
@@ -1125,112 +1125,112 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u8nK7jRka8f2URiVQWfteVwMoLICmFGthiKRZAWtAJo=
+			rDbzNBbEK5GfVCfYiU1bHTHg6PCta7P/MnAgXibA200=
 			</data>
 		</dict>
 		<key>AppleHealthApp.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9AbtvWVbP5z1YSsqbJAooFnGpfl+aiZvoGraliO19vs=
+			J70J1BdByw+bdas9YcX5rXDgEZiCnE4Ui+h6/eagHXI=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HDOtWW1GaRucQvr+fAruLUP6hrsYFAYXrv/hIlgv9BA=
+			zOlC47iGAuH0fp//DeQ6PEUrqDR0yIsnTUykL12MsXU=
 			</data>
 		</dict>
 		<key>AverageTargetView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tyqZSSLZxPc2ICx0NAWEWhbJMLxZOOWrY7mrjK+uI8E=
+			PvUD+KAHKuVEUVF7Yx4CkicNagvBDQXnogErzHpjotU=
 			</data>
 		</dict>
 		<key>BarChartView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h5qEI6N9d8cXAbXSM6TNyYji1yhwdmeP02A6ql+th78=
+			BZJN/CkU+tQgEiTwaUjAwQFpdpS5H6KP9K4D/ghsCdo=
 			</data>
 		</dict>
 		<key>BiometricsConfirmationViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/StejtkcUyLKXqsk+0CT4AZ64YeujVOJQEdZbe5RvsE=
+			0MWWq+yHmEWjMas0n6c7umrzUIye1FUCelV97ldrTFk=
 			</data>
 		</dict>
 		<key>BiometricsPreferencesSwitchCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wJemZZKmJj9JX0INOP1KS8L/JMXMnESD9XxYNdmPDBA=
+			MszE4DTS+WUKQ0bubDbJey8202T9PSlZ+X0QpfN99Jk=
 			</data>
 		</dict>
 		<key>BiometricsPreferencesViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ANP2QzDTq1UPsAQqBSUggQ6M93MkQ9zgv7r5umBMHys=
+			oPBHsZkJc8qc7sVZJGI/gwI7XkcqxnqvUeySdoYhK68=
 			</data>
 		</dict>
 		<key>CalendarActivityDetailViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KQYonktyCIWqCc+xPlHAp/oOEYWZaFE9zZQIeTH9jXI=
+			Hanh+7k4cAa5KemnO17oL/KDD+odfBSc0RE23pVsGgM=
 			</data>
 		</dict>
 		<key>CalendarActivityMonthViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hqP3087RY/uL6+3tNMlR2S+5dTzECsiN//uxRtSayMg=
+			MT2u5/T0dxO0q+vzOCv5haFUjQpYCY6hkUcmWALtzhI=
 			</data>
 		</dict>
 		<key>CalendarActivityViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CC7mDUs1YfSYHEeVKoqsSJ+yM54T623bEZddmDHw2r4=
+			37xZjJg8hSrB996Me/pwNTz+3Ggys4DxOjy6BJFYLDA=
 			</data>
 		</dict>
 		<key>CalendarCompletedWorkoutsMonthlySummaryCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UbrT2wryrZVyiNXNIssf9sQmWmyopz5F/MH/HxFKX18=
+			qc5PKkujl4IkyJFe4UBwy4TIAQ95SgVRfzEedme/n80=
 			</data>
 		</dict>
 		<key>CalendarDayActivityView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IWVCX5jT/UKL8HeamyuNF7snfO9+lT0lJQzfQyTfOIU=
+			O08O9WwA0sTqe594RSoKSPoufocb8uHQyqBofz3CWNY=
 			</data>
 		</dict>
 		<key>CalendarMonthActivityView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sCu2TyOEv4xbzMLOdVC8tqqYZyO/YS0gXusLCMqlI1I=
+			0HldmS2hoznvHxChm/sSspOHVfO1NHamgKKVRgA3aTI=
 			</data>
 		</dict>
 		<key>CalendarMonthView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LY/AkclQIfe8WDroeUqVHRy/UzaKvGfi/vP1w6ZA9fg=
+			wEpbwidFF3R+j53a2nGfi9ky9ywXw8nCCr5kwZ9CBMQ=
 			</data>
 		</dict>
 		<key>CarouselView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s/PmHmhA+ZpEbkMrp/n0zlkvqH0gD59FXli7tNtInEM=
+			FHeF/6YHpQTB1C0llRWjCledR4o6di9dZp4f+IrbOh8=
 			</data>
 		</dict>
 		<key>Certificates.plist</key>
@@ -1244,14 +1244,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+NB6Ok6VkHbpPTiFVeRwqWPVrz5sYmJVuz5bKN8Dik0=
+			/2Q+TCcEYxy02YHGrgAQYJ2iDfnIeTPQBiP2+HNl7fk=
 			</data>
 		</dict>
 		<key>CheckboxCustomView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z1tht+gTdKjDqtwj4E/lGVGtC+VP0MJZusXRsDWDU5c=
+			tQwjuHDfwbqrH7GlwFYItmMJfALnG6LGbyLA7QpMH6A=
 			</data>
 		</dict>
 		<key>ClientIDEnvironments.plist</key>
@@ -1265,126 +1265,126 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yZfHJlZjYKtmTtI1QU6/S9rHicRbcurhZAuWI4G0doE=
+			4DK9SaaiquTN9rwmMpXWhl3BLYrmDYgMmdSLrPO9uTA=
 			</data>
 		</dict>
 		<key>CongratulationsMonthlySummaryView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			53Qh7khLE+rGUt6sOrKKSJP1uBRbhP/lEOEqFN32Mn4=
+			neJISv2SzYxtHEKnPH+UqS2s8Lj51TsAHJpSoDIjBeI=
 			</data>
 		</dict>
 		<key>ConnectToAppleHealthView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ewBMbwxlfstqeWxs+D48v3gSWMBj39mP9R2a0W0m6Qc=
+			kxwpgmN84bN7w5IWJaBkgAAmbpkBveBxsG7oypS9rHY=
 			</data>
 		</dict>
 		<key>ContactSupportHeaderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NKm2Zlj7/+HPXZleki0zt2IaMw9WX2FVU9JPtnAaU5U=
+			Al8P1ky7OdE7VALxrJyCd4lpgEihVdizUv46BLPsQVY=
 			</data>
 		</dict>
 		<key>ContactSupportTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qB7HOQSW63ScUQPjxl9FP0zLpsH8viMYOv2a83zQRLw=
+			TFKGFowI8j+aLOSFB9+37xbCjmJs7h7IgMvsiibqyjY=
 			</data>
 		</dict>
 		<key>ContactSupportViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fOlD7p/FuPZHx8DhJivx8lZq6ngdPzaxuqDgt3YVP24=
+			SBn7mb0UqavbcYlSJfmZEyJAp3xMZDraQK/8eT/1r5o=
 			</data>
 		</dict>
 		<key>CreateAccountViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a9U8d7W3hfF/LmOWASSIMktTXcNtLOfNG2/UhJBGptY=
+			r10D34yuWLsKJ7bO5z0WN3M0CqDliJgvrDfffL6wBV0=
 			</data>
 		</dict>
 		<key>CreatePasswordView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D9ll5ODai0KauLM0RVogucqw9HhinFpMv2Ndw/O6C8k=
+			a860ukzmuPXCYPzueiCAGw76c01OFw3zu/TL+d8jKAA=
 			</data>
 		</dict>
 		<key>CustomPickerTextField.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cKUNhd18/ktRh79p9RWOVWkW6Z37Vmp9PWIS3+U5u54=
+			DPxTuIcBe/f3zTKK/4XjU8D0e4jA74zCWoZmryEgmW4=
 			</data>
 		</dict>
 		<key>CustomTextField.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b+m3C3AhfycABUIg4BF7OO0sO8y/5MwT/BbBEQZXj40=
+			wymKA6PVxZbYyBHMSmSGCRfLQH8MJFwBuLKRItGBkFc=
 			</data>
 		</dict>
 		<key>DayActivityViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MW0AsZu+WJb64VZgnxuC+mCUhyfZtkVdTBY1pNxmncw=
+			r2zX6fRIhJgH/Mc8QirMiM73s9rvBeCHeYxhUXXcSiw=
 			</data>
 		</dict>
 		<key>DayCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			20+wmIjR4yCFK0GwtTyY2xZba3pdn8SSW0QpK/3e5I4=
+			CCYPT1uvQJi56zRQa2O2qdG20+oDNZUp0vjA9cN7Tv0=
 			</data>
 		</dict>
 		<key>DaySummaryViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v6usWBtUpZG9NHJQb+7KbrfxJsvzpQT43q1u5hFkutQ=
+			0aoVsMg1nMgtG2j+VTmY2b/ol2it3pjSAvDG/CHJeU4=
 			</data>
 		</dict>
 		<key>DayWorkoutViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yG5d6+2ybXmsM0+tguy1x8ObUuE+8wzR/DlCk+6ls+4=
+			LPguJAemphnZBKL7BCQzOmdI7MJncVXUk5IZ7IGc9PA=
 			</data>
 		</dict>
 		<key>DeleteAccountCompletedViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z4NcxSmEUNiC6yheyygklFiaCISJ3O/AZJTMrhWhD/k=
+			2LdyF3YDTYE5mTTKDIdsdKYUYp7WvboldCTbf+4uYJQ=
 			</data>
 		</dict>
 		<key>DeleteAccountViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sIelQNWhP3UP/h557n/YjGfwl2Nk5AVGWim5sGirx3U=
+			COnakGOMmcM1SI6MKSAQsJHqnVDLc/XBGvqWftb2LoI=
 			</data>
 		</dict>
 		<key>EmailSubscriptionsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JNySLVshlGnYvOWPYWZbkBEvbeWPqtrBL7WKTcZEKFc=
+			PQ5U5J6tfBYiS+7OUq6TPA0Rqmodc7Iqg/CM9Wum4Og=
 			</data>
 		</dict>
 		<key>EndFeedbackView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Fru4T0MXLC3jYU5T8aatnqLmQtXiiOlboFd8VwzvgQ=
+			Jmt4E9nd97DDYcUrnAG6e1vo+OzaYkPThjIc1jXwTZw=
 			</data>
 		</dict>
 		<key>Endpoints.plist</key>
@@ -1398,77 +1398,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0axYRtG2agfX2FtV6jQSGuD6zNoaKmLT195TaY+eP0U=
+			1JhYB+t6DFhpLN/IG5Ho1YZRpAuItplocWCZyp3SAeI=
 			</data>
 		</dict>
 		<key>EnrollmentActivityLevelView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q6OZsABV9z5lbGVNvRUx017Ud/WKKwlFhDOHXSmTM9A=
+			J3LNgVSMZkwUzx3GG2Kz5Nz+Jq/xVxMCRvYfG8dKV74=
 			</data>
 		</dict>
 		<key>EnrollmentCompletedViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CDetxJzA0ebgzvwW8LKriCIf8HY7v80a7Jpr6XhhpnM=
+			sZeXdMvRdZBmwRQh88B5No7fFGkx+mdQomll6JzD48Y=
 			</data>
 		</dict>
 		<key>EnrollmentFlowViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zu8UmZ9G4qhxCAo3HieSKLyRTKBpZ28oZtoy+EOHSks=
+			+VHeDCChY9TpikkUHHVw/wgu637kASpsS0U8x2W5q7U=
 			</data>
 		</dict>
 		<key>EnrollmentHomepageSliderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tPyW9M+ZbgLaHdB2/8SykYcpzup+NmxwVkMsB0minmc=
+			fveBs2PjgJWA0b+5Iy9vgca318CzUlYDtkX1od7hnIg=
 			</data>
 		</dict>
 		<key>EnrollmentHomepageViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DPLkPqLl0eAULQ6OoQSmBSU2LR4/b2CE8dLO6nOWbvo=
+			bprHN9LUQDBKHBd/o2Vf01EgJ0L9kaUA/ZKSzuNhf8g=
 			</data>
 		</dict>
 		<key>EnrollmentHowItWorksPageView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sPrRGlyhLXaLCe4mqyZjTUwzzNVtA/9/DKK/DNhOuCo=
+			GrbIbPG3UOuH3PRwr2Z9pq8yO17H+5x6Ahns4u7R7bw=
 			</data>
 		</dict>
 		<key>EnrollmentPersonalInformationView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DZIxoAkkGfJ58x7KFkHOOrmWXkd6M3iV1B/rUWT4CDw=
+			dp/dFT2foEvA9/OFuspjV+UvJCmO/zvWC+0AYkSw2o0=
 			</data>
 		</dict>
 		<key>EnrollmentRequirementsPageView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EQlMQcJPvMRzldy0XD9NVFjeILHREp8rRN0Jrq1LOZ4=
+			yhsHAMGsmTbgl154falvHZOrG6fC4FhsVo+4QfDxj6E=
 			</data>
 		</dict>
 		<key>EnrollmentStepView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qK5JuPsx8kXpRIo+6dyUmJKocJNp+1UAiMQQo3kAkRI=
+			6XeyIzGotcj9X+8O5WtYmthlbh989xmfdPio5HJYwEU=
 			</data>
 		</dict>
 		<key>EnrollmentWelcomePageView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BuDqWkhQersc8ahPWfEpQv0qHw5o8KUCk4+l6XUsojw=
+			jtussb/mmYLeF743v1dqpL7u+/CBxLHZ3VOb420Lgf4=
 			</data>
 		</dict>
 		<key>Environments.plist</key>
@@ -1482,301 +1482,301 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XbOml8rZFEOkU27ddtRnud5kKDPPIZNClZAssZODOe0=
+			4z3Ilaghg6fovMahaWSZA61REy85mG4qYpYYWZBsMpc=
 			</data>
 		</dict>
 		<key>ExerciseRingMonthlySummaryView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kuq+D+09adW4RPHjYXxRKmfPXN86N5c70+qVlt6vWZI=
+			AAR9tQcg6nIAgdAm3tIMd/ptcgtcTwog1WK/JRLavJM=
 			</data>
 		</dict>
 		<key>FAQViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v2cEbZxg/WNxyIaz3XFhXTumFjyb50bncSxYRdhAr/g=
+			xTYmlqY47vdJI/CbqktuuQ8XAA/eEKlANOWgYIYjfRk=
 			</data>
 		</dict>
 		<key>FeedbackBannerViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			URGu2/53PuOahb0SbWZFBjfjrqT1ruwrOVFMFv65Nt0=
+			7h+ETiXfHvx0DOcbwqjCx7IhZzkmtbeTfPC63kxu/yk=
 			</data>
 		</dict>
 		<key>FeedbackFlowView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h5qEI6N9d8cXAbXSM6TNyYji1yhwdmeP02A6ql+th78=
+			BZJN/CkU+tQgEiTwaUjAwQFpdpS5H6KP9K4D/ghsCdo=
 			</data>
 		</dict>
 		<key>FeedbackRateView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kfaIObd8cMAYGfsNWyR+CDVfzq14utN1kl7yDTJSJ24=
+			DBKZ+8yWwtiYFTtReVixxdWQgW3zyl3ieQJG97Hco40=
 			</data>
 		</dict>
 		<key>FeedbackToolViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			crP9EQ14dFGNBIfJoVwJndov8zRnMx19tbsIwzEokCM=
+			tf2rCgtXfHeY6uZ05ZmuJb5laGS3EZG/0X7Qm8UIIHU=
 			</data>
 		</dict>
 		<key>FooterTargetsPerDayMonthlySummaryCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ySmGtQhJAZHB/35ECRNgVvNM2Mk6xS/jCdIFuYc2rYM=
+			X+muHhe5eyPJts3kDqkRQ/brf0IERFga9oleXr0tLRE=
 			</data>
 		</dict>
 		<key>ForgotPasswordEmailView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Og4fzwmd5gFPH7sUM2t3z1EHJbpXmFeE53GoeCxkAzA=
+			UpnMs91IhKdlwKZUA4rs8narxj9IFmQL+dZE0REFt7Q=
 			</data>
 		</dict>
 		<key>ForgotPasswordViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0MtvpiJHR2xuYwVLUhgyWOyh4RbWIo/NlzdGxpJ1o0M=
+			7ZpBxJgh2ZX9ZKJ275Rcv3w3Ak4wM+7QQyWYkBWJGuo=
 			</data>
 		</dict>
 		<key>GoogleService-Info-Debug.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cOCZH2wAffWcbLdxizRc4/31MUoGOspgnmZ6R2EEUzI=
+			3sCG2jO0Ooeu3IdrJ2aNZh/uqtW7gI8rcQSb0bWt4I8=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NllarJuZ05KCpm/0opCRkuSJ4VPQkHwqGXVYixvz9Fo=
+			LGSxJOIrJQLxDUflVIIaMRR3yDenQ0is3X67wUm6vts=
 			</data>
 		</dict>
 		<key>GradientView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tpYOopiQ0ZwGuGLQSfoZAlX7dWKcyvt8lR4AOAxern8=
+			RmCADFb2PxiWmRFeUXBq81bqaAPnzYZ18Ap0Vahc7DE=
 			</data>
 		</dict>
 		<key>HeaderCompletedWorkoutsMonthlySummaryCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3AMs/YhkiEjRUf5RSpoTJs77jI2Nr1KaJcj75v4ntvA=
+			myAP+dvJlVNs/9WsLTQ3nAAbxeRqsjdH/3T40QrjDVU=
 			</data>
 		</dict>
 		<key>HeaderPreviousMonthMonthlySummaryCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i0849S/fTqco1gUgyYnAVIbNgu77d9TrGFo1FZ4j6Jo=
+			HWzILv7mBH+JU5ScNHAwu600yFN0VvOois66SZuN+tw=
 			</data>
 		</dict>
 		<key>HeaderTargetsPerDayMonthlySummaryCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rKL7FlKubkYaVmNbMMB5rwXZXnmSt1xDjXYAybiWX1U=
+			q60+iwpn33hG4BdhHwADutsc66f4AgBDEqVoAkagvxY=
 			</data>
 		</dict>
 		<key>Headers/BeHealthy-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kpxg9jx7TG9AHX6zyzDJkLoR1s5ljI1WqPp1S4VVqLc=
+			Ml7gIAIp4vdwjxNs3CNjNeCu3pLDXGpYuu23gKSdpDY=
 			</data>
 		</dict>
 		<key>HeadlineView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tgVa/gbXzjN6rjON09p6FshPX9v5rjbqICYOQmNJvLQ=
+			KVJeFX24aAlkUdAprlG/NTcZgLQ3W8bRO594g2ZZPfc=
 			</data>
 		</dict>
 		<key>HealthInformationViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0oLOeIJ7T6/B/ufjBFVY5U3IiJlKZI3hU7GwHwvDMR4=
+			edOGTs7HF0QiF8zcDAWapey3PAtHR8rei87vPGik+9M=
 			</data>
 		</dict>
 		<key>HealthInformationViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oleULAcURHy0cw3tEnmp4E3kDWjyaShWsCmckfqDX/E=
+			bRb6eIOakrZiY8Fg6cZT+ULWkSW2SI7CaX+NJEPWpnQ=
 			</data>
 		</dict>
 		<key>HealthKitPermissionViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HsFuc7oeoMav8XXfQoqmp0RM2Ic2k+bYKM0Z3XIXeZ0=
+			jmcbjr476lmZlabUajFwOed9SUOHQxXmeTyfP+0oCTQ=
 			</data>
 		</dict>
 		<key>HealthKitValidationView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qDSkGLJoLCnAsm3FQQnjSUCzrPLET9D/tMlZu6WHC50=
+			Q2s9p2PP/b/tUk+u6s7eShPe+ldII1PnAhcMCyphMFo=
 			</data>
 		</dict>
 		<key>HistoryViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CUiVUYvSj5WxC/lIVfeeK3VrScOdMOzD6mmO5cUtb5k=
+			yMtrGrmiC1eooMAcKigxgopXvRfD6XlCOkXY17rvL/4=
 			</data>
 		</dict>
 		<key>HitTargetsPerDayMonthlySummaryCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j6gR8MNIp1QVTYuNbrs2RXlmhQ4MFPammtxWyAgoMaI=
+			60fxBr7bQ+xyjR4ngSJkWh0D8LcNa6Af84tE6gZTQc4=
 			</data>
 		</dict>
 		<key>IntenseActivityView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o74N11qlTkC1AiuSS/h5hx9le2WGxGGbe6JXoB1LO3s=
+			hhWnWOJ4Mrtj4LCXYXiDS2uOAgIxJTUh+XneIz64BHg=
 			</data>
 		</dict>
 		<key>LDRefundProgressViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ixXMTi6AAzBYQFMSfZni87Zda9W1si/8Wzt+8wpH2VA=
+			oBa+eRknxZogin0NflpCPwCBbBFQy5RVdqdi81D44go=
 			</data>
 		</dict>
 		<key>LandingSlideViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l6GUhRay2GzL5T4tH7dukGAA1kT6NROBWxTKiFk/c1Q=
+			3PKUfBKT4+AIKr+KX0/wAz1k8qekEvvaqz2gkq/DVKw=
 			</data>
 		</dict>
 		<key>LandingSliderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NChZ1H5rcXOGctc9YUwdG5NMqSxnPU8X1RoDI23UtPs=
+			+xoOjI5ACGOkKCGExyNaeEQbuYlHXHQajq8+DzF84iw=
 			</data>
 		</dict>
 		<key>LandingViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JQIMK71NLfudGUQcZMoCTWppniCKiA/t0ieFDbI4YAc=
+			guxboFV7v52V19H8Rl3iC966AXg8JBZITixtpFRfCMU=
 			</data>
 		</dict>
 		<key>LeaveCommentView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vVuFPqaoopogouseSY1b0G3F2DFXR3FOQWqStvpvjis=
+			bXyCpbhjnT5w1mAeV0hX/XChKeFs8hupyUpCtu9Pwy4=
 			</data>
 		</dict>
 		<key>LoginViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jvulRVEO0aWSnbawL7fKiI/tYKKm01c/q+wcx1Ja4aA=
+			NFTzX+se6/AsQfNfbtVT1gnaGNrPQgHTsY0mrBp/SvA=
 			</data>
 		</dict>
 		<key>LogoViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sABL/7nK4o7ETjYLJU8oik5ePomFK8Xz7t00D6bjXQA=
+			f6p8yPoaD63LGypwLjB2bJUkWCqMCV0+crCkczutR3I=
 			</data>
 		</dict>
 		<key>ModalNotificationViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iUuhGwJw/hIqFAmL9W9OQ8h9U72rWGO2AkMWVd5tiY4=
+			tYiGrM/hpBCSomW/ajv3hUMN3heHNFNcwaU63/8c8R4=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PpJdZca2fYVspj39dJ+SRgTla3jFIIGLO9c2v2tPx7c=
+			VEhCWxxYXiWMnpIDawc96Sfv98xVpPC1g4TBDQsJ374=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3rQbxL7uQ2ksKd0owQOC7N6XtAqlQULaxVD1GH9lntY=
+			bel0bteINXvfxdqBxaCPz2hlSUNv9aaCzVpciH1ARG8=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VJBZEap+rKQqJklxq9VbMYGvrWNg3hnMQHuF9ii9GVQ=
+			lmR8SNncFK50V8puaAP0l11ndBshwychl+TBIOZ+XGo=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3rQbxL7uQ2ksKd0owQOC7N6XtAqlQULaxVD1GH9lntY=
+			bel0bteINXvfxdqBxaCPz2hlSUNv9aaCzVpciH1ARG8=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ByTO2YLYVCf7Vu+rMhGhQLqkFKPyDaapKEJiG8qS+i8=
+			21jme8I+3Xt/zWkzSrU3+tTvY7xr6yvnZiNu1k/mZKM=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PpJdZca2fYVspj39dJ+SRgTla3jFIIGLO9c2v2tPx7c=
+			VEhCWxxYXiWMnpIDawc96Sfv98xVpPC1g4TBDQsJ374=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1N2nUVUkLX9zXhspiFodr7+zwH/zJjSt99rodJvirUI=
+			vtalrn2pi+civpSlSs5Sw6pA7YzCLTr3pB6kaHjngQQ=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zx4kGUxDGBTGz4nl6yhHMkRxs/qo/uV2wI4rwIfn1TM=
+			Npg8GARWLzCaLftPSiNaL0mfUggniDV7gT+Pg9n/mzE=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1N2nUVUkLX9zXhspiFodr7+zwH/zJjSt99rodJvirUI=
+			vtalrn2pi+civpSlSs5Sw6pA7YzCLTr3pB6kaHjngQQ=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dKLwHi/SAIUS5V802ZZAivJKuN/daUnALEOjnU4GPS8=
+			GYjg2Ml7vTp6wWWzd8HrXZc/3dXpGS+hVnDumrycweo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1790,91 +1790,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4fcxv8rurbd/cAcUXIUkyEZpD92iwQuTML6atKItGHE=
+			JiYCcwiS+3vUManhrepwDV9Rve5zKWhHn/pH0dMMOzQ=
 			</data>
 		</dict>
 		<key>MonthStarsEarnedView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9t10iZcCxXpBYvfX1yh+C0QrBUlQuz8Sg5oomgLkES4=
+			cb2xyZPNgGJtwBRx+j5nLQCAntCxFb+uQVV5THwHmE8=
 			</data>
 		</dict>
 		<key>MonthTargetCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tk+u3AnRzc/EnIYsyWbNpjo2PQbA183DQg0mPDEnIY4=
+			Nm5zQMsDipUkLeqapIrNLm5XhwaAy1l0jF+z0r3yLHI=
 			</data>
 		</dict>
 		<key>MonthlyRefundStackView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4I01tXBY5k6P92Jo8lEbdypx0mN2W9t7sPeQ0gNzO38=
+			etSHE7eVOqxh7t0lZGEpOdI4Z3DLb3ABZgETxEFTzVc=
 			</data>
 		</dict>
 		<key>MonthlySummaryCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FGEiDInSUGBoJaK50VlK+ngKk/2LLskDe580u7q3W6I=
+			C1+T1ErxX3hg4PO/6wzXtRpgPjBZicIFyViNrasxxIk=
 			</data>
 		</dict>
 		<key>MonthlySummaryStartView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qpYjQ9tuFGeFDAT7hSE2OOmyx0Q4d1/7yFgXSsufcu0=
+			9uZLDIr2/apmDs5a5otcrRVGPif3uFv2rGj2ffumejQ=
 			</data>
 		</dict>
 		<key>MonthlySummaryViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fs4sG/Wl2XMvT/Hrwgfha0s0CvWuaScfwLrSGM1piRk=
+			sAZiquvHkSn6ox5BXeSbSNj9nZeC3cRS/AfEkJJl7DE=
 			</data>
 		</dict>
 		<key>MoreInfoTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XFOqG8TDCCQ5cFbvkaPo4+KWq9mmNK6w8UJqHn6GhbE=
+			tMPlHJitplF8CyzB6G0h7P0vkc8gJ2DKNbwu50DLx/M=
 			</data>
 		</dict>
 		<key>MoveGoalActivityCellView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SWyQDK/hWyxsW6cj9pydW8XOR/IPL74ENSTYA1l6RzM=
+			FeICbMPwJGdVSucuv8TP6WBjU5sJKRaNCOLo/AmUMcI=
 			</data>
 		</dict>
 		<key>MoveGoalUpdatesView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TXzVZnykE9QuNozp8ch1pN4jgsErNrg+Nh8pms/+QQc=
+			sfK5uUw97GQ+lWBCS2+fvJb/aDgx3kOBU8vNbKw3lCo=
 			</data>
 		</dict>
 		<key>NotificationSettingsViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rBIY+UrQNNGKQbkuiBgUtDef7TCt6RacAKxolhLJUOg=
+			gCINFVKm0r+0VN5PCPo3fHiFVrufESXX8ZBClsO6MGY=
 			</data>
 		</dict>
 		<key>NotificationSettingsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eA7cFld5Sn3Qi6zYm/SVfGYiGHW8YB3PnYZTdoZX9kI=
+			dwPP5oZPSJAMRl42XwKZdxDV4CgJRk3DT1tUH/QD/fE=
 			</data>
 		</dict>
 		<key>NotificationsTypeSettingsViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bM3B5vwJrnA6IS01yEu4WLwDVHgNTBPE+yFysBGzeZ0=
+			F3oZpywynpztKLzehOgbKWsc89qqYGDBzK9YDjFRCJ0=
 			</data>
 		</dict>
 		<key>NotoSansArabic-Black.ttf</key>
@@ -1951,112 +1951,112 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jHnINvTpp2j6+7LQZJKDNHMxRZIvb5FpESHVFXNTAQQ=
+			9s738EuIdayiHy1ZyKKDfJC1cZw9HjhUSWjXLFRYfQ0=
 			</data>
 		</dict>
 		<key>PasswordRequirementsView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WQa3TFVi91DLvMNdiaKvB7WtwSM5J/OKg6283qwAfic=
+			A7Jt5cabP5yqvueZaggGAND8R26lz2jaYbQDS1QySh8=
 			</data>
 		</dict>
 		<key>PasswordSecurityViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ANP2QzDTq1UPsAQqBSUggQ6M93MkQ9zgv7r5umBMHys=
+			oPBHsZkJc8qc7sVZJGI/gwI7XkcqxnqvUeySdoYhK68=
 			</data>
 		</dict>
 		<key>PendingRewardDetailsCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DoU0foChvYgGEOwrOWpLYK53jkHsZMU1Zez9AGCrSwA=
+			tuh7irAE0qbQQ8UfHhu5iBapsYGciR7xFNqwVxtuSlU=
 			</data>
 		</dict>
 		<key>PerformanceHighlightsView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ag5p//OztX+2GvQnlH8g43rJY8U1j0H4uWzXvhL4GSA=
+			aPD9KBS58eZSE2x+noeTO9GH8tC34mhswF+fkW2//nU=
 			</data>
 		</dict>
 		<key>PerformanceTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1OKTUWftnuVHbaqufhEyfWs2h6HskT4TD7czJJfOMSc=
+			dfo8loJd0oIaGy9uWb9fsw6NKM8SG7D8usaKDNxAlWo=
 			</data>
 		</dict>
 		<key>PreferencesViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9et/hxFHw3jAfmcmwoFG+cjwk2C68+ZbQ4c2fvb42WU=
+			eH4xnol+Y65xVPXrQZXuWCQsQLhXizU34lyM8GKpl/c=
 			</data>
 		</dict>
 		<key>PreferencesViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5mXR1ts9z71qQkHaB6tHCehIz9UCDbemhkVmixx1WiU=
+			8msfZUzbTZy8Zcy6UvG7mGTiW9KQj7QVS4xpW/WiXY0=
 			</data>
 		</dict>
 		<key>PreviousMonthMonthlySummaryView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZiDcykKD5JRF+YgX7FZPEOspf6MUDsJeBly9LVaA+9A=
+			kF9nnGNNLg86XXLJlAOb8Q2iGFU6jNr9j197F6EArZA=
 			</data>
 		</dict>
 		<key>ProgramDetailTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HvQeMcJ08W+yWC7p7bvRCatEHbOS0/lAND8sVDOlUvA=
+			pwys7+zxyLN4uALSkyhMpNYkscdmUiQfOXVdmy9m4Jg=
 			</data>
 		</dict>
 		<key>ProgramInformationViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cz8bmJuI/5Eids3eupK50Dy/q4BbSmIJXX/G0SVsXy8=
+			yhFhGRcQHZnuXfCkZKI1MD/+6BlrvEfEh6W2lkQahRc=
 			</data>
 		</dict>
 		<key>ProgressActivityCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZEX/asodUkiwQ5s4AumKa+0vjAhB+6Hev+PwW6WCJ9k=
+			q3ByOtM/QEVfaVSh60RmiKPDJ7ewXvinSGcADqBU4X8=
 			</data>
 		</dict>
 		<key>ProgressDetailViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mh3Q3B01haa4FQ4+pePMogEQ5aG5+xCUoCFjqtVUv0M=
+			m+msfxfuiVFhPHkWTyEttKItBR+9qkaurKmE2wLY73M=
 			</data>
 		</dict>
 		<key>ProgressScreenViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hXcdYstnUE7Pg7i9gY9/qJYKIUXSBrdEX4mxdNrWFHI=
+			fJcxngipUGmL+w65bTZkE5Ecg5of8mECDo8p74bX9cw=
 			</data>
 		</dict>
 		<key>ProgressView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W65+TLeNOJLG9W8dL6EPxQ5xN27ghZj9Qv9N3H0pAfc=
+			acXHv2biaCAKgGM2dHax60zdJ7CoGdRybspr2GnW39E=
 			</data>
 		</dict>
 		<key>ProviderSelectorViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dB2eN37wUY8X2VekXWbgjzIzCrjuJcruKPjUVBsFNQA=
+			I0PVxxJwBNsM7KELagOr/A1e+ItvO0RkmYb5N0eB/EM=
 			</data>
 		</dict>
 		<key>ProximaNova-Bold.ttf</key>
@@ -2112,105 +2112,105 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OEVwZB8ZBjw5iw8ps8CCh5XadJBL7z//N/m7fVxdI+g=
+			y9TGzqve/pNVpeWUrGwAolk7GPiMXlvAHVzeQqrHT+E=
 			</data>
 		</dict>
 		<key>RecentAchievementViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b2x5AVD4uNynNMYDKMWcDgQsUpV6BLruaB3WQkz/lL8=
+			uaHPAEVm+RDLFkiAvQS/JObo/KJUOGM7BX9CplCeO4Y=
 			</data>
 		</dict>
 		<key>RefundHistoryViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y5NDyzIGLVryaviTc09VmktYbOjWOWIfiSl++xX40KA=
+			nJzY563ex9saYxf8ywLxIXb6tq39c4D+w8uOPtuCk14=
 			</data>
 		</dict>
 		<key>RefundMonthView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			awYMelvZywQlxqpuVfDGMuTmSMABgIsJHnJ0cpJ4NW8=
+			+D4F24UrH210dCZ1PbUV2YcFTltTN2nBDGK6hLLRXAA=
 			</data>
 		</dict>
 		<key>RefundMonthlyViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mcMBv76k4ulVPy/HTI6dabM2LRheUc17+/XBM91xwos=
+			QufMckPoVDEStc86WJ49hoeS3NS9+JtLaZh3/yUPCf4=
 			</data>
 		</dict>
 		<key>RefundProgressCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rnLzz9Ovserve6VbZCDvx3h3UlxikRXXm9Ugd3vBSDg=
+			AECd2LUF2XGn2vawQ5aNwHUMjWrjPirVLqVJc673+TI=
 			</data>
 		</dict>
 		<key>RefundSuccessRateViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D3lAk1i//ntjbJmA+V7MlEqQPwpYMNAKeoQVhc4ysPY=
+			zzNW9LMjo+yGhu8J1bkgOw5FYOTUERNaFn4fYY3r0mg=
 			</data>
 		</dict>
 		<key>ReminderCellView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			piu+zeW16bTybvY+hyeB83cB5/d+S9t/qMS89OB1l1M=
+			sTp8SrDZYuARgCvB2ZNoLKTJRs1XQabWqN+PJwy7GdQ=
 			</data>
 		</dict>
 		<key>RewardExplanationTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eJk2lUYehESKqTlQU55bFCns++E7Pfg6Ko2hYfXG4jU=
+			VRSczRMgdTAos/2DHbigx0aefcWixaKuBjSk7/rMuZY=
 			</data>
 		</dict>
 		<key>RewardExplanationViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u4ql0hTkRvGeWMrk9oPt/fDQLr4pFLjwzDHpYKV16HM=
+			R1r1Eab/8v+OZlq5e6hlY8ja6Y5Krq/e00ss31WguWA=
 			</data>
 		</dict>
 		<key>RewardHeaderViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fLUPTEZXe3p1nLcqcG8wkY5yGmEyRpa41Q2CB3QYDyI=
+			qEvtfck5n9ahsu0ORmlkfMs/AbwrVD7r093pIV64KHM=
 			</data>
 		</dict>
 		<key>RewardHistoryView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MeZXOYzB0yRFlyhnEreLGehybmY9CwuR+gloBDC6OKA=
+			+j01ZPKEiVnN/FH+xltJqM+1WN9mz60lIh20Vmu/bQo=
 			</data>
 		</dict>
 		<key>RewardHistoryViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lZlloFS6xp9k+ntQu51H7EOmOmsJo7BKhWd8con0GUQ=
+			YvfyeyyNMyuVLk4He4Lf+wrLDHvZCSDQ1FIfVFpq6GM=
 			</data>
 		</dict>
 		<key>RewardScreenViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w9R8Oe/+TCfWdmU7+RV4WswB2VWGMIQiLNCB0GrdG9M=
+			kyUAIYyNbwXnKtNAHfaC14L2N9tKC2PEQ/77IJ7AAE4=
 			</data>
 		</dict>
 		<key>RingChartView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PaxX68bdi8IEjKktI22fdZAxRf75+E5YDczKv6t2L/U=
+			Ylo7GnVeJuLqAjXSN2g80Imw4AOr1SANc0YFZhs+6gw=
 			</data>
 		</dict>
 		<key>Roboto-Black.ttf</key>
@@ -2252,287 +2252,287 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9R/ELZuu7s8gRr+wIQuAw4yhKRK7xPOKMoW998XZck8=
+			kMi983EP3t65R8kmjQcHgTdqNwdqobEiF02oEoW/+c4=
 			</data>
 		</dict>
 		<key>SecretSettingsEnvironmentCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IuD7SSCN6ncdyFt4P/GznN6gigO7BPV4xi9U1w4G0ng=
+			KKt4VUH6HgMI6T1OMCUTCOMTu926/pW0qbXQjw6GfNs=
 			</data>
 		</dict>
 		<key>SecretSettingsSSLPinningCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vTa5FsL1iROAGe5W/3b5vaKrCfxEwQth7F62FBlkSEQ=
+			gC3+RrjSUKblzY6i6VMJRZX0qdxsRRaUUunqlmELG4c=
 			</data>
 		</dict>
 		<key>SecretSettingsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VpX4VNLEgqZWD0nPj2tJk13v62zXgKpMcF+v6mAIUy8=
+			If61WpWBkEdle+oZPy2vlXta86yRC7UPM3RG44tuJis=
 			</data>
 		</dict>
 		<key>SelectActivityLevelView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q5XXBuNVAfTS0x3smMWNveMpg/anJzf1zzuYclimeCY=
+			bjsJ+eWKD1t6HOgIVUiatrgenIZdTRmsjkLSBGYPmtw=
 			</data>
 		</dict>
 		<key>SessionSettingsViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W/sPEtPqRly08aBUtIqsgq3PdudkSl4Tkf7hJEjFKBo=
+			FXdgDrFMR0ksnb/Lwzm7zBWtToJzwqcrvIf2qqkJ4QA=
 			</data>
 		</dict>
 		<key>SignUpViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			miyKySTIY31yURAUL43tZETJGTErlHLiDd/uKlQNdwk=
+			dYLTwRH3mc6qgkW/O7GTlcbxoHmOC1jpT8pCjuQNQmY=
 			</data>
 		</dict>
 		<key>StarDetailViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SlpN1dZi/YdSwj7JKc8cQyLeIr2ER4sldIIwZhm65kw=
+			sdIuJjL0Ed6dn2NNnyZx+DAGqfJ57C9Mv91AtmOAsx4=
 			</data>
 		</dict>
 		<key>StarView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NOd3hxqthsDIgLQ4ENSwd3lzpEHTLTCfT+1Bph7Hlkc=
+			3t1EQL1yOgRp4lBhtuNUADlAK0N91IFZrfWbuMFdQGU=
 			</data>
 		</dict>
 		<key>StarsForThisMonthMonthlySummaryView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h6QflBY1UPVe1Fp2KmXE7lIBgDzyuWHxeyFqRqKAOO4=
+			MdE/cVUhKJY+iE5MXc/K+AmptKvputsQrCTEaVLq+aA=
 			</data>
 		</dict>
 		<key>StarsHighlightsView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CW7lOn0hYyMS1tBCtF2ZQ1kA41kV0WNyYsxM/+8t73M=
+			IcJjp0pYBnj8LGmabwhgcLxEqgWMTgz/dlrAsDKz8QQ=
 			</data>
 		</dict>
 		<key>SummaryCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			osAxSz0lLfLl0xTnkHNzhttfkfoJFLnjmqEJk/Cut78=
+			LzRgo9MitZuEQPZB16s1agZK52oTtUUrabiXDpdNBJY=
 			</data>
 		</dict>
 		<key>SummaryTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BfW+MJ4KIXgtFBpXVpGckJyqoCCI9C0Ekpxy6+7AGdE=
+			4NgN6ULPgbjq0/F55EbLSeSIebGbjUlFjn4giUgbWOA=
 			</data>
 		</dict>
 		<key>TagReviewView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oYU4ubQW9jKG47I1QAj6V2o4+eC/ZS7IsBLkEAwOCKs=
+			4XmxUlRCUtsfuSFi4rip7e3zHEPA3k5oH5Ay6AnnRMI=
 			</data>
 		</dict>
 		<key>TargetTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			06E6tz4u40cqBBuKo28rJxU8oGXt8IJ3CFyvhGbwAPM=
+			Jrh8NK/0hsy8cP14TfWGHHiQMpN6tbFGSULE+T5CPwc=
 			</data>
 		</dict>
 		<key>TargetsPerDayMonthlySummaryView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+7qxzu9/ugVHUO7jF6pu8SBC5ha3O57F931XJx+s4lY=
+			EUCezdh0A0gpjHrjKLryZqZqwa0yn6vohZ3Be0oMaqg=
 			</data>
 		</dict>
 		<key>ThisMonthDailyAverageView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A3/08wY6YKTdO1oiEWMndhsquMWYnrqs6w3/sA3WxhA=
+			TS2qNg/L+m8aYGMMtd25ARRnfMLvmXcJYHFkgDJsrBc=
 			</data>
 		</dict>
 		<key>ThisMonthStarsEarnedView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nId3nlYrMjcJyVDz0JOw4/S2PO5zhg2tzDxyFY0J374=
+			+meGznToVkT+MVUzqZxcWe2Fw8OqVzESe5aMcmDJS1Y=
 			</data>
 		</dict>
 		<key>ThisMonthTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LMFwXU7Zg8sCuouVR8L9ojR8561SG/xLhGg9ftdn3c0=
+			Mwbq7oZxbl3zwELn9Y05HoDJ4NAqSQFhEOnjpdW5RqY=
 			</data>
 		</dict>
 		<key>TopWorkoutCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M1qA2cVUbbQykYD7qt8Evi23z4ksv06vh9RmaAIGACQ=
+			PCw6c7U450Lvd9vfoRE8Ar6qzfy3FdPSRkYcc9WOOss=
 			</data>
 		</dict>
 		<key>TotalRefundView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wqflD4DLkKQXOnMtut2QJeUJmVshFpSCM49EphdB/7k=
+			YCKXsVfOmzVyqoPbFHY2QABKngSYuI8RntvbzY/BVkg=
 			</data>
 		</dict>
 		<key>TutorialPageViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m665UkMMYXobll+kic1dNZMsHudcxE+D9PS0DFVBwZQ=
+			WLx9n7FJXM39sZZTQLamJ+4KHzCD8FJBa14gCbtRIP8=
 			</data>
 		</dict>
 		<key>TutorialPagesViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			04GPn6x3wNSEDhbcrX8MrVAeQjnRmFQEjcCDCprvVkI=
+			YGeRVHP1BJIqfN0VhiBzFGFlPnS+brYk1AmofLdbZ8M=
 			</data>
 		</dict>
 		<key>TutorialStartViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EYlqC0o6dmy/g7f9qOrgPoovyK5K7rwoY3dc1TKAuwA=
+			n7cnBOtApeMCXqdgYuWn7DP8J2hpKAWG6H2brEsYdLs=
 			</data>
 		</dict>
 		<key>UserGeneralInfoView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LwYAzAqBI/4OFSfl6mZXQ40fEZyjGGH6hvsOnTpV55U=
+			YR/8BGKXhBGsXOi12NFo/oHRYnI5JtyWNEBqgz13sck=
 			</data>
 		</dict>
 		<key>UserInformationTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aBIrXlDVf9J5FgkIe1luhMaGUERkSZYy55c2TI7Cxks=
+			iD2uZtOAEQGv1kqhdzwDWxLZfWuoezQ/KUfz/iEv2xA=
 			</data>
 		</dict>
 		<key>WaitingWatchViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7EgQ9WlyojmTbiFynocmbG7yr7wyrnvyRGQAQt3MuZw=
+			WWnxHIp8EIUDK8kVQXfpuDG747lDgehalaTvpXtLsE8=
 			</data>
 		</dict>
 		<key>WarmUpInformationViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UGhkbIzbR3DemKg+p5urXQgqRg5AQIPDYukon4f9RVM=
+			u0UyAWwwOB3DP3Bc9t8jvOCTaqVbhtTs3rESmIVQWZQ=
 			</data>
 		</dict>
 		<key>WarmUpPeriodCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n0wO/DQVXw2ClmTKqxStCFL8U7mGWTd7v95S+ApWDbg=
+			sDDnNGCHSz35T4NkfkS+YgFYEQgM9SIwHu4fk7bKq6o=
 			</data>
 		</dict>
 		<key>WarmUpPeriodViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i+dPOJd4RcMc5PyFTVGHr/G0j/AinS6RHT3eehEVNrM=
+			XsXCdFIZ1AIq7j9w5fUCRM7Tscu3DtCaOF7PXMSRER4=
 			</data>
 		</dict>
 		<key>WeekActivitySummaryView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3adPnR49b3B55wWyKoQ9pfMZlUWtMVjZ1Rf5RVY8MdE=
+			Iylbpa0YXrRYv5X0V0uIzCZscWTmlmjLBB7IhqI61q8=
 			</data>
 		</dict>
 		<key>WeekIntensityCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SVpHi8WIJXFvJhX++VXEvnciJMGDQ+SW523XToHFyvg=
+			HIrs3uRCjFaDrykL+aprKJmduWr9AnIP0c6TrwyF0yI=
 			</data>
 		</dict>
 		<key>WeeklyActivityCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rF0jIunhDk0GlqxJfoixp2QloOVJEkcGvWAl3du4YPk=
+			O1PAJJVlrznSVWx6IjB47kiYBp2bIH8chfWR03COapk=
 			</data>
 		</dict>
 		<key>WeeklyCalendarView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7BaEVM8HGctpNGp+mOZtOeAqce6RAsUBXB00XmLolrg=
+			ABllR2HMCNW96Nu150JkK+LbF2V9UBYXA8YeKUujqGQ=
 			</data>
 		</dict>
 		<key>WeeklyHighlightsStartView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kMt/t9hmWUz2Uw6/9ScqPvlSWQyebzzJ3a8py1Wtuno=
+			aJRbWHYLD30Jm3YE1ZGQrbs78tkyl/o+YGoa6OvBhvw=
 			</data>
 		</dict>
 		<key>WeeklyHighlightsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BCryY0Q+8qxfaN2KKKIL0lx0HnLJTwBVOG2ZbgZcjCg=
+			rMV7GdvVLXDd5xCHF6zwQWWXCXcTO7iuKqsj17WsVQc=
 			</data>
 		</dict>
 		<key>WeeklyPendingRewardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J4/69n0lRUNEAF73Hy7qM2yUV/CgGwWaGuEIs1KU+cs=
+			w5vXZNo2kjn9J+Fopu1k/L6zGXRSk68kBpZUwXXNTls=
 			</data>
 		</dict>
 		<key>WeeklyWorkoutsCalendarView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h9N9lG8Lst746KQNwNsHND4wETi2oaBgDDI/oc1WdGc=
+			Hzi4DAlRlQQ3kzGINX6ynvpuDNyKyzh1VNl+SZoP3x8=
 			</data>
 		</dict>
 		<key>WeeklyWorkoutsView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DruBmTe7a/6L8tTDsLxI1OceQBIN5rOKbeBWVR+brFY=
+			cwX4C2pPX6iqxLm6c8QMNaeK54BTLQz42Esw9nXm4MQ=
 			</data>
 		</dict>
 		<key>WorkoutCompletedWorkoutsMonthlySummaryCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wjor7obclhBPLmNylSfsLS0tgMlyfC+Ip1avB/nkZL8=
+			UN9iQljN3rAbZSvxtrRSPmVR8R8pGu19pSjEmjydGj4=
 			</data>
 		</dict>
 		<key>YesterdayPerformanceCardView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pRTGjSUNm0K8Y+9/diVPaNdT2bhb+BEnLrykJ6FIQw0=
+			l6yATCJb3PBjsIsaHeXnGCSjfcl8niF50kbHvhF6u74=
 			</data>
 		</dict>
 		<key>ar.lproj/Localizable.strings</key>
