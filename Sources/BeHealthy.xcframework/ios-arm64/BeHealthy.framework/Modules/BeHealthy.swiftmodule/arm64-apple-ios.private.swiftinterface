@@ -9,9 +9,6 @@ import CoreGraphics
 import CoreText
 import CryptoKit
 import DeveloperToolsSupport
-import FirebaseAnalytics
-import FirebaseCore
-import FirebaseRemoteConfig
 import Foundation
 import HealthKit
 import IOSSecuritySuite

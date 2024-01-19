@@ -2714,17 +2714,13 @@
       },
       {
         "kind": "Import",
-        "name": "FirebaseAnalytics",
-        "printedName": "FirebaseAnalytics",
-        "declKind": "Import",
-        "moduleName": "BeHealthy"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "BeHealthy"
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -3103,17 +3099,13 @@
       },
       {
         "kind": "Import",
-        "name": "FirebaseCore",
-        "printedName": "FirebaseCore",
-        "declKind": "Import",
-        "moduleName": "BeHealthy"
-      },
-      {
-        "kind": "Import",
         "name": "BackgroundTasks",
         "printedName": "BackgroundTasks",
         "declKind": "Import",
-        "moduleName": "BeHealthy"
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -10745,13 +10737,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "FirebaseCore",
-        "printedName": "FirebaseCore",
-        "declKind": "Import",
-        "moduleName": "BeHealthy"
       },
       {
         "kind": "Import",
@@ -19441,20 +19426,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "FirebaseRemoteConfig",
-        "printedName": "FirebaseRemoteConfig",
-        "declKind": "Import",
-        "moduleName": "BeHealthy"
-      },
-      {
-        "kind": "Import",
-        "name": "FirebaseCore",
-        "printedName": "FirebaseCore",
-        "declKind": "Import",
-        "moduleName": "BeHealthy"
       },
       {
         "kind": "Import",
@@ -41110,35 +41081,35 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Analytics\/FirebaseAnalyticsProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 308,
+      "offset": 310,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Analytics\/FirebaseAnalyticsProvider.swift",
       "kind": "StringLiteral",
-      "offset": 580,
+      "offset": 582,
       "length": 29,
       "value": "\"XCTestConfigurationFilePath\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Analytics\/FirebaseAnalyticsProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2784,
+      "offset": 2790,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Analytics\/FirebaseAnalyticsProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2837,
+      "offset": 2843,
       "length": 33,
       "value": "\"Load user from Cora Data failed\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Analytics\/FirebaseAnalyticsProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2898,
+      "offset": 2904,
       "length": 2,
       "value": "\"\""
     },
@@ -42762,86 +42733,58 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 1409,
+      "offset": 1411,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 1544,
+      "offset": 1546,
       "length": 33,
       "value": "\"com.behealthy.backgroundrefresh\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 1719,
+      "offset": 1721,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 2459,
+      "offset": 2461,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "FloatLiteral",
-      "offset": 3668,
+      "offset": 3670,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "Dictionary",
-      "offset": 4434,
+      "offset": 4436,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 4464,
+      "offset": 4466,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 1236,
+      "offset": 1238,
       "length": 20,
       "value": "\"BeHealthy.BeHealthyAppDelegate\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 6360,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 6592,
-      "length": 20,
-      "value": "\"GoogleService-Info\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 6622,
-      "length": 7,
-      "value": "\"plist\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
-      "kind": "StringLiteral",
-      "offset": 6634,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Contact Support\/ContactSupportViewModel.swift",
@@ -59268,58 +59211,44 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Assets\/Brand\/BeHealthyFirebaseConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 259,
+      "offset": 261,
       "length": 15,
       "value": "\"GOOGLE_APP_ID\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Assets\/Brand\/BeHealthyFirebaseConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 308,
+      "offset": 310,
       "length": 15,
       "value": "\"GCM_SENDER_ID\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Assets\/Brand\/BeHealthyFirebaseConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 352,
+      "offset": 354,
       "length": 9,
       "value": "\"API_KEY\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Assets\/Brand\/BeHealthyFirebaseConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 393,
+      "offset": 395,
       "length": 12,
       "value": "\"PROJECT_ID\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Assets\/Brand\/BeHealthyFirebaseConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 436,
+      "offset": 438,
       "length": 11,
       "value": "\"BUNDLE_ID\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Assets\/Brand\/BeHealthyFirebaseConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 478,
+      "offset": 480,
       "length": 11,
       "value": "\"CLIENT_ID\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Assets\/Brand\/BeHealthyFirebaseConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 623,
-      "length": 20,
-      "value": "\"GoogleService-Info\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Assets\/Brand\/BeHealthyFirebaseConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 707,
-      "length": 7,
-      "value": "\"plist\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Achievements\/AchievementsInformationModel.swift",
@@ -67849,50 +67778,36 @@
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4929,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5001,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
       "kind": "StringLiteral",
-      "offset": 7999,
+      "offset": 8059,
       "length": 39,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
       "kind": "StringLiteral",
-      "offset": 8028,
+      "offset": 8088,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
       "kind": "StringLiteral",
-      "offset": 8037,
+      "offset": 8097,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
       "kind": "BooleanLiteral",
-      "offset": 8641,
+      "offset": 8701,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
       "kind": "BooleanLiteral",
-      "offset": 8681,
+      "offset": 8741,
       "length": 4,
       "value": "true"
     },
@@ -70104,177 +70019,93 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 516,
+      "offset": 520,
       "length": 9,
       "value": "\"version\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 570,
+      "offset": 574,
       "length": 21,
       "value": "\"forcedUpdateEnabled\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 633,
+      "offset": 637,
       "length": 18,
       "value": "\"stageCertificate\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 698,
+      "offset": 702,
       "length": 23,
       "value": "\"productionCertificate\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 763,
+      "offset": 767,
       "length": 18,
       "value": "\"oAuthCertificate\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 819,
+      "offset": 823,
       "length": 15,
       "value": "\"oAuth_enabled\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 885,
+      "offset": 889,
       "length": 3,
       "value": "900"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 938,
+      "offset": 942,
       "length": 15,
       "value": "\"demoUserEmail\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 992,
+      "offset": 996,
       "length": 18,
       "value": "\"demoUserPassword\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 1043,
+      "offset": 1047,
       "length": 12,
       "value": "\"qaSDKToken\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1095,
       "length": 15,
       "value": "\"stageSDKToken\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 1147,
+      "offset": 1151,
       "length": 20,
       "value": "\"productionSDKToken\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 1204,
+      "offset": 1208,
       "length": 16,
       "value": "\"isOAuthGlobant\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2207,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2397,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2556,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2984,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3237,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3493,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3919,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4148,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4373,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4595,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4838,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/RemoteConfig\/RemoteConfigManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5305,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewController.swift",
