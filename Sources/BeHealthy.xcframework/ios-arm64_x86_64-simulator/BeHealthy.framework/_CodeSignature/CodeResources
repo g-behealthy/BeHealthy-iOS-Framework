@@ -70,7 +70,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		sHYxoXb278Dv2GWKg0zf9+5tpbc=
+		LYTXBqi0z59cTWUtq07E+xolqr0=
 		</data>
 		<key>AverageTargetView.nib</key>
 		<data>
@@ -402,43 +402,43 @@
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Y38ey7zipevKZgPK60BENsFFCSg=
+		YdLD8Icthj1Xoafx1ZVrI+0DvpA=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		77AurrkSXepRIRH/EwbQmyeAEfE=
+		bDq4cFxpXGf0vj0nw68n7qVe5UI=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IdzdJcfqNp07NepZFx0Hi1GvVxo=
+		3WeFxB7K888GTUyxrsvkI/aqJfg=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		77AurrkSXepRIRH/EwbQmyeAEfE=
+		bDq4cFxpXGf0vj0nw68n7qVe5UI=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eb4bjonzEaAIIXqsxfgcxXgi8+I=
+		bR5gWoQsfrQXZ94B7Y8qxHgHHv0=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Y38ey7zipevKZgPK60BENsFFCSg=
+		0Vv4UQ0RR3wxn+yv484/ma2Ia3k=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nvutI9rYuu0k5VtY7MjVp9RyUCw=
+		wN0Xm8yQypOJaUiCigFYvZZVxoo=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PssYuxn8rXXNSrN40OOhs0KDrsw=
+		k3E2M3REUV1lGZD7FIp5wsZx858=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nvutI9rYuu0k5VtY7MjVp9RyUCw=
+		wN0Xm8yQypOJaUiCigFYvZZVxoo=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9fZyedqOOM6S6jZ44ROhpKOM0Lg=
+		ZvRa2zohav7H583v5VR6TrxPo+c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1139,7 +1139,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Bx9xQZDoCkL6/nbHfp2Pb3szrxTeCkOJpuvFqaunHU=
+			6liH9p/6rNhFabblciVCvV/8CByHh1yWY/OIrhzdFh0=
 			</data>
 		</dict>
 		<key>AverageTargetView.nib</key>
@@ -1713,70 +1713,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OM4RjwvcZe8yPDusTMSng5FuxxIIOkIx/vTUwJYP1Bs=
+			r6iorPVOQfCbrOc+V+vDc30JjrLa+z2CrokUVTBTOmY=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6AQTfG9hBHBsBFWNTb2UMOnbh0FxcSvHGCHqGeCEwnY=
+			IRNon+eE5FerR6p0VBdPO7dWiAZKS7UpptyUbfaZJ/c=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lmR8SNncFK50V8puaAP0l11ndBshwychl+TBIOZ+XGo=
+			4ofmeUcKpY7FBWyzV31nxD3rlco9a9deoWdZPxc0AoI=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6AQTfG9hBHBsBFWNTb2UMOnbh0FxcSvHGCHqGeCEwnY=
+			IRNon+eE5FerR6p0VBdPO7dWiAZKS7UpptyUbfaZJ/c=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o2ISuaP/LLY7smV5q8+rR6j5MDwDs4S2UfH3oYg+iGA=
+			vYLwuQlXa60kwuD5h+xAZFq9DTE+1ONmzHEhSB18VOw=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OM4RjwvcZe8yPDusTMSng5FuxxIIOkIx/vTUwJYP1Bs=
+			F4AF4Vdq0dJaHnvngQJi9R2V9uycaOEL8v+d8PMuh5k=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ScuGb5e1fa95m9TuhD7utv0byWh02Q6kUWPcXqporz4=
+			tqifoblSYbBbQWWD04HXplF4K0wMclWn9ZEiphI2pvY=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Npg8GARWLzCaLftPSiNaL0mfUggniDV7gT+Pg9n/mzE=
+			P+yczQAnm86H9ukh9WTuGlKQrhWujVw//4kYybeaHF0=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ScuGb5e1fa95m9TuhD7utv0byWh02Q6kUWPcXqporz4=
+			tqifoblSYbBbQWWD04HXplF4K0wMclWn9ZEiphI2pvY=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QUEY+EgNEikeJq0pohktteZzMGjlwEjELUvWbelHkOE=
+			8vzDCkzJj0gZlPjlcBj0SKLxeNknZq+bcHzvGvW+cYs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

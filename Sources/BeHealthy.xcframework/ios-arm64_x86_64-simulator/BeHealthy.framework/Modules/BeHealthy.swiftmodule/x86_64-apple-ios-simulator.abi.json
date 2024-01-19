@@ -385,6 +385,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -990,6 +1000,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "BeHealthy"
       },
       {
         "kind": "Import",
@@ -8074,6 +8101,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "BeHealthy"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -10156,6 +10200,599 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FailedCheck",
+        "printedName": "FailedCheck",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "urlSchemes",
+            "printedName": "urlSchemes",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FailedCheck.Type) -> BeHealthy.FailedCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailedCheck",
+                    "printedName": "BeHealthy.FailedCheck",
+                    "usr": "s:9BeHealthy11FailedCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FailedCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy11FailedCheckO10urlSchemesyA2CmF",
+            "mangledName": "$s9BeHealthy11FailedCheckO10urlSchemesyA2CmF",
+            "moduleName": "BeHealthy"
+          },
+          {
+            "kind": "Var",
+            "name": "existenceOfSuspiciousFiles",
+            "printedName": "existenceOfSuspiciousFiles",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FailedCheck.Type) -> BeHealthy.FailedCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailedCheck",
+                    "printedName": "BeHealthy.FailedCheck",
+                    "usr": "s:9BeHealthy11FailedCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FailedCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy11FailedCheckO26existenceOfSuspiciousFilesyA2CmF",
+            "mangledName": "$s9BeHealthy11FailedCheckO26existenceOfSuspiciousFilesyA2CmF",
+            "moduleName": "BeHealthy"
+          },
+          {
+            "kind": "Var",
+            "name": "suspiciousFilesCanBeOpened",
+            "printedName": "suspiciousFilesCanBeOpened",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FailedCheck.Type) -> BeHealthy.FailedCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailedCheck",
+                    "printedName": "BeHealthy.FailedCheck",
+                    "usr": "s:9BeHealthy11FailedCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FailedCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy11FailedCheckO018suspiciousFilesCanA6OpenedyA2CmF",
+            "mangledName": "$s9BeHealthy11FailedCheckO018suspiciousFilesCanA6OpenedyA2CmF",
+            "moduleName": "BeHealthy"
+          },
+          {
+            "kind": "Var",
+            "name": "restrictedDirectoriesWriteable",
+            "printedName": "restrictedDirectoriesWriteable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FailedCheck.Type) -> BeHealthy.FailedCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailedCheck",
+                    "printedName": "BeHealthy.FailedCheck",
+                    "usr": "s:9BeHealthy11FailedCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FailedCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy11FailedCheckO30restrictedDirectoriesWriteableyA2CmF",
+            "mangledName": "$s9BeHealthy11FailedCheckO30restrictedDirectoriesWriteableyA2CmF",
+            "moduleName": "BeHealthy"
+          },
+          {
+            "kind": "Var",
+            "name": "fork",
+            "printedName": "fork",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FailedCheck.Type) -> BeHealthy.FailedCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailedCheck",
+                    "printedName": "BeHealthy.FailedCheck",
+                    "usr": "s:9BeHealthy11FailedCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FailedCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy11FailedCheckO4forkyA2CmF",
+            "mangledName": "$s9BeHealthy11FailedCheckO4forkyA2CmF",
+            "moduleName": "BeHealthy"
+          },
+          {
+            "kind": "Var",
+            "name": "symbolicLinks",
+            "printedName": "symbolicLinks",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FailedCheck.Type) -> BeHealthy.FailedCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailedCheck",
+                    "printedName": "BeHealthy.FailedCheck",
+                    "usr": "s:9BeHealthy11FailedCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FailedCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy11FailedCheckO13symbolicLinksyA2CmF",
+            "mangledName": "$s9BeHealthy11FailedCheckO13symbolicLinksyA2CmF",
+            "moduleName": "BeHealthy"
+          },
+          {
+            "kind": "Var",
+            "name": "dyld",
+            "printedName": "dyld",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FailedCheck.Type) -> BeHealthy.FailedCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailedCheck",
+                    "printedName": "BeHealthy.FailedCheck",
+                    "usr": "s:9BeHealthy11FailedCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FailedCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy11FailedCheckO4dyldyA2CmF",
+            "mangledName": "$s9BeHealthy11FailedCheckO4dyldyA2CmF",
+            "moduleName": "BeHealthy"
+          },
+          {
+            "kind": "Var",
+            "name": "openedPorts",
+            "printedName": "openedPorts",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FailedCheck.Type) -> BeHealthy.FailedCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailedCheck",
+                    "printedName": "BeHealthy.FailedCheck",
+                    "usr": "s:9BeHealthy11FailedCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FailedCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy11FailedCheckO11openedPortsyA2CmF",
+            "mangledName": "$s9BeHealthy11FailedCheckO11openedPortsyA2CmF",
+            "moduleName": "BeHealthy"
+          },
+          {
+            "kind": "Var",
+            "name": "pSelectFlag",
+            "printedName": "pSelectFlag",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FailedCheck.Type) -> BeHealthy.FailedCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailedCheck",
+                    "printedName": "BeHealthy.FailedCheck",
+                    "usr": "s:9BeHealthy11FailedCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FailedCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy11FailedCheckO11pSelectFlagyA2CmF",
+            "mangledName": "$s9BeHealthy11FailedCheckO11pSelectFlagyA2CmF",
+            "moduleName": "BeHealthy"
+          },
+          {
+            "kind": "Var",
+            "name": "suspiciousObjCClasses",
+            "printedName": "suspiciousObjCClasses",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FailedCheck.Type) -> BeHealthy.FailedCheck",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailedCheck",
+                    "printedName": "BeHealthy.FailedCheck",
+                    "usr": "s:9BeHealthy11FailedCheckO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FailedCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy11FailedCheckO21suspiciousObjCClassesyA2CmF",
+            "mangledName": "$s9BeHealthy11FailedCheckO21suspiciousObjCClassesyA2CmF",
+            "moduleName": "BeHealthy"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FailedCheck",
+                "printedName": "BeHealthy.FailedCheck",
+                "usr": "s:9BeHealthy11FailedCheckO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FailedCheck",
+                "printedName": "BeHealthy.FailedCheck",
+                "usr": "s:9BeHealthy11FailedCheckO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy11FailedCheckO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9BeHealthy11FailedCheckO2eeoiySbAC_ACtFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9BeHealthy11FailedCheckO9hashValueSivp",
+            "mangledName": "$s9BeHealthy11FailedCheckO9hashValueSivp",
+            "moduleName": "BeHealthy",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9BeHealthy11FailedCheckO9hashValueSivg",
+                "mangledName": "$s9BeHealthy11FailedCheckO9hashValueSivg",
+                "moduleName": "BeHealthy",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy11FailedCheckO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9BeHealthy11FailedCheckO4hash4intoys6HasherVz_tF",
+            "moduleName": "BeHealthy",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BeHealthy.FailedCheck]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FailedCheck",
+                    "printedName": "BeHealthy.FailedCheck",
+                    "usr": "s:9BeHealthy11FailedCheckO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9BeHealthy11FailedCheckO8allCasesSayACGvpZ",
+            "mangledName": "$s9BeHealthy11FailedCheckO8allCasesSayACGvpZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[BeHealthy.FailedCheck]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9BeHealthy11FailedCheckO8allCasesSayACGvgZ",
+                "mangledName": "$s9BeHealthy11FailedCheckO8allCasesSayACGvgZ",
+                "moduleName": "BeHealthy",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9BeHealthy11FailedCheckO",
+        "mangledName": "$s9BeHealthy11FailedCheckO",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[BeHealthy.FailedCheck]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FailedCheck",
+                        "printedName": "BeHealthy.FailedCheck",
+                        "usr": "s:9BeHealthy11FailedCheckO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -10200,6 +10837,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "BeHealthy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -18176,6 +18823,258 @@
       },
       {
         "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "BeHealthy"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "BeHealthy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FileIntegrityCheck",
+        "printedName": "FileIntegrityCheck",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundleID",
+            "printedName": "bundleID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FileIntegrityCheck.Type) -> (Swift.String) -> BeHealthy.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> BeHealthy.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "BeHealthy.FileIntegrityCheck",
+                        "usr": "s:9BeHealthy18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "BeHealthy.FileIntegrityCheck",
+                        "usr": "s:9BeHealthy18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy18FileIntegrityCheckO8bundleIDyACSScACmF",
+            "mangledName": "$s9BeHealthy18FileIntegrityCheckO8bundleIDyACSScACmF",
+            "moduleName": "BeHealthy",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobileProvision",
+            "printedName": "mobileProvision",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FileIntegrityCheck.Type) -> (Swift.String) -> BeHealthy.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> BeHealthy.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "BeHealthy.FileIntegrityCheck",
+                        "usr": "s:9BeHealthy18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "BeHealthy.FileIntegrityCheck",
+                        "usr": "s:9BeHealthy18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy18FileIntegrityCheckO15mobileProvisionyACSScACmF",
+            "mangledName": "$s9BeHealthy18FileIntegrityCheckO15mobileProvisionyACSScACmF",
+            "moduleName": "BeHealthy",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "machO",
+            "printedName": "machO",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BeHealthy.FileIntegrityCheck.Type) -> (Swift.String, Swift.String) -> BeHealthy.FileIntegrityCheck",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> BeHealthy.FileIntegrityCheck",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "BeHealthy.FileIntegrityCheck",
+                        "usr": "s:9BeHealthy18FileIntegrityCheckO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BeHealthy.FileIntegrityCheck.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "BeHealthy.FileIntegrityCheck",
+                        "usr": "s:9BeHealthy18FileIntegrityCheckO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9BeHealthy18FileIntegrityCheckO5machOyACSS_SStcACmF",
+            "mangledName": "$s9BeHealthy18FileIntegrityCheckO5machOyACSS_SStcACmF",
+            "moduleName": "BeHealthy",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9BeHealthy18FileIntegrityCheckO11descriptionSSvp",
+            "mangledName": "$s9BeHealthy18FileIntegrityCheckO11descriptionSSvp",
+            "moduleName": "BeHealthy",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9BeHealthy18FileIntegrityCheckO11descriptionSSvg",
+                "mangledName": "$s9BeHealthy18FileIntegrityCheckO11descriptionSSvg",
+                "moduleName": "BeHealthy",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9BeHealthy18FileIntegrityCheckO",
+        "mangledName": "$s9BeHealthy18FileIntegrityCheckO",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -18289,6 +19188,524 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "BeHealthy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IOSSecuritySuite",
+        "printedName": "IOSSecuritySuite",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "amIJailbroken",
+            "printedName": "amIJailbroken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC13amIJailbrokenSbyFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC13amIJailbrokenSbyFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "amIJailbrokenWithFailMessage",
+            "printedName": "amIJailbrokenWithFailMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(jailbroken: Swift.Bool, failMessage: Swift.String)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC28amIJailbrokenWithFailMessageSb10jailbroken_SS04failI0tyFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC28amIJailbrokenWithFailMessageSb10jailbroken_SS04failI0tyFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "amIJailbrokenWithFailedChecks",
+            "printedName": "amIJailbrokenWithFailedChecks()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(jailbroken: Swift.Bool, failedChecks: [(check: BeHealthy.FailedCheck, failMessage: Swift.String)])",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[(check: BeHealthy.FailedCheck, failMessage: Swift.String)]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(check: BeHealthy.FailedCheck, failMessage: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FailedCheck",
+                            "printedName": "BeHealthy.FailedCheck",
+                            "usr": "s:9BeHealthy11FailedCheckO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC29amIJailbrokenWithFailedChecksSb10jailbroken_SayAA0H5CheckO5check_SS11failMessagetG06failedI0tyFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC29amIJailbrokenWithFailedChecksSb10jailbroken_SayAA0H5CheckO5check_SS11failMessagetG06failedI0tyFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "amIRunInEmulator",
+            "printedName": "amIRunInEmulator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC16amIRunInEmulatorSbyFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC16amIRunInEmulatorSbyFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "amIDebugged",
+            "printedName": "amIDebugged()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC11amIDebuggedSbyFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC11amIDebuggedSbyFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "denyDebugger",
+            "printedName": "denyDebugger()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC12denyDebuggeryyFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC12denyDebuggeryyFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isParentPidUnexpected",
+            "printedName": "isParentPidUnexpected()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC21isParentPidUnexpectedSbyFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC21isParentPidUnexpectedSbyFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "amITampered",
+            "printedName": "amITampered(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(result: Swift.Bool, hitChecks: [BeHealthy.FileIntegrityCheck])",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[BeHealthy.FileIntegrityCheck]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileIntegrityCheck",
+                        "printedName": "BeHealthy.FileIntegrityCheck",
+                        "usr": "s:9BeHealthy18FileIntegrityCheckO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BeHealthy.FileIntegrityCheck]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FileIntegrityCheck",
+                    "printedName": "BeHealthy.FileIntegrityCheck",
+                    "usr": "s:9BeHealthy18FileIntegrityCheckO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC11amITamperedySb6result_SayAA18FileIntegrityCheckOG9hitCheckstAHFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC11amITamperedySb6result_SayAA18FileIntegrityCheckOG9hitCheckstAHFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "amIReverseEngineered",
+            "printedName": "amIReverseEngineered()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC20amIReverseEngineeredSbyFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC20amIReverseEngineeredSbyFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "amIReverseEngineeredWithFailedChecks",
+            "printedName": "amIReverseEngineeredWithFailedChecks()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(reverseEngineered: Swift.Bool, failedChecks: [(check: BeHealthy.FailedCheck, failMessage: Swift.String)])",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[(check: BeHealthy.FailedCheck, failMessage: Swift.String)]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(check: BeHealthy.FailedCheck, failMessage: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FailedCheck",
+                            "printedName": "BeHealthy.FailedCheck",
+                            "usr": "s:9BeHealthy11FailedCheckO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC36amIReverseEngineeredWithFailedChecksSb07reverseG0_SayAA0I5CheckO5check_SS11failMessagetG06failedJ0tyFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC36amIReverseEngineeredWithFailedChecksSb07reverseG0_SayAA0I5CheckO5check_SS11failMessagetG06failedJ0tyFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "amIRuntimeHooked",
+            "printedName": "amIRuntimeHooked(dyldWhiteList:detectionClass:selector:isClassMethod:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Selector",
+                "printedName": "ObjectiveC.Selector",
+                "usr": "s:10ObjectiveC8SelectorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC16amIRuntimeHooked13dyldWhiteList14detectionClass8selector02isL6MethodSbSaySSG_yXlXp10ObjectiveC8SelectorVSbtFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC16amIRuntimeHooked13dyldWhiteList14detectionClass8selector02isL6MethodSbSaySSG_yXlXp10ObjectiveC8SelectorVSbtFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "amIProxied",
+            "printedName": "amIProxied()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9BeHealthy16IOSSecuritySuiteC10amIProxiedSbyFZ",
+            "mangledName": "$s9BeHealthy16IOSSecuritySuiteC10amIProxiedSbyFZ",
+            "moduleName": "BeHealthy",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9BeHealthy16IOSSecuritySuiteC",
+        "mangledName": "$s9BeHealthy16IOSSecuritySuiteC",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BeHealthy"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "BeHealthy"
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
         "declKind": "Import",
         "moduleName": "BeHealthy",
         "declAttributes": [
@@ -18731,6 +20148,23 @@
       },
       {
         "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "BeHealthy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -18779,6 +20213,16 @@
         "printedName": "QuartzCore",
         "declKind": "Import",
         "moduleName": "BeHealthy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -20854,6 +22298,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -21789,6 +23243,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "BeHealthy"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -23622,13 +25086,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "IOSSecuritySuite",
-        "printedName": "IOSSecuritySuite",
-        "declKind": "Import",
-        "moduleName": "BeHealthy"
       },
       {
         "kind": "Import",
@@ -37759,6 +39216,69 @@
       "offset": 5018,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/RuntimeHookChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 833,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/RuntimeHookChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1161,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/RuntimeHookChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1184,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/RuntimeHookChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1336,
+      "length": 17,
+      "value": "\"\/System\/Library\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/RuntimeHookChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/RuntimeHookChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1496,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/RuntimeHookChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1578,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/RuntimeHookChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1686,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/RuntimeHookChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1839,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/ProviderSelector\/ProviderSelectorViewController.swift",
@@ -56318,6 +57838,307 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1267,
+      "length": 67,
+      "value": "\"Failed to create a cString with path=\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
+      "length": 8,
+      "value": "\" encoding=\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1333,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1703,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2368,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2464,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2908,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2955,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 2993,
+      "length": 66,
+      "value": "\"getfsstat() failed to return the number of mounted file systems.\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3575,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 3650,
+      "length": 64,
+      "value": "\"Unexpected a resultCode=\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 3688,
+      "length": 1,
+      "value": "\", was expecting=\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 3712,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "Array",
+      "offset": 3789,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4549,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4648,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 4786,
+      "length": 71,
+      "value": "\"Unexpected filesystems count=\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 4831,
+      "length": 1,
+      "value": "\", was expecting=\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 4855,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 4958,
+      "length": 84,
+      "value": "\"getfsstat() failed. resultCode=\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 5003,
+      "length": 1,
+      "value": "\", expected count=\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 5028,
+      "length": 11,
+      "value": "\" filesystems.\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5544,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 5581,
+      "length": 50,
+      "value": "\"Expected to a non-empty list of mounted volumes.\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 5814,
+      "length": 45,
+      "value": "\"Expected a non-nil list of mounted volumes.\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 6561,
+      "length": 4,
+      "value": "\"r+\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 6568,
+      "length": 3,
+      "value": "\"r\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6710,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 6717,
+      "length": 33,
+      "value": "\"Suspicious file exists: \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 6749,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7185,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7209,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 7216,
+      "length": 33,
+      "value": "\"Suspicious file exists: \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 7248,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7973,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7997,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 8004,
+      "length": 33,
+      "value": "\"Suspicious file exists: \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 8036,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 8522,
+      "length": 67,
+      "value": "\"Failed to create a cString with path=\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 8567,
+      "length": 8,
+      "value": "\" encoding=\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 8588,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8761,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/FileChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8824,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Models\/ProgressInformation.swift",
       "kind": "StringLiteral",
       "offset": 705,
@@ -66377,6 +68198,160 @@
       "value": "\"ENROLLMENT_HOMEPAGE_SLIDE_1_PARAGRAPH\""
     },
     {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1079,
+      "length": 54,
+      "value": "\"The expected bundle identify was \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1132,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1209,
+      "length": 77,
+      "value": "\"The expected hash value of Mobile Provision file was \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1285,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 106,
+      "value": "\"The expected hash value of \"__TEXT.__text\" data of \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1433,
+      "length": 4,
+      "value": "\" Mach-O file was \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1472,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "Array",
+      "offset": 1846,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1870,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2074,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2306,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2550,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2853,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2892,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 3059,
+      "length": 10,
+      "value": "\"embedded\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 3079,
+      "length": 17,
+      "value": "\"mobileprovision\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3112,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3407,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3700,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3771,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4065,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IntegrityChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 11475,
+      "length": 8,
+      "value": "\"%02hhx\""
+    },
+    {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/CalendarActivityDetail\/CalendarActivityDetailPresenter.swift",
       "kind": "FloatLiteral",
       "offset": 720,
@@ -66802,6 +68777,335 @@
       "offset": 411,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1220,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1251,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "Array",
+      "offset": 1345,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1997,
+      "length": 51,
+      "value": "\"App run in the emulator, skipping the fork check.\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 2685,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3167,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 3174,
+      "length": 34,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 3187,
+      "length": 3,
+      "value": "\" URL scheme detected\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "Array",
+      "offset": 3552,
+      "length": 137,
+      "value": "[\"undecimus:\/\/\", \"sileo:\/\/\", \"zbra:\/\/\", \"filza:\/\/\", \"activator:\/\/\"]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "Array",
+      "offset": 3854,
+      "length": 3578,
+      "value": "[\"\/var\/mobile\/Library\/Preferences\/ABPattern\", \"\/usr\/lib\/ABDYLD.dylib\", \"\/usr\/lib\/ABSubLoader.dylib\", \"\/usr\/sbin\/frida-server\", \"\/etc\/apt\/sources.list.d\/electra.list\", \"\/etc\/apt\/sources.list.d\/sileo.sources\", \"\/.bootstrapped_electra\", \"\/usr\/lib\/libjailbreak.dylib\", \"\/jb\/lzma\", \"\/.cydia_no_stash\", \"\/.installed_unc0ver\", \"\/jb\/offsets.plist\", \"\/usr\/share\/jailbreak\/injectme.plist\", \"\/etc\/apt\/undecimus\/undecimus.list\", \"\/var\/lib\/dpkg\/info\/mobilesubstrate.md5sums\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\", \"\/jb\/jailbreakd.plist\", \"\/jb\/amfid_payload.dylib\", \"\/jb\/libjailbreak.dylib\", \"\/usr\/libexec\/cydia\/firmware.sh\", \"\/var\/lib\/cydia\", \"\/etc\/apt\", \"\/private\/var\/lib\/apt\", \"\/private\/var\/Users\/\", \"\/var\/log\/apt\", \"\/Applications\/Cydia.app\", \"\/private\/var\/stash\", \"\/private\/var\/lib\/apt\/\", \"\/private\/var\/lib\/cydia\", \"\/private\/var\/cache\/apt\/\", \"\/private\/var\/log\/syslog\", \"\/private\/var\/tmp\/cydia.log\", \"\/Applications\/Icy.app\", \"\/Applications\/MxTube.app\", \"\/Applications\/RockApp.app\", \"\/Applications\/blackra1n.app\", \"\/Applications\/SBSettings.app\", \"\/Applications\/FakeCarrier.app\", \"\/Applications\/WinterBoard.app\", \"\/Applications\/IntelliScreen.app\", \"\/private\/var\/mobile\/Library\/SBSettings\/Themes\", \"\/Library\/MobileSubstrate\/CydiaSubstrate.dylib\", \"\/System\/Library\/LaunchDaemons\/com.ikey.bbot.plist\", \"\/Library\/MobileSubstrate\/DynamicLibraries\/Veency.plist\", \"\/Library\/MobileSubstrate\/DynamicLibraries\/LiveClock.plist\", \"\/System\/Library\/LaunchDaemons\/com.saurik.Cydia.Startup.plist\", \"\/Applications\/Sileo.app\", \"\/var\/binpack\", \"\/Library\/PreferenceBundles\/LibertyPref.bundle\", \"\/Library\/PreferenceBundles\/ShadowPreferences.bundle\", \"\/Library\/PreferenceBundles\/ABypassPrefs.bundle\", \"\/Library\/PreferenceBundles\/FlyJBPrefs.bundle\", \"\/Library\/PreferenceBundles\/Cephei.bundle\", \"\/Library\/PreferenceBundles\/SubstitutePrefs.bundle\", \"\/Library\/PreferenceBundles\/libhbangprefs.bundle\", \"\/usr\/lib\/libhooker.dylib\", \"\/usr\/lib\/libsubstitute.dylib\", \"\/usr\/lib\/substrate\", \"\/usr\/lib\/TweakInject\", \"\/var\/binpack\/Applications\/loader.app\", \"\/Applications\/FlyJB.app\", \"\/Applications\/Zebra.app\", \"\/Library\/BawAppie\/ABypass\", \"\/Library\/MobileSubstrate\/DynamicLibraries\/SSLKillSwitch2.plist\", \"\/Library\/MobileSubstrate\/DynamicLibraries\/PreferenceLoader.plist\", \"\/Library\/MobileSubstrate\/DynamicLibraries\/PreferenceLoader.dylib\", \"\/Library\/MobileSubstrate\/DynamicLibraries\", \"\/var\/mobile\/Library\/Preferences\/me.jjolano.shadow.plist\"]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "Array",
+      "offset": 7575,
+      "length": 264,
+      "value": "[\"\/bin\/bash\", \"\/usr\/sbin\/sshd\", \"\/usr\/libexec\/ssh-keysign\", \"\/bin\/sh\", \"\/etc\/ssh\/sshd_config\", \"\/usr\/libexec\/sftp-server\", \"\/usr\/bin\/ssh\"]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7973,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 7980,
+      "length": 33,
+      "value": "\"Suspicious file exists: \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 8012,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "Array",
+      "offset": 8616,
+      "length": 236,
+      "value": "[\"\/.installed_unc0ver\", \"\/.bootstrapped_electra\", \"\/Applications\/Cydia.app\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\", \"\/etc\/apt\", \"\/var\/log\/apt\"]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "Array",
+      "offset": 8995,
+      "length": 109,
+      "value": "[\"\/bin\/bash\", \"\/usr\/sbin\/sshd\", \"\/usr\/bin\/ssh\"]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9255,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 9262,
+      "length": 40,
+      "value": "\"Suspicious file can be opened: \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 9301,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "Array",
+      "offset": 9779,
+      "length": 94,
+      "value": "[\"\/\", \"\/root\/\", \"\/private\/\", \"\/jb\/\"]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 9952,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9960,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 10110,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10118,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 10271,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10279,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 10655,
+      "length": 16,
+      "value": "\"AmIJailbroken?\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10718,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10891,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 10898,
+      "length": 35,
+      "value": "\"Wrote to restricted path: \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 10932,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11140,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 11187,
+      "length": 6,
+      "value": "\"fork\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11378,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11410,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "Array",
+      "offset": 11705,
+      "length": 276,
+      "value": "[\"\/var\/lib\/undecimus\/apt\", \"\/Applications\", \"\/Library\/Ringtones\", \"\/Library\/Wallpaper\", \"\/usr\/arm-apple-darwin9\", \"\/usr\/include\", \"\/usr\/libexec\", \"\/usr\/share\"]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12194,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 12201,
+      "length": 66,
+      "value": "\"Non standard symbolic link detected: \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 12246,
+      "length": 6,
+      "value": "\" points to \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 12266,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "Array",
+      "offset": 12467,
+      "length": 811,
+      "value": "[\"SubstrateLoader.dylib\", \"SSLKillSwitch2.dylib\", \"SSLKillSwitch.dylib\", \"MobileSubstrate.dylib\", \"TweakInject.dylib\", \"CydiaSubstrate\", \"cynject\", \"CustomWidgetIcons\", \"PreferenceLoader\", \"RocketBootstrap\", \"WeeLoader\", \"\/.file\", \"libhooker\", \"SubstrateInserter\", \"SubstrateBootstrap\", \"ABypass\", \"FlyJB\", \"Substitute\", \"Cephei\", \"Electra\", \"AppSyncUnified-FrontBoard.dylib\", \"Shadow\", \"FridaGadget\", \"frida\", \"libcycript\"]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13309,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13601,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 13608,
+      "length": 41,
+      "value": "\"Suspicious library loaded: \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 13648,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 13842,
+      "length": 15,
+      "value": "\"ShadowRuleset\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/JailbreakChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 13916,
+      "length": 20,
+      "value": "\"internalDictionary\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RefundHistory\/RefundCellsViewModel.swift",
@@ -69352,6 +71656,181 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 884,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "Array",
+      "offset": 980,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "Array",
+      "offset": 1823,
+      "length": 148,
+      "value": "[\"FridaGadget\", \"frida\", \"cynject\", \"libcycript\"]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1994,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2286,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 2293,
+      "length": 41,
+      "value": "\"Suspicious library loaded: \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 2333,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "Array",
+      "offset": 2490,
+      "length": 48,
+      "value": "[\"\/usr\/sbin\/frida-server\"]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2654,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 2661,
+      "length": 32,
+      "value": "\"Suspicious file found: \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 2692,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "Array",
+      "offset": 2834,
+      "length": 138,
+      "value": "[27042, 4444, 22, 44]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3079,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 3086,
+      "length": 22,
+      "value": "\"Port \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 3099,
+      "length": 2,
+      "value": "\" is open\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 3591,
+      "length": 11,
+      "value": "\"127.0.0.1\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3726,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3853,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4042,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4066,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4115,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4446,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4474,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 4496,
+      "length": 69,
+      "value": "\"Error occured when calling sysctl(). This check may not be reliable\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ReverseEngineeringToolsChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4634,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Biometrics Confirmation\/BiometricsConfirmationPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 853,
@@ -69658,6 +72137,34 @@
       "offset": 5561,
       "length": 2,
       "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ProxyChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 395,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ProxyChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 589,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ProxyChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 660,
+      "length": 11,
+      "value": "\"HTTPProxy\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/ProxyChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 699,
+      "length": 12,
+      "value": "\"HTTPSProxy\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/Lottie\/Private\/NodeRenderSystem\/Nodes\/OutputNodes\/Renderables\/GradientStrokeRenderer.swift",
@@ -73039,6 +75546,97 @@
       "offset": 487,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 601,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 629,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 651,
+      "length": 77,
+      "value": "\"Error occured when calling sysctl(). The debugger check may not be reliable\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 793,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 927,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 978,
+      "length": 8,
+      "value": "\"ptrace\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1199,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1203,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1206,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1209,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1237,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 1259,
+      "length": 75,
+      "value": "\"Error occured when calling ptrace(). Denying debugger may not be reliable\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/DebuggerChecker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4532,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Create Account\/CreateAccountPresenter.swift",
@@ -77050,6 +79648,20 @@
       "offset": 614,
       "length": 8,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/EmulatorChecker.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 23,
+      "value": "\"SIMULATOR_DEVICE_NAME\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/EmulatorChecker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 537,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Common\/Common.swift",
@@ -84845,49 +87457,49 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/JailbreakDetectorDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 768,
+      "offset": 744,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/JailbreakDetectorDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 873,
+      "offset": 849,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/JailbreakDetectorDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 912,
+      "offset": 888,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/JailbreakDetectorDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 1015,
+      "offset": 991,
       "length": 31,
       "value": "\"JAILBROKEN_DEVICE_ALERT_TITLE\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/JailbreakDetectorDelegate.swift",
       "kind": "StringLiteral",
-      "offset": 1113,
+      "offset": 1089,
       "length": 33,
       "value": "\"JAILBROKEN_DEVICE_ALERT_MESSAGE\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/JailbreakDetectorDelegate.swift",
       "kind": "Array",
-      "offset": 1213,
+      "offset": 1189,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/JailbreakDetectorDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 1669,
+      "offset": 1645,
       "length": 4,
       "value": "true"
     },

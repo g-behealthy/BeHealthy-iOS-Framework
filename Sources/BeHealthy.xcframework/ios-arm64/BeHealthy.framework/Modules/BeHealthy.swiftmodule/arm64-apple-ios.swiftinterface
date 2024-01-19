@@ -4,16 +4,19 @@
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AuthenticationServices
 import BackgroundTasks
+import CommonCrypto
 import CoreData
 import CoreGraphics
 import CoreText
 import CryptoKit
+import Darwin
 import DeveloperToolsSupport
 import Foundation
 import HealthKit
-import IOSSecuritySuite
 import LocalAuthentication
+import MachO
 import MessageUI
+import ObjectiveC
 import PDFKit
 import QuartzCore
 import Security
@@ -291,6 +294,28 @@ final public class Animation : Swift.Codable {
     get
   }
 }
+public typealias FailedCheckType = (check: BeHealthy.FailedCheck, failMessage: Swift.String)
+public enum FailedCheck : Swift.CaseIterable {
+  case urlSchemes
+  case existenceOfSuspiciousFiles
+  case suspiciousFilesCanBeOpened
+  case restrictedDirectoriesWriteable
+  case fork
+  case symbolicLinks
+  case dyld
+  case openedPorts
+  case pSelectFlag
+  case suspiciousObjCClasses
+  public static func == (a: BeHealthy.FailedCheck, b: BeHealthy.FailedCheck) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [BeHealthy.FailedCheck]
+  public static var allCases: [BeHealthy.FailedCheck] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension BeHealthy.AnimationView {
   @_Concurrency.MainActor(unsafe) convenience public init(name: Swift.String, bundle: Foundation.Bundle = Bundle.main, imageProvider: (any BeHealthy.AnimationImageProvider)? = nil, animationCache: (any BeHealthy.AnimationCacheProvider)? = LRUAnimationCache.sharedCache)
   @_Concurrency.MainActor(unsafe) convenience public init(filePath: Swift.String, imageProvider: (any BeHealthy.AnimationImageProvider)? = nil, animationCache: (any BeHealthy.AnimationCacheProvider)? = LRUAnimationCache.sharedCache)
@@ -506,6 +531,48 @@ extension BeHealthy.BeHealthyConfig {
   @objc dynamic public func shouldRequestWatch(_ requestWatch: Swift.Bool)
   @objc dynamic public func addListener(_ listener: any BeHealthy.BeHealthyEventListener, event: BeHealthy.BeHealthyEvent)
   @objc dynamic public func removeListener(_ listener: any BeHealthy.BeHealthyEventListener, event: BeHealthy.BeHealthyEvent)
+}
+public enum FileIntegrityCheck {
+  case bundleID(Swift.String)
+  case mobileProvision(Swift.String)
+  case machO(Swift.String, Swift.String)
+}
+extension BeHealthy.FileIntegrityCheck {
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias FileIntegrityCheckResult = (result: Swift.Bool, hitChecks: [BeHealthy.FileIntegrityCheck])
+public enum IntegrityCheckerImageTarget {
+  case `default`
+  case custom(Swift.String)
+}
+@_hasMissingDesignatedInitializers @available(iOSApplicationExtension, unavailable)
+public class IOSSecuritySuite {
+  public static func amIJailbroken() -> Swift.Bool
+  public static func amIJailbrokenWithFailMessage() -> (jailbroken: Swift.Bool, failMessage: Swift.String)
+  public static func amIJailbrokenWithFailedChecks() -> (jailbroken: Swift.Bool, failedChecks: [BeHealthy.FailedCheckType])
+  public static func amIRunInEmulator() -> Swift.Bool
+  public static func amIDebugged() -> Swift.Bool
+  public static func denyDebugger()
+  public static func isParentPidUnexpected() -> Swift.Bool
+  public static func amITampered(_ checks: [BeHealthy.FileIntegrityCheck]) -> BeHealthy.FileIntegrityCheckResult
+  public static func amIReverseEngineered() -> Swift.Bool
+  public static func amIReverseEngineeredWithFailedChecks() -> (reverseEngineered: Swift.Bool, failedChecks: [BeHealthy.FailedCheckType])
+  public static func amIRuntimeHooked(dyldWhiteList: [Swift.String], detectionClass: Swift.AnyClass, selector: ObjectiveC.Selector, isClassMethod: Swift.Bool) -> Swift.Bool
+  public static func amIProxied() -> Swift.Bool
+  @objc deinit
+}
+@available(iOSApplicationExtension, unavailable)
+extension BeHealthy.IOSSecuritySuite {
+  public static func amIMSHooked(_ functionAddress: Swift.UnsafeMutableRawPointer) -> Swift.Bool
+  public static func denyMSHook(_ functionAddress: Swift.UnsafeMutableRawPointer) -> Swift.UnsafeMutableRawPointer?
+  public static func denySymbolHook(_ symbol: Swift.String)
+  public static func denySymbolHook(_ symbol: Swift.String, at image: Swift.UnsafePointer<MachO.mach_header>, imageSlide slide: Swift.Int)
+  public static func getMachOFileHashValue(_ target: BeHealthy.IntegrityCheckerImageTarget = .default) -> Swift.String?
+  public static func findLoadedDylibs(_ target: BeHealthy.IntegrityCheckerImageTarget = .default) -> [Swift.String]?
+  public static func hasBreakpointAt(_ functionAddr: Swift.UnsafeRawPointer, functionSize: Darwin.vm_size_t?) -> Swift.Bool
+  public static func hasWatchpoint() -> Swift.Bool
 }
 extension QuartzCore.CALayer {
   public func logLayerTree(withIndent: Swift.Int = 0)
@@ -966,6 +1033,8 @@ extension BeHealthy.CoordinateSpace : Swift.RawRepresentable {}
 extension BeHealthy.BeHealthyEvent : Swift.Equatable {}
 extension BeHealthy.BeHealthyEvent : Swift.Hashable {}
 extension BeHealthy.BeHealthyEvent : Swift.RawRepresentable {}
+extension BeHealthy.FailedCheck : Swift.Equatable {}
+extension BeHealthy.FailedCheck : Swift.Hashable {}
 extension BeHealthy.LottieBackgroundBehavior : Swift.Equatable {}
 extension BeHealthy.LottieBackgroundBehavior : Swift.Hashable {}
 extension BeHealthy.BeHealthyEnvironment : Swift.Equatable {}
