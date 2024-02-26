@@ -475,8 +475,9 @@ enum BeHealthyEvent : NSInteger;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
-  BeHealthyEnvironmentStage = 0,
-  BeHealthyEnvironmentProduction = 1,
+  BeHealthyEnvironmentQa = 0,
+  BeHealthyEnvironmentStage = 1,
+  BeHealthyEnvironmentProduction = 2,
 };
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEvent, open) {

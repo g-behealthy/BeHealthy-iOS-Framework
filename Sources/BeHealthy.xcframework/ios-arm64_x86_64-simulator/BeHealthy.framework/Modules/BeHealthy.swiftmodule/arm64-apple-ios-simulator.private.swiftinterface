@@ -485,6 +485,7 @@ extension BeHealthy.LottieLoopMode : Swift.Equatable {
   @objc deinit
 }
 @objc public enum BeHealthyEnvironment : Swift.Int {
+  case qa
   case stage
   case production
   public init?(rawValue: Swift.Int)
