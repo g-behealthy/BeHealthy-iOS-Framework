@@ -70,7 +70,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		XMq6AlmHedsKfgEq4DIyeX6PVIs=
+		GdPsNss9AnaydWH8BgkhCLSa5nA=
 		</data>
 		<key>AverageTargetView.nib</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>Endpoints.plist</key>
 		<data>
-		xvWLVBWFK8w1ugLHdT69pr9/f+M=
+		SDHn9pZaEYnIn6gW6e6Peqxa9eE=
 		</data>
 		<key>EnrollmentActivityLevelTableViewCell.nib</key>
 		<data>
@@ -406,7 +406,7 @@
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VUjvuA9qLpzD/hZzlEZ7Nk6o5GY=
+		exlnkgdngOuRzQ5r74ynlnA6u1o=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -426,7 +426,7 @@
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/WOoSz36nN+/5CKdryozdZQsQCk=
+		Nm5SxrpHijl/xsk9FR7ZJp3rCfY=
 		</data>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -1147,7 +1147,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JPE9JELp52HyNJ79raY7u5KMCfG8VZjwUL96koZZ4jU=
+			JN3xB+5cQKpjg35SxLAXdP5xsfuiUyx110SWiP5M1TI=
 			</data>
 		</dict>
 		<key>AverageTargetView.nib</key>
@@ -1399,7 +1399,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vdTNNXZuQdJiLl7CSpHwkS8n1N3bupKfHd6+nk63wpM=
+			3EgdOLV9qTSlYKeZNDDn8eCMux9SWwzXce0v8rlYnns=
 			</data>
 		</dict>
 		<key>EnrollmentActivityLevelTableViewCell.nib</key>
@@ -1728,7 +1728,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i0LhP0Gj/9tqMTP7SJq2BHZY2YfovrpMdPaqVmgCyWQ=
+			4HoSrbYes4GzNGCH6lg7D53z71BrZkVT/ysUNpAiQkk=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1763,7 +1763,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yblf/aSeeBp0DSyfzSu79b982+KrddsbgxiKBUq2KYA=
+			Zli2PeWiP0kEQtPmiLnTkDDkrqi7x0DrfFQNTL2qZos=
 			</data>
 		</dict>
 		<key>Modules/BeHealthy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
