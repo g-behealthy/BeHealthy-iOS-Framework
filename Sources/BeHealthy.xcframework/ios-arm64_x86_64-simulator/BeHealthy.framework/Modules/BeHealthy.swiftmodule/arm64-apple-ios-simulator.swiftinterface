@@ -532,6 +532,7 @@ extension BeHealthy.BeHealthyConfig {
   @objc dynamic public func shouldRequestWatch(_ requestWatch: Swift.Bool)
   @objc dynamic public func addListener(_ listener: any BeHealthy.BeHealthyEventListener, event: BeHealthy.BeHealthyEvent)
   @objc dynamic public func removeListener(_ listener: any BeHealthy.BeHealthyEventListener, event: BeHealthy.BeHealthyEvent)
+  @objc dynamic public func sendProgress()
 }
 public enum FileIntegrityCheck {
   case bundleID(Swift.String)

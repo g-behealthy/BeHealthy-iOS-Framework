@@ -472,6 +472,7 @@ enum BeHealthyEvent : NSInteger;
 - (void)shouldRequestWatch:(BOOL)requestWatch;
 - (void)addListener:(id <BeHealthyEventListener> _Nonnull)listener event:(enum BeHealthyEvent)event;
 - (void)removeListener:(id <BeHealthyEventListener> _Nonnull)listener event:(enum BeHealthyEvent)event;
+- (void)sendProgress;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
@@ -1218,6 +1219,7 @@ enum BeHealthyEvent : NSInteger;
 - (void)shouldRequestWatch:(BOOL)requestWatch;
 - (void)addListener:(id <BeHealthyEventListener> _Nonnull)listener event:(enum BeHealthyEvent)event;
 - (void)removeListener:(id <BeHealthyEventListener> _Nonnull)listener event:(enum BeHealthyEvent)event;
+- (void)sendProgress;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
