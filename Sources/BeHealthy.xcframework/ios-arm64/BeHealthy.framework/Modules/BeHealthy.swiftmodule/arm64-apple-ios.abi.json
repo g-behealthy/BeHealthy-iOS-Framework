@@ -17305,6 +17305,13 @@
         "moduleName": "BeHealthy"
       },
       {
+        "kind": "Import",
+        "name": "MessageUI",
+        "printedName": "MessageUI",
+        "declKind": "Import",
+        "moduleName": "BeHealthy"
+      },
+      {
         "kind": "TypeDecl",
         "name": "BeHealthyEnvironment",
         "printedName": "BeHealthyEnvironment",
@@ -18718,6 +18725,102 @@
               "Dynamic",
               "AccessControl",
               "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendLogs",
+            "printedName": "sendLogs()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BeHealthy@objc(cs)BeHealthyConfig(im)sendLogs",
+            "mangledName": "$s9BeHealthy0aB6ConfigC8sendLogsyyF",
+            "moduleName": "BeHealthy",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearLogs",
+            "printedName": "clearLogs()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BeHealthy@objc(cs)BeHealthyConfig(im)clearLogs",
+            "mangledName": "$s9BeHealthy0aB6ConfigC9clearLogsyyF",
+            "moduleName": "BeHealthy",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "mailComposeController",
+            "printedName": "mailComposeController(_:didFinishWith:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MFMailComposeViewController",
+                "printedName": "MessageUI.MFMailComposeViewController",
+                "usr": "c:objc(cs)MFMailComposeViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MFMailComposeResult",
+                "printedName": "MessageUI.MFMailComposeResult",
+                "usr": "c:@E@MFMailComposeResult"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BeHealthy@objc(cs)BeHealthyConfig(im)mailComposeController:didFinishWithResult:error:",
+            "mangledName": "$s9BeHealthy0aB6ConfigC21mailComposeController_13didFinishWith5errorySo06MFMaile4ViewF0C_So0kE6ResultVs5Error_pSgtF",
+            "moduleName": "BeHealthy",
+            "objc_name": "mailComposeController:didFinishWithResult:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -45515,29 +45618,64 @@
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1804,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1825,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1850,
+      "length": 72,
+      "value": "\"\nBeHealthyAppDelegate - init isSDKConfiguration \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1921,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 1985,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 2461,
+      "offset": 2744,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "FloatLiteral",
-      "offset": 3670,
+      "offset": 3953,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "Dictionary",
-      "offset": 4436,
+      "offset": 4719,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthyAppDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 4466,
+      "offset": 4749,
       "length": 4,
       "value": "true"
     },
@@ -69547,177 +69685,170 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 204,
+      "offset": 221,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 219,
+      "offset": 236,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 204,
+      "offset": 221,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 219,
+      "offset": 236,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 320,
+      "offset": 337,
       "length": 7,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 337,
+      "offset": 354,
       "length": 10,
       "value": "2"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 357,
+      "offset": 374,
       "length": 6,
       "value": "3"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 517,
+      "offset": 534,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 572,
+      "offset": 589,
       "length": 4,
       "value": "\"es\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 630,
+      "offset": 647,
       "length": 7,
       "value": "\"pt-BR\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 687,
+      "offset": 704,
       "length": 4,
       "value": "\"ar\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 795,
+      "offset": 812,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 850,
+      "offset": 867,
       "length": 4,
       "value": "\"es\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 905,
+      "offset": 922,
       "length": 7,
       "value": "\"pt-BR\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 966,
+      "offset": 983,
       "length": 4,
       "value": "\"ar\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2900,
+      "offset": 2958,
       "length": 16,
       "value": "\"AppleLanguages\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2947,
+      "offset": 3005,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 3777,
+      "offset": 3835,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2786,
+      "offset": 2844,
       "length": 15,
       "value": "\"BeHealthy.BeHealthyConfig\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 7290,
+      "offset": 7348,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 9766,
+      "offset": 9824,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 9873,
+      "offset": 9931,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 10006,
+      "offset": 10064,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 10427,
+      "offset": 10485,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 10712,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
@@ -69728,24 +69859,234 @@
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 10828,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 13806,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 13827,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 13852,
+      "length": 36,
+      "value": "\"\nBeHealthyConfig - isUserEnrolled\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 13951,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14108,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14129,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14158,
+      "length": 110,
+      "value": "\"\nBeHealthyConfig - isUserEnrolled getUserInformation \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14248,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14267,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14335,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14501,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14522,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14555,
+      "length": 71,
+      "value": "\"\nBeHealthyConfig - isUserEnrolled getUserInformation completion true\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14697,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 13835,
+      "offset": 14759,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14958,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 14979,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 15016,
+      "length": 71,
+      "value": "\"\nBeHealthyConfig - isUserEnrolled getUserInformation completion true\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 15162,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 13990,
+      "offset": 15232,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 15343,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 15364,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 15401,
+      "length": 72,
+      "value": "\"\nBeHealthyConfig - isUserEnrolled getUserInformation completion false\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 15548,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 14057,
+      "offset": 15618,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 17455,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 17476,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17488,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17586,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 17688,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 17722,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18372,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Common\/Pages\/PagesViewController.swift",
@@ -76161,15 +76502,78 @@
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/UserInformationFacade.swift",
+      "kind": "StringLiteral",
+      "offset": 3733,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/UserInformationFacade.swift",
+      "kind": "StringLiteral",
+      "offset": 3754,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/UserInformationFacade.swift",
+      "kind": "StringLiteral",
+      "offset": 3779,
+      "length": 46,
+      "value": "\"\nUserInformationFacade - getUserInformation\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/UserInformationFacade.swift",
+      "kind": "StringLiteral",
+      "offset": 3888,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/UserInformationFacade.swift",
+      "kind": "StringLiteral",
+      "offset": 4141,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/UserInformationFacade.swift",
+      "kind": "StringLiteral",
+      "offset": 4162,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/UserInformationFacade.swift",
+      "kind": "StringLiteral",
+      "offset": 4191,
+      "length": 73,
+      "value": "\"\nUserInformationFacade - getUserInformation execute \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/UserInformationFacade.swift",
+      "kind": "StringLiteral",
+      "offset": 4263,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/UserInformationFacade.swift",
+      "kind": "StringLiteral",
+      "offset": 4331,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/UserInformationFacade.swift",
       "kind": "BooleanLiteral",
-      "offset": 4970,
+      "offset": 5511,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/UserInformationFacade.swift",
       "kind": "BooleanLiteral",
-      "offset": 5030,
+      "offset": 5571,
       "length": 5,
       "value": "false"
     },
@@ -79689,176 +80093,484 @@
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2521,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2542,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2567,
+      "length": 34,
+      "value": "\"\nURLSessionHTTPClient - execute\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2664,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2835,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2856,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2889,
+      "length": 54,
+      "value": "\"\nURLSessionHTTPClient - execute getSDKConfiguration\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 3014,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 2976,
+      "offset": 3502,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 3320,
+      "offset": 3846,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 5594,
+      "offset": 5751,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5772,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5797,
+      "length": 41,
+      "value": "\"\nURLSessionHTTPClient - executeRequest\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 5901,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6224,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6245,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6270,
+      "length": 72,
+      "value": "\"\nURLSessionHTTPClient - executeRequest chooseBaseURL \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6341,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6405,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6625,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6646,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6675,
+      "length": 48,
+      "value": "\"\nURLSessionHTTPClient - executeRequest badUrl\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6790,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6902,
       "length": 78,
       "value": "\"baseURL: \""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 5620,
+      "offset": 6928,
       "length": 1,
       "value": "\", endpoint: \""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 5668,
+      "offset": 6976,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 5671,
+      "offset": 6979,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 6081,
+      "offset": 7085,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7106,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 7760,
+      "offset": 7131,
+      "length": 62,
+      "value": "\"\nURLSessionHTTPClient - executeRequest endpoint \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7192,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7256,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7596,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7617,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7646,
+      "length": 49,
+      "value": "\"\nURLSessionHTTPClient - executeRequest badBody\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7762,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 7918,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8025,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8046,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8071,
+      "length": 118,
+      "value": "\"\nURLSessionHTTPClient - executeRequest urlRequest \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8188,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8252,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9058,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9079,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9108,
+      "length": 117,
+      "value": "\"\nURLSessionHTTPClient - executeRequest urlSession dataTask data \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9224,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9253,
+      "length": 115,
+      "value": "\"\nURLSessionHTTPClient - executeRequest urlSession dataTask response \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9396,
+      "length": 118,
+      "value": "\"\nURLSessionHTTPClient - executeRequest urlSession dataTask error \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9513,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9581,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
+      "kind": "StringLiteral",
+      "offset": 10535,
       "length": 86,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 7792,
+      "offset": 10567,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 7794,
+      "offset": 10569,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 7842,
+      "offset": 10617,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 7845,
+      "offset": 10620,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 8812,
+      "offset": 11587,
       "length": 60,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 8832,
+      "offset": 11607,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 8871,
+      "offset": 11646,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 9206,
+      "offset": 11981,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 9252,
+      "offset": 12027,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 9302,
+      "offset": 12077,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 9647,
+      "offset": 12422,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 9999,
+      "offset": 12774,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "Array",
-      "offset": 10864,
+      "offset": 13639,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 11544,
+      "offset": 14319,
       "length": 60,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 11564,
+      "offset": 14339,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 11603,
+      "offset": 14378,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Services\/HTTPClient\/URLSessionHTTPClient.swift",
       "kind": "StringLiteral",
-      "offset": 17196,
+      "offset": 19971,
       "length": 2,
       "value": "\"\""
     },
@@ -86892,8 +87604,43 @@
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthySceneDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthySceneDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 737,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthySceneDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
+      "length": 74,
+      "value": "\"\nBeHealthySceneDelegate - init isSDKConfiguration \""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthySceneDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 835,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthySceneDelegate.swift",
+      "kind": "StringLiteral",
+      "offset": 899,
+      "length": 16,
+      "value": "\"behealthy.logs\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/AppDelegates\/BeHealthySceneDelegate.swift",
       "kind": "FloatLiteral",
-      "offset": 2015,
+      "offset": 2292,
       "length": 3,
       "value": "0.1"
     },
@@ -94782,42 +95529,42 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/CoreDataGenerated\/AppleHealthApp\/AchievementsEntity+CoreDataProperties.swift",
       "kind": "StringLiteral",
-      "offset": 399,
+      "offset": 400,
       "length": 20,
       "value": "\"AchievementsEntity\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/CoreDataGenerated\/AppleHealthApp\/DailyTargetsEntity+CoreDataProperties.swift",
       "kind": "StringLiteral",
-      "offset": 399,
+      "offset": 400,
       "length": 20,
       "value": "\"DailyTargetsEntity\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/CoreDataGenerated\/AppleHealthApp\/MonthlyTargetsEntity+CoreDataProperties.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 408,
       "length": 22,
       "value": "\"MonthlyTargetsEntity\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/CoreDataGenerated\/AppleHealthApp\/TodayTargetsEntity+CoreDataProperties.swift",
       "kind": "StringLiteral",
-      "offset": 399,
+      "offset": 400,
       "length": 20,
       "value": "\"TodayTargetsEntity\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/CoreDataGenerated\/AppleHealthApp\/UserEntity+CoreDataProperties.swift",
       "kind": "StringLiteral",
-      "offset": 367,
+      "offset": 368,
       "length": 12,
       "value": "\"UserEntity\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/CoreDataGenerated\/AppleHealthApp\/YesterdayProgressEntity+CoreDataProperties.swift",
       "kind": "StringLiteral",
-      "offset": 419,
+      "offset": 420,
       "length": 25,
       "value": "\"YesterdayProgressEntity\""
     },

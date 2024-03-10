@@ -533,6 +533,11 @@ extension BeHealthy.BeHealthyConfig {
   @objc dynamic public func addListener(_ listener: any BeHealthy.BeHealthyEventListener, event: BeHealthy.BeHealthyEvent)
   @objc dynamic public func removeListener(_ listener: any BeHealthy.BeHealthyEventListener, event: BeHealthy.BeHealthyEvent)
   @objc dynamic public func sendProgress()
+  @objc dynamic public func sendLogs()
+  @objc dynamic public func clearLogs()
+}
+extension BeHealthy.BeHealthyConfig : MessageUI.MFMailComposeViewControllerDelegate {
+  @objc dynamic public func mailComposeController(_ controller: MessageUI.MFMailComposeViewController, didFinishWith result: MessageUI.MFMailComposeResult, error: (any Swift.Error)?)
 }
 public enum FileIntegrityCheck {
   case bundleID(Swift.String)

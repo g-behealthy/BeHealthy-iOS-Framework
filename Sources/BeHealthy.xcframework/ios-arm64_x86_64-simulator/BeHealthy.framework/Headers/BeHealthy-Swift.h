@@ -280,6 +280,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreData;
 @import CoreFoundation;
 @import Foundation;
+@import MessageUI;
 @import ObjectiveC;
 @import UIKit;
 @import UserNotifications;
@@ -442,6 +443,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BeHealthyCon
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class MFMailComposeViewController;
+
+@interface BeHealthyConfig (SWIFT_EXTENSION(BeHealthy)) <MFMailComposeViewControllerDelegate>
+- (void)mailComposeController:(MFMailComposeViewController * _Nonnull)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError * _Nullable)error;
+@end
+
 @class UIViewController;
 @class UIColor;
 enum BeHealthyEnvironment : NSInteger;
@@ -473,6 +480,8 @@ enum BeHealthyEvent : NSInteger;
 - (void)addListener:(id <BeHealthyEventListener> _Nonnull)listener event:(enum BeHealthyEvent)event;
 - (void)removeListener:(id <BeHealthyEventListener> _Nonnull)listener event:(enum BeHealthyEvent)event;
 - (void)sendProgress;
+- (void)sendLogs;
+- (void)clearLogs;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
@@ -1027,6 +1036,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreData;
 @import CoreFoundation;
 @import Foundation;
+@import MessageUI;
 @import ObjectiveC;
 @import UIKit;
 @import UserNotifications;
@@ -1189,6 +1199,12 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BeHealthyCon
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class MFMailComposeViewController;
+
+@interface BeHealthyConfig (SWIFT_EXTENSION(BeHealthy)) <MFMailComposeViewControllerDelegate>
+- (void)mailComposeController:(MFMailComposeViewController * _Nonnull)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError * _Nullable)error;
+@end
+
 @class UIViewController;
 @class UIColor;
 enum BeHealthyEnvironment : NSInteger;
@@ -1220,6 +1236,8 @@ enum BeHealthyEvent : NSInteger;
 - (void)addListener:(id <BeHealthyEventListener> _Nonnull)listener event:(enum BeHealthyEvent)event;
 - (void)removeListener:(id <BeHealthyEventListener> _Nonnull)listener event:(enum BeHealthyEvent)event;
 - (void)sendProgress;
+- (void)sendLogs;
+- (void)clearLogs;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
