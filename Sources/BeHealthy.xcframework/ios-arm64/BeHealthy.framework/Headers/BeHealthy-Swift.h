@@ -280,7 +280,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreData;
 @import CoreFoundation;
 @import Foundation;
-@import MessageUI;
 @import ObjectiveC;
 @import UIKit;
 @import UserNotifications;
@@ -441,12 +440,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BeHealthyCon
 + (BeHealthyConfig * _Nonnull)instance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class MFMailComposeViewController;
-
-@interface BeHealthyConfig (SWIFT_EXTENSION(BeHealthy)) <MFMailComposeViewControllerDelegate>
-- (void)mailComposeController:(MFMailComposeViewController * _Nonnull)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError * _Nullable)error;
 @end
 
 @class UIViewController;

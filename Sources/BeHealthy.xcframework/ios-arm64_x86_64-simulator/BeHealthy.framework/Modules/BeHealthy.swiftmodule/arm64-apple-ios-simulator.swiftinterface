@@ -536,9 +536,6 @@ extension BeHealthy.BeHealthyConfig {
   @objc dynamic public func sendLogs()
   @objc dynamic public func clearLogs()
 }
-extension BeHealthy.BeHealthyConfig : MessageUI.MFMailComposeViewControllerDelegate {
-  @objc dynamic public func mailComposeController(_ controller: MessageUI.MFMailComposeViewController, didFinishWith result: MessageUI.MFMailComposeResult, error: (any Swift.Error)?)
-}
 public enum FileIntegrityCheck {
   case bundleID(Swift.String)
   case mobileProvision(Swift.String)
