@@ -1246,6 +1246,30 @@ extension MyClass: BeHealthyEventListener {
 }
 ```
 
+
+## Send Progress
+
+To send progress without opening BeHealthy module
+
+#### Swift
+
+```
+func sendProgress() {
+  beHealthyConfig.sendProgress {}
+  }
+}
+```
+
+#### Objective C
+
+```
+- (void)sendProgress {
+    [self.beHealthyConfig sendProgressWithCompletion: ^{
+    }];
+}
+```
+
+
 ### Troubleshooting
 
 * Recommended Firebase libraries version: 10.2.0
