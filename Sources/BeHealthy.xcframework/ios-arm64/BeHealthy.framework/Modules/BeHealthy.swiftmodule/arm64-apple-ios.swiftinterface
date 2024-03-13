@@ -522,6 +522,7 @@ extension BeHealthy.BeHealthyConfig {
   @objc dynamic public func setCommunity(_ community: Swift.String)
   @objc dynamic public func setColors(primaryColor: UIKit.UIColor, secondaryColor: UIKit.UIColor, tertiaryColor: UIKit.UIColor)
   @objc dynamic public func setDeviceToken(token: Swift.String)
+  @objc dynamic public func setSDKConfiguration(isSDKConfiguration: Swift.Bool)
   @objc dynamic public func setEnvironment(_ environment: BeHealthy.BeHealthyEnvironment)
   @objc dynamic public func setBuyWatchURL(_ url: Swift.String)
   @objc dynamic public func setProgramName(_ name: Swift.String)
