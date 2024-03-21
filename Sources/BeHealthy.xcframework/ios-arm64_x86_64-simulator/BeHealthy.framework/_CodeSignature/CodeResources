@@ -70,7 +70,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		GdPsNss9AnaydWH8BgkhCLSa5nA=
+		9F43zzCMtefFwgW8qKZ1250AmLY=
 		</data>
 		<key>AverageTargetView.nib</key>
 		<data>
@@ -575,6 +575,10 @@
 		<key>PreviousMonthMonthlySummaryView.nib</key>
 		<data>
 		YoDyIQQYzdhSylj5nqz+tasn8aI=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		Z0wGKCu21s4B1DtmUUJXL3rfa70=
 		</data>
 		<key>ProgramDetailTableViewCell.nib</key>
 		<data>
@@ -1147,7 +1151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JN3xB+5cQKpjg35SxLAXdP5xsfuiUyx110SWiP5M1TI=
+			U46bw1+q0TyvmHHKD+OGyYQc0OnkRsouf1bW/FQGWjI=
 			</data>
 		</dict>
 		<key>AverageTargetView.nib</key>
@@ -2023,6 +2027,13 @@
 			<key>hash2</key>
 			<data>
 			kF9nnGNNLg86XXLJlAOb8Q2iGFU6jNr9j197F6EArZA=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			w9zKtPw2PFLDWBPqfyTtCqFBm7mkC7EWVyzCUYLQi6w=
 			</data>
 		</dict>
 		<key>ProgramDetailTableViewCell.nib</key>
