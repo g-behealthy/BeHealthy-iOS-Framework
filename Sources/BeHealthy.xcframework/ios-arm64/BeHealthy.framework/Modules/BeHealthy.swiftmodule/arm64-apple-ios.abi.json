@@ -47797,50 +47797,57 @@
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5872,
-      "length": 39,
-      "value": "\"ACTIVITY_RING_\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 5903,
-      "length": 7,
-      "value": "\"_TARGET\""
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5993,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6039,
+      "offset": 5771,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6185,
+      "offset": 5862,
+      "length": 39,
+      "value": "\"ACTIVITY_RING_\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5893,
+      "length": 7,
+      "value": "\"_TARGET\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5983,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6029,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6175,
       "length": 28,
       "value": "\"ACTIVITY_RING_VALUES_LABEL\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6369,
+      "offset": 6359,
       "length": 44,
       "value": "\"ACTIVITY_RING_\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Progress Screen\/ProgressScreenViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 6400,
+      "offset": 6390,
       "length": 12,
       "value": "\"_UNITS_LABEL\""
     },
@@ -72213,36 +72220,50 @@
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5722,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5794,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
       "kind": "StringLiteral",
-      "offset": 8976,
+      "offset": 8916,
       "length": 39,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
       "kind": "StringLiteral",
-      "offset": 9005,
+      "offset": 8945,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
       "kind": "StringLiteral",
-      "offset": 9014,
+      "offset": 8954,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
       "kind": "BooleanLiteral",
-      "offset": 9618,
+      "offset": 9558,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/Internal\/ServerFacade.swift",
       "kind": "BooleanLiteral",
-      "offset": 9658,
+      "offset": 9598,
       "length": 4,
       "value": "true"
     },
