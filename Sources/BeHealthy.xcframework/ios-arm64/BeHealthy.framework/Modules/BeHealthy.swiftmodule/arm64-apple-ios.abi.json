@@ -2647,6 +2647,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -12756,6 +12766,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -20506,6 +20526,16 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "BeHealthy",
         "declAttributes": [
@@ -43341,6 +43371,97 @@
       "value": "\"SETUP_BIOMETRICS_LOGIN_TOUCHID_REASON\""
     },
     {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 20,
+      "value": "\"RewardInfo\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "IntegerLiteral",
+      "offset": 403,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 20,
+      "value": "\"RewardInfo\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "StringLiteral",
+      "offset": 489,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "StringLiteral",
+      "offset": 551,
+      "length": 24,
+      "value": "\"SMU_RewardInfo\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "BooleanLiteral",
+      "offset": 737,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "IntegerLiteral",
+      "offset": 785,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "IntegerLiteral",
+      "offset": 799,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "BooleanLiteral",
+      "offset": 827,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter+SMU.swift",
+      "kind": "BooleanLiteral",
+      "offset": 867,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/Enrollment Completed\/EnrollmentCompletedViewModel.swift",
       "kind": "StringLiteral",
       "offset": 515,
@@ -45443,105 +45564,112 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 791,
+      "offset": 885,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 814,
+      "offset": 908,
       "length": 36,
       "value": "\"REWARD_EXPLANATION_DETAIL_\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 849,
+      "offset": 943,
       "length": 55,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 941,
+      "offset": 1035,
       "length": 36,
       "value": "\"REWARD_EXPLANATION_DETAIL_\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 976,
+      "offset": 1070,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
       "kind": "FloatLiteral",
-      "offset": 1146,
+      "offset": 1240,
       "length": 3,
       "value": "1.3"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
       "kind": "FloatLiteral",
-      "offset": 1198,
+      "offset": 1292,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1892,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
-      "kind": "Array",
-      "offset": 2186,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2219,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2223,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2280,
+      "offset": 1394,
       "length": 20,
       "value": "\"RewardInfo\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2299,
+      "offset": 1413,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1495,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2185,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
+      "kind": "Array",
+      "offset": 2479,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2512,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2516,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2359,
+      "offset": 2629,
       "length": 24,
       "value": "\"RewardInfo\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 2378,
+      "offset": 2648,
       "length": 4,
       "value": "\"Fill\""
     },
@@ -48600,98 +48728,98 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2246,
+      "offset": 2284,
       "length": 34,
       "value": "\"REWARD_EXPLANATION_SCREEN_DETAIL\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2404,
+      "offset": 2442,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2408,
+      "offset": 2446,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2416,
+      "offset": 2454,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2467,
+      "offset": 2505,
       "length": 35,
       "value": "\"REWARD_EXPLANATION_TITLE_\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2501,
+      "offset": 2539,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2690,
+      "offset": 2728,
       "length": 41,
       "value": "\"REWARD_EXPLANATION_DETAIL_NOTE_\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2730,
+      "offset": 2768,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 2888,
+      "offset": 2926,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2892,
+      "offset": 2930,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 2900,
+      "offset": 2938,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 2967,
+      "offset": 3005,
       "length": 3,
       "value": "1.3"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 3039,
+      "offset": 3077,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/RewardExplanation\/RewardExplanationViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 3438,
+      "offset": 3549,
       "length": 1,
       "value": "3"
     },
@@ -63516,57 +63644,64 @@
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Pages\/HowItWorksPage\/EnrollmentHowItWorksPageViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 527,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Pages\/HowItWorksPage\/EnrollmentHowItWorksPageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 510,
+      "offset": 965,
       "length": 34,
       "value": "\"ENROLLMENT_HOMEPAGE_SLIDES_TITLE\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Pages\/HowItWorksPage\/EnrollmentHowItWorksPageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 1047,
       "length": 37,
       "value": "\"ENROLLMENT_HOMEPAGE_SLIDES_HEADLINE\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Pages\/HowItWorksPage\/EnrollmentHowItWorksPageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1151,
+      "offset": 1606,
       "length": 38,
       "value": "\"ENROLLMENT_HOMEPAGE_SLIDE_1_HEADLINE\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Pages\/HowItWorksPage\/EnrollmentHowItWorksPageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1247,
+      "offset": 1702,
       "length": 39,
       "value": "\"ENROLLMENT_HOMEPAGE_SLIDE_1_PARAGRAPH\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Pages\/HowItWorksPage\/EnrollmentHowItWorksPageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1464,
+      "offset": 1919,
       "length": 38,
       "value": "\"ENROLLMENT_HOMEPAGE_SLIDE_2_HEADLINE\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Pages\/HowItWorksPage\/EnrollmentHowItWorksPageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1560,
+      "offset": 2015,
       "length": 39,
       "value": "\"ENROLLMENT_HOMEPAGE_SLIDE_2_PARAGRAPH\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Pages\/HowItWorksPage\/EnrollmentHowItWorksPageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1777,
+      "offset": 2274,
       "length": 38,
       "value": "\"ENROLLMENT_HOMEPAGE_SLIDE_3_HEADLINE\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Pages\/HowItWorksPage\/EnrollmentHowItWorksPageViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 1873,
+      "offset": 2370,
       "length": 39,
       "value": "\"ENROLLMENT_HOMEPAGE_SLIDE_3_PARAGRAPH\""
     },
@@ -68283,15 +68418,22 @@
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/MonthlySummary\/CongratulationsMonthlySummary\/CongratulationsMonthlySummaryViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 509,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/MonthlySummary\/CongratulationsMonthlySummary\/CongratulationsMonthlySummaryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 489,
+      "offset": 926,
       "length": 26,
       "value": "\"CONGRATULATIONS_HEADLINE\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/MonthlySummary\/CongratulationsMonthlySummary\/CongratulationsMonthlySummaryViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 606,
+      "offset": 997,
       "length": 27,
       "value": "\"CONGRATULATIONS_PARAGRAPH\""
     },
@@ -68525,6 +68667,20 @@
       "offset": 403,
       "length": 32,
       "value": "\"BeHealthy.EmailSubscriptionsViewController\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Pages\/HowItWorksPage\/EnrollmentHowItWorksPageViewModel+SMU.swift",
+      "kind": "BooleanLiteral",
+      "offset": 552,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Pages\/HowItWorksPage\/EnrollmentHowItWorksPageViewModel+SMU.swift",
+      "kind": "BooleanLiteral",
+      "offset": 592,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/AchievementsDetails\/AchievementDetailPresenter.swift",
@@ -70795,6 +70951,13 @@
       "value": "\"ENROLLMENT_HOMEPAGE_SLIDE_1_PARAGRAPH\""
     },
     {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Enrollment\/EnrollmentHomepage\/Slider\/EnrollmentHomepageSliderViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 762,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/ThirdParty\/IOSSecuritySuite\/IOSSecuritySuite\/IntegrityChecker.swift",
       "kind": "StringLiteral",
       "offset": 1079,
@@ -72977,6 +73140,20 @@
       "offset": 2492,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/MonthlySummary\/CongratulationsMonthlySummary\/CongratulationsMonthlySummaryViewModel+SMU.swift",
+      "kind": "BooleanLiteral",
+      "offset": 541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/MonthlySummary\/CongratulationsMonthlySummary\/CongratulationsMonthlySummaryViewModel+SMU.swift",
+      "kind": "BooleanLiteral",
+      "offset": 581,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Common\/ProgressActivityCard\/ProgressActivityCardViewModel.swift",
@@ -89359,6 +89536,20 @@
       "value": "\"SMU_LockedBadgeB22\""
     },
     {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/Common\/ImageName+SMU.swift",
+      "kind": "StringLiteral",
+      "offset": 1082,
+      "length": 17,
+      "value": "\"SMU_ModalReward\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/SMU\/Sources\/Scenes\/Common\/ImageName+SMU.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 20,
+      "value": "\"SMU_HomepageSlide3\""
+    },
+    {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Facades\/ProgressScreenFacade.swift",
       "kind": "StringLiteral",
       "offset": 1688,
@@ -97210,474 +97401,502 @@
       "kind": "StringLiteral",
       "offset": 36503,
       "length": 20,
-      "value": "\"SMU_LockedBadgeB01\""
+      "value": "\"SMU_HomepageSlide3\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 36668,
       "length": 20,
-      "value": "\"SMU_LockedBadgeB02\""
+      "value": "\"SMU_LockedBadgeB01\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 36833,
       "length": 20,
-      "value": "\"SMU_LockedBadgeB03\""
+      "value": "\"SMU_LockedBadgeB02\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 36998,
       "length": 20,
-      "value": "\"SMU_LockedBadgeB08\""
+      "value": "\"SMU_LockedBadgeB03\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 37163,
       "length": 20,
-      "value": "\"SMU_LockedBadgeB20\""
+      "value": "\"SMU_LockedBadgeB08\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 37328,
       "length": 20,
-      "value": "\"SMU_LockedBadgeB21\""
+      "value": "\"SMU_LockedBadgeB20\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 37493,
       "length": 20,
+      "value": "\"SMU_LockedBadgeB21\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 37658,
+      "length": 20,
       "value": "\"SMU_LockedBadgeB22\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 37640,
+      "offset": 37817,
+      "length": 17,
+      "value": "\"SMU_ModalReward\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 37973,
+      "length": 17,
+      "value": "\"SMU_RewardInfo2\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 38129,
+      "length": 17,
+      "value": "\"SMU_RewardInfo3\""
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 38273,
       "length": 13,
       "value": "\"SignInImage\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 37793,
+      "offset": 38426,
       "length": 17,
       "value": "\"SignInImageFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 37942,
+      "offset": 38575,
       "length": 13,
       "value": "\"SoCloseHand\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 38100,
+      "offset": 38733,
       "length": 22,
       "value": "\"SoCloseHandFillColor\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 38256,
+      "offset": 38889,
       "length": 14,
       "value": "\"StairStepper\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 38398,
+      "offset": 39031,
       "length": 11,
       "value": "\"StandIcon\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 38549,
+      "offset": 39182,
       "length": 17,
       "value": "\"StandRingTarget\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 38714,
+      "offset": 39347,
       "length": 21,
       "value": "\"StandRingTargetFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 38853,
+      "offset": 39486,
       "length": 6,
       "value": "\"Star\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 39005,
+      "offset": 39638,
       "length": 20,
       "value": "\"StarActivityDetail\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 39155,
+      "offset": 39788,
       "length": 12,
       "value": "\"StarEarned\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 39307,
+      "offset": 39940,
       "length": 17,
       "value": "\"StarPlaceHolder\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 39456,
+      "offset": 40089,
       "length": 13,
       "value": "\"StarSummary\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 39609,
+      "offset": 40242,
       "length": 17,
       "value": "\"StarSummaryFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 39764,
+      "offset": 40397,
       "length": 16,
       "value": "\"StarsThisMonth\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 39926,
+      "offset": 40559,
       "length": 20,
       "value": "\"StarsThisMonthFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 40086,
+      "offset": 40719,
       "length": 17,
       "value": "\"StartBackground\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 40251,
+      "offset": 40884,
       "length": 21,
       "value": "\"StartBackgroundFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 40398,
+      "offset": 41031,
       "length": 10,
       "value": "\"Swimming\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 40554,
+      "offset": 41187,
       "length": 20,
       "value": "\"SwipeDownIndicator\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 40696,
+      "offset": 41329,
       "length": 8,
       "value": "\"TaiChi\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 40835,
+      "offset": 41468,
       "length": 15,
       "value": "\"ThankyouImage\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 40994,
+      "offset": 41627,
       "length": 19,
       "value": "\"ThankyouImageFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 41129,
+      "offset": 41762,
       "length": 5,
       "value": "\"Tip\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 41258,
+      "offset": 41891,
       "length": 9,
       "value": "\"TouchID\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 41407,
+      "offset": 42040,
       "length": 17,
       "value": "\"TouchIDDisabled\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 41572,
+      "offset": 42205,
       "length": 21,
       "value": "\"TouchIDDisabledFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 41731,
+      "offset": 42364,
       "length": 16,
       "value": "\"TouchIDEnabled\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 41893,
+      "offset": 42526,
       "length": 20,
       "value": "\"TouchIDEnabledFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 42059,
+      "offset": 42692,
       "length": 20,
       "value": "\"UnlockedBackground\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 42203,
+      "offset": 42836,
       "length": 9,
       "value": "\"Waiting\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 42344,
+      "offset": 42977,
       "length": 13,
       "value": "\"WaitingFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 42475,
+      "offset": 43108,
       "length": 6,
       "value": "\"Walk\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 42608,
+      "offset": 43241,
       "length": 13,
       "value": "\"WarmUpImage\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 42761,
+      "offset": 43394,
       "length": 17,
       "value": "\"WarmUpImageFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 42910,
+      "offset": 43543,
       "length": 13,
       "value": "\"WarmUpModal\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 43075,
+      "offset": 43708,
       "length": 23,
       "value": "\"WarmUpRemainingOneDay\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 43258,
+      "offset": 43891,
       "length": 27,
       "value": "\"WarmUpRemainingOneDayFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 43407,
+      "offset": 44040,
       "length": 8,
       "value": "\"Watch0\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 43539,
+      "offset": 44172,
       "length": 9,
       "value": "\"Watch10\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 43674,
+      "offset": 44307,
       "length": 10,
       "value": "\"Watch100\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 43808,
+      "offset": 44441,
       "length": 9,
       "value": "\"Watch20\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 43941,
+      "offset": 44574,
       "length": 9,
       "value": "\"Watch30\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 44074,
+      "offset": 44707,
       "length": 9,
       "value": "\"Watch40\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 44207,
+      "offset": 44840,
       "length": 9,
       "value": "\"Watch50\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 44340,
+      "offset": 44973,
       "length": 9,
       "value": "\"Watch60\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 44473,
+      "offset": 45106,
       "length": 9,
       "value": "\"Watch70\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 44606,
+      "offset": 45239,
       "length": 9,
       "value": "\"Watch80\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 44739,
+      "offset": 45372,
       "length": 9,
       "value": "\"Watch90\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 44886,
+      "offset": 45519,
       "length": 16,
       "value": "\"WeeklyActivity\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 45048,
+      "offset": 45681,
       "length": 20,
       "value": "\"WeeklyActivityFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 45218,
+      "offset": 45851,
       "length": 22,
       "value": "\"WeeklyCalendarReward\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 45398,
+      "offset": 46031,
       "length": 26,
       "value": "\"WeeklyCalendarRewardFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 45576,
+      "offset": 46209,
       "length": 23,
       "value": "\"WeeklyHighlightsCover\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 45759,
+      "offset": 46392,
       "length": 27,
       "value": "\"WeeklyHighlightsCoverFill\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 45916,
+      "offset": 46549,
       "length": 12,
       "value": "\"Wheelchair\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 46070,
+      "offset": 46703,
       "length": 18,
       "value": "\"WinnerBackground\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 46222,
+      "offset": 46855,
       "length": 14,
       "value": "\"WorkoutCover\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 46354,
+      "offset": 46987,
       "length": 6,
       "value": "\"Yoga\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 46490,
+      "offset": 47123,
       "length": 12,
       "value": "\"YouCanHand\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/Library\/Developer\/Xcode\/DerivedData\/BeHealthy-evyrddfcpocrjuelawdvqpvcndug\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BeHealthy\/IntermediateBuildFilesPath\/BeHealthy.build\/Release-iphoneos\/BeHealthy.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 46645,
+      "offset": 47278,
       "length": 21,
       "value": "\"YouCanHandFillColor\""
     }
