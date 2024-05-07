@@ -1270,6 +1270,48 @@ func sendProgress() {
 ```
 
 
+## Show / hide back button
+
+Shows or hides the back button on the main screen of the library
+
+#### Swift
+
+```
+func removeCredentials() {
+    beHealthyConfig.showCloseButton(true)
+}
+```
+
+#### Objective C
+
+```
+- (void)removeCredentials {
+    [self.beHealthyConfig setShowCloseButton: true];
+}
+```
+
+
+## Show / hide preferences icon
+
+Shows or hides the preferences icon
+
+#### Swift
+
+```
+func removeCredentials() {
+    beHealthyConfig.showPreferencesIcon(true)
+}
+```
+
+#### Objective C
+
+```
+- (void)removeCredentials {
+    [self.beHealthyConfig setShowPreferencesIcon: true];
+}
+```
+
+
 ### Troubleshooting
 
 * Recommended Firebase libraries version: 10.2.0
