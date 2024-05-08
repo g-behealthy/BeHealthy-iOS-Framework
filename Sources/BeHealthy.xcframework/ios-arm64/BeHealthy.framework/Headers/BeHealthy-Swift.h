@@ -482,6 +482,7 @@ enum BeHealthyEvent : NSInteger;
 - (void)sendProgressWithCompletion:(void (^ _Nullable)(void))completion;
 - (void)showCloseButton:(BOOL)show;
 - (void)showPreferencesIcon:(BOOL)show;
+- (void)showDeleteAccount:(BOOL)show;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {

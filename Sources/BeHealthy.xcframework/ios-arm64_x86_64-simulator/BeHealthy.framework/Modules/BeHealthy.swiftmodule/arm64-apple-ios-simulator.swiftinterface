@@ -589,6 +589,7 @@ extension BeHealthy.BeHealthyConfig {
   @objc dynamic public func sendProgress(completion: (() -> ())?)
   @objc dynamic public func showCloseButton(_ show: Swift.Bool)
   @objc dynamic public func showPreferencesIcon(_ show: Swift.Bool)
+  @objc dynamic public func showDeleteAccount(_ show: Swift.Bool)
 }
 extension QuartzCore.CALayer {
   public func logLayerTree(withIndent: Swift.Int = 0)

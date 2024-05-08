@@ -20155,6 +20155,35 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showDeleteAccount",
+            "printedName": "showDeleteAccount(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BeHealthy@objc(cs)BeHealthyConfig(im)showDeleteAccount:",
+            "mangledName": "$s9BeHealthy0aB6ConfigC17showDeleteAccountyySbF",
+            "moduleName": "BeHealthy",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -49970,35 +49999,35 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Preferences Screen\/PreferencesViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 13879,
+      "offset": 14947,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Preferences Screen\/PreferencesViewModel.swift",
       "kind": "FloatLiteral",
-      "offset": 14311,
+      "offset": 15379,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Preferences Screen\/PreferencesViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 14868,
+      "offset": 15936,
       "length": 3,
       "value": "142"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Preferences Screen\/PreferencesViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 15303,
+      "offset": 16371,
       "length": 2,
       "value": "92"
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/Preferences Screen\/PreferencesViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 17254,
+      "offset": 18322,
       "length": 2,
       "value": "68"
     },
@@ -50124,28 +50153,21 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3155,
+      "offset": 3196,
       "length": 16,
       "value": "\"AppleLanguages\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3202,
+      "offset": 3243,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 4032,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4163,
+      "offset": 4073,
       "length": 4,
       "value": "true"
     },
@@ -50158,15 +50180,29 @@
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4245,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4284,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3041,
+      "offset": 3082,
       "length": 15,
       "value": "\"BeHealthy.BeHealthyConfig\""
     },
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/BeHealthyConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 8227,
+      "offset": 8308,
       "length": 4,
       "value": "true"
     },
