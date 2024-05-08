@@ -1311,6 +1311,26 @@ func removeCredentials() {
 }
 ```
 
+## Show / hide delete account
+
+Shows or hides delete account section
+
+#### Swift
+
+```
+func removeCredentials() {
+    beHealthyConfig.showDeleteAccount(true)
+}
+```
+
+#### Objective C
+
+```
+- (void)removeCredentials {
+    [self.beHealthyConfig setShowDeleteAccount: true];
+}
+```
+
 
 ### Troubleshooting
 
