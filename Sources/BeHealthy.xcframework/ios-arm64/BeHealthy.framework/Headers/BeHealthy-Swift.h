@@ -480,6 +480,8 @@ enum BeHealthyEvent : NSInteger;
 - (void)removeListener:(id <BeHealthyEventListener> _Nonnull)listener event:(enum BeHealthyEvent)event;
 - (void)setActivationFlow:(enum BeHealthyActivationFlow)activationFlow;
 - (void)sendProgressWithCompletion:(void (^ _Nullable)(void))completion;
+- (void)showCloseButton:(BOOL)show;
+- (void)showPreferencesIcon:(BOOL)show;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BeHealthyEnvironment, open) {
@@ -495,6 +497,8 @@ typedef SWIFT_ENUM(NSInteger, BeHealthyEvent, open) {
   BeHealthyEventSixtyPercentMoveTarget = 3,
   BeHealthyEventTwentyMinutesExercise = 4,
   BeHealthyEventNoTargetMet = 5,
+  BeHealthyEventTokenExpired = 6,
+  BeHealthyEventEnrollmentCompleted = 7,
 };
 
 
