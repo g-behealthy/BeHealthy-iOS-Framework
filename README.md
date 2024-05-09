@@ -468,6 +468,32 @@ func application(_ application: UIApplication, handleEventsForBackgroundURLSessi
 }
 ```
 
+Orientation related methods (IMPORTANT: BeHealthy supports Portrait orientation only, this will override any other supported orientation)
+
+#### Swift
+
+```
+func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+    /*  
+    additional code if required
+    */
+
+    return appDelegate.application(application, supportedInterfaceOrientationsFor: window)
+}
+```
+
+#### Objective C
+
+```
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    /*  
+    additional code if required
+    */
+    
+    [self.beHealthyAppDelegate application:application supportedInterfaceOrientationsForWindow:window];
+}
+```
+
 ### Scene delegate
 
 In scene delegate class create an instance of BeHealthySceneDelegate
