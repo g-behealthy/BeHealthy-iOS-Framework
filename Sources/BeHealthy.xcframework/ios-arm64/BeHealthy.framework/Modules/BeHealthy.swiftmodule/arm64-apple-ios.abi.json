@@ -9295,6 +9295,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BeHealthy",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "CoreGraphics",
         "printedName": "CoreGraphics",
         "declKind": "Import",
@@ -39464,7 +39474,7 @@
     {
       "filePath": "\/Users\/alejandro.gomez\/BeHealthy-iOS\/BeHealthy\/BeHealthy\/Sources\/Scenes\/FAQ Screen\/FAQViewController.swift",
       "kind": "StringLiteral",
-      "offset": 698,
+      "offset": 871,
       "length": 17,
       "value": "\"BeHealthy.FAQViewController\""
     },
