@@ -941,6 +941,28 @@ func presentBeHealthy() {
 }
 ```
 
+To open BeHealthy module when a push notification is received
+
+#### Swift
+
+```
+func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+    appDelegate.application(application, didReceiveRemoteNotification: userInfo, fetchCompletionHandler: completionHandler)
+
+    // present BeHealthy module
+}
+```
+
+#### Objective C
+
+```
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+    [self.beHealthyAppDelegate application:application didReceiveRemoteNotification:userInfo fetchCompletionHandler:completionHandler];
+
+    // present BeHealthy module
+}
+```
+
 
 ### Enable / Disable Analytics
 
